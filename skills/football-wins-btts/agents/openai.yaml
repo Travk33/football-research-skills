@@ -1,0 +1,4 @@
+interface:
+  display_name: "Football Wins and BTTS"
+  short_description: "Research winners and BTTS with evidence and prices"
+  default_prompt: "Use $football-wins-btts to research the requested football slate, compare both teams and prices, and retain justified passes."

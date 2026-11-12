@@ -1,0 +1,4 @@
+interface:
+  display_name: "Football Other Markets"
+  short_description: "Assess totals, corners and cards against exact lines"
+  default_prompt: "Use $football-other-markets to compare evidence for the requested football markets, verify settlement and prices, and identify justified passes."

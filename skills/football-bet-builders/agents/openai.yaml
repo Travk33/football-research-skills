@@ -1,0 +1,4 @@
+interface:
+  display_name: "Football Bet Builders"
+  short_description: "Research player pairs, thresholds and combined prices"
+  default_prompt: "Use $football-bet-builders to research two compatible selections per requested match, verify minutes and markets, and distinguish supported pairs from passes."
