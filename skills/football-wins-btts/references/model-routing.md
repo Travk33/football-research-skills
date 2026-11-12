@@ -16,6 +16,14 @@ The roles reflect the [official model selection guide](https://developers.openai
 
 **Best default for an intensive slate:** Astra lead, one or two Luna retrieval workers, and a short Sol review only when the complexity warrants it. **Lower-cost default:** Sol lead and Luna retrieval, with Astra reserved for unresolved, decision-changing conflicts. A simple one-match question may need only the lead; delegation has overhead.
 
+## Using Astra Ultra in Codex
+
+For a large slate with independent matches to investigate, Astra **Ultra** is an optional quality-first setup if offered by the current client/account. It enables proactive parallel delegation and maximum reasoning. Astra **Extra High** with an explicit delegation request is a more economical default for demanding research; Ultra is unnecessary for a short lineup/price refresh. This recommendation is about workflow and usage, not demonstrated prediction accuracy. See the current [Codex model controls](https://learn.chatgpt.com/docs/models).
+
+Choose the lead model and effort in the app's model control before sending the request. A skill or a sentence saying “be Astra” does not switch the active lead. Ultra also does not guarantee cheaper workers. Unconfigured subagents can inherit the parent's model and reasoning effort, so explicitly select both the worker model and its effort when delegating: Luna low/medium for bounded extraction/retrieval; Sol high for a focused review. Honor current tool capabilities and any custom-agent configuration. [Subagent configuration and inheritance](https://learn.chatgpt.com/docs/agent-configuration/subagents).
+
+At non-Ultra levels, the user can explicitly request parallel agents. A routing instruction guides the lead's orchestration; it is not a hardcoded router or a guarantee of particular models being available. State which models were actually used when it materially helps the user check costs or execution. Do not change global settings to implement this preference unless separately requested.
+
 ## Cost and availability boundaries
 
 Official standard API text-token prices observed on the date above, per million input/output tokens: [Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) $0.10/$0.50; [Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) $2/$10; [Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) $10/$50. These are API reference prices, **not a calculation of a Codex subscription charge or the cost of this workflow**. Caching, service mode, long contexts, tool charges and token usage change costs. Recheck the linked pages before quoting them as current.

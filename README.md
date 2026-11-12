@@ -12,6 +12,8 @@ The methods keep football evidence, numerical forecasts, offered prices and sett
 
 ## Use
 
+For complete copy-and-paste prompts, model-picker instructions and the matchday workflow, see [USAGE.md](USAGE.md).
+
 Copy each desired folder from `skills/` into `${CODEX_HOME:-$HOME/.codex}/skills/`. The folders are self-contained. Do not overwrite personal modifications without reviewing them. Start a new chat if the newly installed skills do not yet appear in the current session's catalog.
 
 Example requests:
