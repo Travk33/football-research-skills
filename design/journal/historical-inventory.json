@@ -1,0 +1,502 @@
+{
+  "inventoryVersion": 1,
+  "artifactType": "design-import-inventory",
+  "preparedOn": "2026-11-12",
+  "timezone": "Europe/London",
+  "canonicalData": false,
+  "warning": "Planning inventory extracted from saved reports; no fresh fixture verification, verified betting record or established edge. Summaries are not complete evidence ledgers. Original labels are preserved; normalized statuses are conservative import mappings.",
+  "expectedCounts": {
+    "slates": 3,
+    "entries": 20,
+    "documentedOutcomes": 6
+  },
+  "slates": [
+    {
+      "id": "2026-11-05-wins-btts",
+      "date": "2026-11-05",
+      "category": "wins-btts",
+      "cohort": "historical-import",
+      "reportLabel": "european-football-analysis-2026-11-05.md",
+      "researchTimeText": "Approximately 09:30 GMT on 5 November",
+      "exactResearchTime": null,
+      "preKickoffEvidence": "claimed",
+      "entries": [
+        {
+          "id": "2026-11-05-benfica-lech",
+          "home": "Benfica",
+          "away": "Lech Poznań",
+          "selection": "Benfica win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.14
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 1",
+          "summaryReason": "Strong football case; price leaves very little room for error.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-copenhagen-iberia",
+          "home": "Copenhagen",
+          "away": "Iberia",
+          "selection": "Copenhagen win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.14
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 2",
+          "summaryReason": "Favourable European underlying performance; incomplete opponent data limits value claims.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-lugano-kauno",
+          "home": "Lugano",
+          "away": "Kauno Žalgiris",
+          "selection": "Lugano win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.17
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 3",
+          "summaryReason": "Strong form; finishing overperformance and rotation reduce confidence in large margins.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-panathinaikos-cska",
+          "home": "Panathinaikos",
+          "away": "CSKA Sofia",
+          "selection": "Panathinaikos win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.4
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 4",
+          "summaryReason": "Strong recent xG case; CSKA's attacking threat and lineup uncertainty matter.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-sparta-bournemouth",
+          "home": "Sparta Prague",
+          "away": "Bournemouth",
+          "selection": "Bournemouth win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.5
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 5",
+          "summaryReason": "Positive broader form; recent clean-sheet streak needs context.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-midtjylland-ajax",
+          "home": "Midtjylland",
+          "away": "Ajax",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.44
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "BTTS 1",
+          "summaryReason": "Leading BTTS profile; demanding and older quote.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-celtic-besiktas",
+          "home": "Celtic",
+          "away": "Beşiktaş",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.5
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "BTTS 2",
+          "summaryReason": "European scoring pattern supports it; domestic venue split weakens it.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-05-monaco-nordsjaelland",
+          "home": "Monaco",
+          "away": "Nordsjælland",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.6
+          },
+          "originalStatus": "watch",
+          "originalLabel": "Watch only",
+          "summaryReason": "Mixed recent evidence; below the two main BTTS candidates.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-wins-btts",
+      "date": "2026-11-07",
+      "category": "wins-btts",
+      "cohort": "historical-import",
+      "reportLabel": "saturday-7-november-2026-european-football.md",
+      "researchTimeText": "Friday 6 November assessment; headline prices Friday afternoon",
+      "exactResearchTime": null,
+      "preKickoffEvidence": "claimed",
+      "entries": [
+        {
+          "id": "2026-11-07-roma-sassuolo",
+          "home": "Roma",
+          "away": "Sassuolo",
+          "selection": "Roma win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.3
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 1 / First choice",
+          "summaryReason": "Shot volume against a defence allowing many SOT; check attacking personnel.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-07-arsenal-hull",
+          "home": "Arsenal",
+          "away": "Hull City",
+          "selection": "Arsenal win",
+          "referencePrice": {
+            "fractional": "1/6",
+            "decimal": 1.1666666666666667
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "Win 2 / Best short-priced win",
+          "summaryReason": "Defence and home record carry the case; Saka's absence limits the attack.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-07-mainz-bayern",
+          "home": "Mainz",
+          "away": "Bayern Munich",
+          "selection": "Bayern Munich win",
+          "referencePrice": {
+            "fractional": "6/17",
+            "decimal": 1.3529411764705883
+          },
+          "originalStatus": "conditional",
+          "originalLabel": "Win 3 / Check Kane and Olise",
+          "summaryReason": "Strong attacking numbers; Mainz create good home chances.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-07-valencia-real-madrid",
+          "home": "Valencia",
+          "away": "Real Madrid",
+          "selection": "Real Madrid win",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.3
+          },
+          "originalStatus": "conditional",
+          "originalLabel": "Win 4 / Check Mbappé and support",
+          "summaryReason": "Valencia winless at home; Madrid travel and Vinícius suspension narrow the advantage.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-07-ado-sparta",
+          "home": "ADO Den Haag",
+          "away": "Sparta Rotterdam",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": null,
+            "decimal": 1.5
+          },
+          "originalStatus": "conditional",
+          "originalLabel": "BTTS 1",
+          "summaryReason": "Both defences concede; ADO's attacking XI under their caretaker is uncertain.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        },
+        {
+          "id": "2026-11-07-st-johnstone-dundee",
+          "home": "St Johnstone",
+          "away": "Dundee FC",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": "8/13",
+            "decimal": 1.6153846153846154
+          },
+          "originalStatus": "candidate",
+          "originalLabel": "BTTS 2 / Secondary",
+          "summaryReason": "Venue xG supports a goal each; Dundee attacking absences matter.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "unknown",
+          "resultEvidence": "unknown",
+          "documentedFullTimeScore": null,
+          "bookmakerSettlement": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-08-wins-btts",
+      "date": "2026-11-08",
+      "category": "wins-btts",
+      "cohort": "historical-import",
+      "reportLabel": "sunday-8-november-2026-european-football.md",
+      "auditLabel": "sunday-audit-thursday-inventory.md",
+      "researchTimeText": "Saturday 7 November evening; quotes rechecked around 21:00–21:02 GMT",
+      "exactResearchTime": null,
+      "preKickoffEvidence": "claimed",
+      "auditTimeText": "10 November 2026 around 10:40 UK",
+      "entries": [
+        {
+          "id": "2026-11-08-hoffenheim-schalke",
+          "home": "Hoffenheim",
+          "away": "Schalke",
+          "selection": "Hoffenheim win",
+          "referencePrice": {
+            "fractional": "11/17",
+            "decimal": 1.6470588235294117
+          },
+          "originalStatus": "conditional",
+          "originalLabel": "Conditional candidate",
+          "summaryReason": "Attacking and midfield personnel are a condition; moderate confidence.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "included",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 2,
+            "away": 1
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://www.bundesliga.com/en/bundesliga/news/hoffenheim-schalke-match-report-highlights-matchday-9-39951"
+          ],
+          "freshResultVerification": false
+        },
+        {
+          "id": "2026-11-08-brighton-brentford",
+          "home": "Brighton",
+          "away": "Brentford",
+          "selection": "Brighton win",
+          "referencePrice": {
+            "fractional": "15/16",
+            "decimal": 1.9375
+          },
+          "originalStatus": "watch",
+          "originalLabel": "Higher-risk watch",
+          "summaryReason": "Venue/pressing case, draw/rest risk; not established as second most likely winner.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "omitted",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 2,
+            "away": 0
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://www.brentfordfc.com/en/news/match-reports-brighton-and-hove-albion-2-brentford-0-premier-league-08-11-2026"
+          ],
+          "freshResultVerification": false,
+          "revisionNote": "Later clarified as reserve/watch, then omitted by the user. Exact revision timestamps not recovered."
+        },
+        {
+          "id": "2026-11-08-gent-kortrijk",
+          "home": "Gent",
+          "away": "Kortrijk",
+          "selection": "Gent win",
+          "referencePrice": {
+            "fractional": "5/11",
+            "decimal": 1.4545454545454546
+          },
+          "originalStatus": "watch",
+          "originalLabel": "Price watch",
+          "summaryReason": "Winner direction with a tight price; no demonstrated edge.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "included",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 1,
+            "away": 0
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://www.proleague.be/fr/matchs/saison-2026-2027-jupiler-pro-league-11-kaa-gent-vs-kv-kortrijk-688"
+          ],
+          "freshResultVerification": false
+        },
+        {
+          "id": "2026-11-08-estrela-benfica",
+          "home": "Estrela",
+          "away": "Benfica",
+          "selection": "Benfica win",
+          "referencePrice": {
+            "fractional": "1/4",
+            "decimal": 1.25
+          },
+          "originalStatus": "reserve",
+          "originalLabel": "Shorter-priced favourite",
+          "summaryReason": "Likely direction, demanding price; opponent stronger than losing run suggests.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "included",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 2,
+            "away": 3
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://vsports.pt/vsports/jogo/i-liga/estrela-amadora-benfica/30448/destaques"
+          ],
+          "freshResultVerification": false
+        },
+        {
+          "id": "2026-11-08-celtic-kilmarnock",
+          "home": "Celtic",
+          "away": "Kilmarnock",
+          "selection": "Celtic win",
+          "referencePrice": {
+            "fractional": "1/5",
+            "decimal": 1.2
+          },
+          "originalStatus": "reserve",
+          "originalLabel": "Shorter-priced favourite",
+          "summaryReason": "Likely direction; little room for errors at the price.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "included",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 1,
+            "away": 0
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://www.skysports.com/football/celtic-vs-kilmarnock/558406"
+          ],
+          "freshResultVerification": false
+        },
+        {
+          "id": "2026-11-08-utrecht-nec",
+          "home": "Utrecht",
+          "away": "NEC",
+          "selection": "BTTS Yes",
+          "referencePrice": {
+            "fractional": "4/9",
+            "decimal": 1.4444444444444444
+          },
+          "originalStatus": "pass",
+          "originalLabel": "BTTS watch / price decision is pass",
+          "summaryReason": "Football direction Yes; price requires more confidence than was established.",
+          "forecast": null,
+          "originalSkillVersion": null,
+          "originalModel": null,
+          "userDisposition": "included",
+          "resultEvidence": "documented",
+          "documentedFullTimeScore": {
+            "home": 2,
+            "away": 3
+          },
+          "bookmakerSettlement": "unknown",
+          "documentedDirectionOutcome": "won",
+          "auditSourceLinks": [
+            "https://www-nec.gxcloud.net/wedstrijden/wedstrijd/matchcenter-fc-utrecht-n.e.c.-8-11-2026.htm"
+          ],
+          "freshResultVerification": false
+        }
+      ]
+    }
+  ]
+}

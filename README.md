@@ -34,6 +34,10 @@ Date/venue/fixture status; broader baseline and recent form; opponent quality; m
 
 The methods do not require expensive modeling for every task. They do require honest labeling: a descriptive hit rate, an illustrative model and a calibrated forecast are different outputs. Fair odds or a positive expected-value claim require a declared forecasting method and uncertainty assessment.
 
+## Prediction journal design
+
+[Matchday design and build handoff](design/journal/README.md) specifies a polished static journal with one tab per research skill, immutable JSON records, source-linked reasoning and separate outcome reviews. It includes an original desktop concept, responsive layouts, a 20-entry historical import inventory, rule-aware verification workflow and a [copy-and-paste build prompt](design/journal/BUILD-PROMPT.md). The application, fourth archive skill and proposed recurring checks are not yet implemented or enabled.
+
 ## Validation and review
 
-Skill frontmatter and references are checked during packaging. [Behavioral cases](validation-cases.md) capture common decision errors for future independent review. These checks validate workflow instructions; they are not a historical profitability backtest. No private account data, personal stakes, screenshots or bulk source datasets are part of this repository.
+Skill frontmatter and references are checked during packaging. [Behavioral cases](validation-cases.md) capture common decision errors for future independent review. These checks validate workflow instructions; they are not a historical profitability backtest. No private account data, personal stakes, account screenshots or bulk source datasets are part of this repository. The journal pack includes an original generated design concept.
