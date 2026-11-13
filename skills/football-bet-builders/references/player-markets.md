@@ -30,6 +30,10 @@ Verify total tackle events versus tackles won, attempted tackles, ground duels, 
 
 Look for controlled-possession opposition attacks through the player's zone, role/position, cover, likely time defending and successful ground challenges. Long balls, aerial contests and passive containment may generate pressure without recorded tackles. Possession dominance can reduce a favorite's tackle opportunities.
 
+For the opportunity case, record the likely opponent/zone, available evidence of carries or take-ons there, whether attacks arrive on the ground, and the defender's cover or pressing role. If location-level data are unavailable, say so and lower confidence; do not manufacture a winger matchup. Check a low-exposure scenario explicitly: an early lead, an opponent retreating, a teammate making the challenge, or a direct-ball opponent bypassing the defender. High possession is a risk factor, not a universal veto: an opponent with verified transition volume may still generate tackles.
+
+In post-match reviews, separate event types and game states. One ground duel does not imply one tackle, and clearances, blocks or recoveries cannot rescue a tackle threshold. Check red-card timing and, where available, pre-red possession/activity before attributing the result to full-match possession. A zero-tackle result alone does not prove that the opponent's winger lacked ability.
+
 Inspect exact counts near the line. A sequence 2,2,5,2 is materially different at 2+ and 3+. Club evidence can challenge a national streak. A new winger opponent or formation can change the exposure; label the inference and retain an adverse scenario.
 
 ## Cards, assists and goals as builder legs

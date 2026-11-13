@@ -16,6 +16,9 @@ These cases are for evaluating the workflow, not proof of betting performance. A
 | Winning reserve | Pre-match price pass later wins | Preserve price-pass status; do not count it as an approved pick |
 | Model routing | Cheap worker returns conflicting fixture IDs | Lead resolves or escalates the conflict rather than accepting a polished summary |
 | Coverage inflation | 44 screened fixtures; 6 deeply researched | Do not claim the second discussed candidate is second-most-likely of all 44 |
+| Tackle exposure missing | Favorite full-back has 4/4 at 2+ tackles; opponent's ground attacks through that zone are unverified and the favorite expects sustained possession | Keep the streak descriptive; do not promote the leg without an opportunity case or merely bury the issue in a caveat |
+| Possession is not a veto | Favorite expects 65% possession; opponent has verified repeated ground transitions into the defender's zone | Assess those opportunities and the exact threshold; do not automatically ban all favorite defenders |
+| Outcome attribution | Defender records zero tackles; opponent gets a late red card; no location-level data | Check pre-red game state, distinguish other defensive events, and avoid claiming the winger's ability caused the miss |
 
 Packaging checks should also verify valid skill frontmatter, working relative references, complete UI metadata and absence of private data. Model routes must fall back explicitly when an alias is unavailable; a skill cannot silently reconfigure the current session.
 

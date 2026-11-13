@@ -33,6 +33,8 @@ For shots, connect player shooting involvement to team creation and opponent con
 
 Describe the likely zone or role interaction and the evidence behind it. Do not invent a guaranteed full-back/winger marking assignment. Note cover defenders, formation switches and situations where the player can avoid the event. Referee averages from unrelated competitions are weak context, not a numeric adjustment.
 
+Before promoting a tackle leg, establish an opportunity case as well as a count history: how will this opponent bring controlled possession into the player's defensive zone, and why should enough ground challenges occur at the offered threshold? If that mechanism is unsupported or contradicted by the likely game state, exclude the leg from the actionable combination. A caveat beside an attractive historical hit rate is not a substitute for this decision. Do not infer opportunity from the opposing winger's reputation alone; use the tackle-specific checks in `player-markets.md`.
+
 Use team xG, possession and game-state expectations as context rather than a substitute for player events. Missing teammates can redistribute attempts but also weaken team creation. A favorite winning easily can reduce late shooting or defensive activity. Retain the strongest opposing scenario.
 
 ## Combine only after assessing each leg
@@ -60,3 +62,5 @@ Return two or three selections only where warranted, with: exact names/lines; in
 **Price pass** means evidence does not justify the actual offered terms; without a calibrated joint forecast it does not prove negative expected value. **Insufficient evidence** means one or more event cases cannot be established. **Quote pending** preserves the distinction between a plausible pair and a price-checked selection.
 
 Keep a timestamped pre-match ledger with original statuses and quoted terms. Review later settlements separately from normal event counts, especially replacements and voids. Improve using repeated documented failure mechanisms and prospective checks. Previous win/BTTS successes do not validate a new player-prop model, and a winning builder does not prove the estimated price edge was correct.
+
+During a review, distinguish a failed event from a failed selection process. A foreseeable exposure problem that was noted but did not affect inclusion is a process issue even if other legs won. Preserve watchlist/pass status and record any actual ticket separately; do not retrospectively promote winning reserves or erase losing exploratory legs.
