@@ -1,0 +1,20 @@
+{
+  "id": "import-2026-11-13-review",
+  "type": "review",
+  "decisionIds": [
+    "import-2026-11-13-scotland-btts-no",
+    "import-2026-11-13-iceland-corners",
+    "import-2026-11-13-netherlands-corners",
+    "import-2026-11-13-luxembourg-btts-no",
+    "import-2026-11-13-germany-win",
+    "import-2026-11-13-iceland-win",
+    "import-2026-11-13-netherlands-win"
+  ],
+  "matchDate": "2026-11-13",
+  "note": "Three of five discussed main directions failed. Preserve conditional status but audit the communication failure. Iceland and Netherlands won emphatically yet failed exact corner thresholds. Dominance is not a corner count. Historical BTTS No remains recorded but is excluded from future suggested markets by user preference.",
+  "source": "research/2026-11-13/archive/friday-13-november-2026-market-choice-audit.md",
+  "retrospective": true,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.101416Z",
+  "appendedAt": "2026-11-15T09:50:34.108260Z"
+}

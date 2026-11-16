@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-14",
+  "timezone": "Europe/London",
+  "created_at": "2026-11-14T03:45:11+00:00",
+  "note": "Formal decisions first recorded at03:45:11. Earlier dated entries are actual observations/provenance, not invented historical approvals. No forecast probability or minimum acceptable odds declared.",
+  "ranking_basis": "Strength and completeness of retained football case, with conditional ahead of reserve. Not an ordinal ranking of win probabilities, value or all eight games.",
+  "models": {
+    "lead": "Selected Codex lead; exact backend ID and effort not exposed",
+    "retrieval": "gpt-6-luna medium (explicit override)",
+    "independent_review": "gpt-6.1-sol high (explicit override); initial quota interruption, successfully resumed",
+    "decision_owner": "Lead"
+  },
+  "research_candidates": [
+    {
+      "id": "POR-WIN",
+      "fixture_id": "2047892",
+      "selection": "Portugal to win in90minutes",
+      "status": "conditional candidate",
+      "rank": 1,
+      "odds_fractional": "1/2",
+      "decimal_odds": 1.5,
+      "bookmaker": "bet365 UK public hub",
+      "observed_at": "2026-11-14T03:38:42+00:00",
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+      "ordinary_binary_break_even": 0.6666666666666666,
+      "forecast_probability": null,
+      "value": "unestablished",
+      "blocked_by": [
+        "Confirmed attack and midfield core",
+        "Replacement full-back defensive cover and wing personnel",
+        "Fresh executable price and exact market",
+        "Account-specific early payout eligibility if relying on promotion"
+      ],
+      "status_at": "2026-11-14T03:45:11+00:00"
+    },
+    {
+      "id": "SWE-WIN",
+      "fixture_id": "2047890",
+      "selection": "Sweden to win in90minutes",
+      "status": "reserve",
+      "rank": 2,
+      "odds_fractional": "1/2",
+      "decimal_odds": 1.5,
+      "bookmaker": "bet365 UK public hub",
+      "observed_at": "2026-11-14T03:38:42+00:00",
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+      "ordinary_binary_break_even": 0.6666666666666666,
+      "forecast_probability": null,
+      "value": "unestablished",
+      "blocked_by": [
+        "Confirmed XI and meaningful attacking minutes",
+        "Reassessment of Bosnia draw route and limited shot dominance",
+        "Fresh executable price and exact market",
+        "Account-specific early payout eligibility if relying on promotion"
+      ],
+      "status_at": "2026-11-14T03:45:11+00:00"
+    }
+  ],
+  "final_selections": [],
+  "events": [
+    {
+      "at": "2026-11-13T21:51:00+00:00",
+      "time_precision": "approximate",
+      "event": "scope_changed",
+      "from": "domestic leagues",
+      "to": "UEFA Nations League only",
+      "evidence": "Explicit user correction",
+      "reason": "International break; retain date and allowed markets."
+    },
+    {
+      "at": "2026-11-13T21:52:47+00:00",
+      "event": "price_observed",
+      "selection": "Portugal win",
+      "fractional": "1/2",
+      "decimal": 1.5,
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league"
+    },
+    {
+      "at": "2026-11-13T21:57:00+00:00",
+      "time_precision": "approximate",
+      "event": "model_route_interrupted",
+      "model": "gpt-6.1-sol high",
+      "reason": "Usage-limit error after substantive initial challenge; lead continued source audit."
+    },
+    {
+      "at": "2026-11-13T22:01:07+00:00",
+      "event": "price_observed",
+      "selection": "Portugal win",
+      "fractional": "8/15",
+      "decimal": 1.5333333333333334,
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league"
+    },
+    {
+      "at": "2026-11-13T22:02:21+00:00",
+      "event": "alternative_quote_observed_not_admitted_as_current_UK",
+      "selection": "Portugal-Denmark BTTS Yes",
+      "decimal": 1.68,
+      "bookmaker_attribution": "Stake via SportsGambler",
+      "source": "https://www.sportsgambler.com/betting-tips/football/portugal-vs-denmark-prediction-lineups-odds-2026-11-14/",
+      "reason": "Third party, region unverified, stale withdrawn-player props; superseded by direct Paddy UK quote. Not a minimum acceptable price."
+    },
+    {
+      "at": "2026-11-14T03:33:00+00:00",
+      "event": "official_stats_verified",
+      "evidence_file": "official-match-statistics.json",
+      "reason": "14 unique UEFA reports cover all4 matches each for Portugal,Denmark,Sweden,Bosnia; retain missing xG/npxG."
+    },
+    {
+      "at": "2026-11-14T03:33:00+00:00",
+      "time_precision": "approximate",
+      "event": "model_route_resumed",
+      "model": "gpt-6.1-sol high",
+      "reason": "Fresh independent reviewer launched successfully; final review completed and retained."
+    },
+    {
+      "at": "2026-11-14T03:38:42+00:00",
+      "event": "price_observed",
+      "selection": "Portugal win",
+      "fractional": "1/2",
+      "decimal": 1.5,
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league"
+    },
+    {
+      "at": "2026-11-14T03:38:42+00:00",
+      "event": "price_observed",
+      "selection": "Sweden win",
+      "fractional": "1/2",
+      "decimal": 1.5,
+      "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league"
+    },
+    {
+      "at": "2026-11-14T03:38:42+00:00",
+      "event": "price_observed",
+      "selection": "Portugal-Denmark BTTS Yes",
+      "fractional": "4/7",
+      "decimal": 1.5714285714285714,
+      "source": "https://www.paddypower.com/football/uefa-nations-league-a/portugal-v-denmark-36192523?tab=goals",
+      "region": "UK",
+      "reason": "Direct bookmaker fallback because bet365 BTTS quote unavailable."
+    },
+    {
+      "at": "2026-11-14T03:44:05+00:00",
+      "event": "regulation_results_audited",
+      "sources": [
+        "https://www.espn.com/soccer/team/results/_/id/482/portugal",
+        "https://www.espn.com/soccer/team/results/_/id/479/denmark",
+        "https://www.espn.com/soccer/team/results/_/id/466/sweden",
+        "https://www.espn.com/soccer/team/results/_/id/452/bosnia-herzegovina",
+        "https://www.uefa.com/newsfiles/EURO/2026/2047085_FR.pdf"
+      ],
+      "reason": "Denmark-Czechia1-1at90,2-2AET. Denmarklast8WDL3-2-3,16-14; erroneous3-3-2 andAETtotals corrected. Portugal6-1-1,16-6;Sweden4-2-2,14-13;Bosnia3-3-2,11-11."
+    },
+    {
+      "at": "2026-11-14T03:44:47+00:00",
+      "event": "contract_check",
+      "sources": [
+        "https://www.bet365.com/promos/en-gb/home/early-payout-offer",
+        "https://helpcenter.paddypower.com/app/answers/detail/football-soccer-rules/",
+        "https://helpcenter.paddypower.com/app/answers/detail/802-football-settlement-queries/"
+      ],
+      "reason": "StandardFT90+stoppage,UNL listed under2-goalearlypayout through31Dec2026,onlyeligiblecustomers. Account eligibility not verified. Paddy90min and determined-outcome abandonment rules verified via helpcenter after old help URL522. No transfer of terms between bookmakers."
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "data_correction",
+      "evidence": "https://www.uefa.com/newsfiles/UNL/2027/2048015_FR.pdf",
+      "reason": "Sweden-Romania Ghita yellow card was initially misread as own goal; remove unsupported own-goal claim. Reversed historical venue labels isolated in superseded notes."
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "id": "POR-WIN",
+      "from": "under research; no approved selection",
+      "to": "conditional candidate",
+      "selection": "Portugal to win in90minutes",
+      "odds": 1.5,
+      "quote_at": "2026-11-14T03:38:42+00:00",
+      "evidence_files": [
+        "official-match-statistics.json",
+        "recent-competitive-ledger.json",
+        "final-independent-review.md"
+      ],
+      "evidence_urls": [
+        "https://www.fpf.pt/pt/News/Todas-as-not%C3%ADcias/Not%C3%ADcia/news/58732",
+        "https://www.fpf.pt/pt/News/Todas-as-not%C3%ADcias/Not%C3%ADcia/news/58734",
+        "https://editorial.uefa.com/resources/02ab-21ff83a8e158-d6ae699e56ad-1000/bookinglist_unl_before_md5.pdf"
+      ],
+      "reason": "Home42-14attempts,12-3SOT and4groupwins support direction; full-back/wing disruption and mutual draw incentives block final promotion."
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "id": "SWE-WIN",
+      "from": "under research; no approved selection",
+      "to": "reserve",
+      "selection": "Sweden to win in90minutes",
+      "odds": 1.5,
+      "quote_at": "2026-11-14T03:38:42+00:00",
+      "evidence_files": [
+        "official-match-statistics.json",
+        "recent-competitive-ledger.json",
+        "final-independent-review.md"
+      ],
+      "evidence_urls": [
+        "https://www.fotbollskanalen.se/artiklar/sverige/potters-besked-om-gyokeres-och-kulusevski",
+        "https://www.svt.se/sport/fotboll/40-000-vantas-stotta-bosnien"
+      ],
+      "reason": "Homewins2/2 coexist with23-29attempts;Bosniaunbeaten and setpiece/draw route, crowd context and uncertain Kulusevski minutes constrain case; reserve rather than second approved pick."
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "id": "POR-DEN-BTTS",
+      "from": "deeply researched alternative",
+      "to": "price pass",
+      "selection": "Portugal-Denmark BTTS Yes",
+      "odds": 1.5714285714285714,
+      "quote_at": "2026-11-14T03:38:42+00:00",
+      "ordinary_binary_break_even": 0.6363636363636364,
+      "forecast_probability": null,
+      "source": "https://www.paddypower.com/football/uefa-nations-league-a/portugal-v-denmark-36192523?tab=goals",
+      "evidence_files": [
+        "official-match-statistics.json",
+        "final-independent-review.md"
+      ],
+      "reason": "Both scoring routes credible but Portugal home suppression, Denmark penalty/own-goal distortions, draw incentives and lineup uncertainty do not justify offered63.64% hurdle. Not a negative-EV proof; no invented cutoff."
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047896",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Insufficient evidence: current4 Kosovo3GF/4GA, Israel2GF/7GA; reverse0-0; no strong repeatable attacking difference to accept Kosovo1.80, and no independent two-team scoring case.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047893",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Norway win price pass at1.222222: current4 only1W3L,6GF8GA including defeat at Wales. Wales scored in1/4 and0/2 away, so Norway4/4 BTTS does not establish Wales route. Availability news/suspensions retained, no deep approval.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://faw.cymru/news/cymru-squad-announced-for-norway-and-portugal/"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047895",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Insufficient evidence: Georgia0GF in4 and Hungary3GF/2GA; Hungary win2.40 cannot be supported robustly with unresolved Szoboszlai status; Georgia scoring route too weak for BTTS Yes.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://en.mlsz.hu/hir/hungary-men-begin-preparations-with-szoboszlais-involvement-still-to-be-decided"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047897",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Insufficient evidence: NI4clean sheets in4 and bothhome0-0; Ukraine2GF/5GA in4. Strong draw risk prevents winner recommendation and no supported two-team scoring case.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.irishfa.com/news/2026/november/preview-o-neill-sets-sights-on-a-positive-result-in-belfast-against-ukraine"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047894",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Win price pass at1.60: current4 2W2D9GF5GA, reverse2-2, material Schlager/Prass withdrawals weaken midfield press. BTTS raw4/4 Austria not sufficient independently to establish Ireland route at an unverified quote.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://sport.orf.at/stories/3164834/",
+        "https://www.fai.ie/latest/hallgrimsson-names-24-man-squad-austria-and-kosovo/"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "first_formal_status_recorded",
+      "fixture_id": "2047891",
+      "from": "basic screen",
+      "to": "not shortlisted",
+      "reason": "Poland win price pass at1.85:6of7group goals from6-0 against Romania with red22at0-0,pen24,OG49; remaining3only1GF. Romania4losses not enough to override Poland attack fragility. BTTS insufficient evidence.",
+      "evidence_urls": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.uefa.com/newsfiles/UNL/2027/2047963_FR.pdf"
+      ],
+      "prices_observed_at": "2026-11-14T03:38:42+00:00"
+    },
+    {
+      "at": "2026-11-14T03:45:11+00:00",
+      "event": "final_table_recorded",
+      "final_selections": [],
+      "reason": "Unresolved material XI, executable quote and conditional promotional terms; no candidate auto-promoted. No bets placed."
+    },
+    {
+      "at": "2026-11-14T03:52:27+00:00",
+      "event": "final_artifact_validation",
+      "status_change": false,
+      "evidence_files": [
+        "report.md",
+        "coverage-inventory.json",
+        "decision-ledger.json",
+        "recent-competitive-ledger.json",
+        "official-match-statistics.json"
+      ],
+      "reason": "Independent Sol/high and root arithmetic checks reconciled32group fixtures,14official reports,32last-eight team rows,24winner/draw prices and2research/0final statuses. Populated3known penalty/card events in structured fields; clarified unconfirmed Kulusevski minutes. No changes to selection statuses."
+    }
+  ],
+  "assembled_at": "2026-11-14T03:50:31+00:00",
+  "updated_at": "2026-11-14T03:52:27+00:00"
+}

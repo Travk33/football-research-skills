@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-14",
+  "scope": "Eight UEFA Nations League fixtures in coverage-inventory.json; results/status audit only",
+  "observed_at_utc": "2026-11-14T21:58:03Z",
+  "settlement_note": "Scores are full-time scores where confirmed. Any competition/table implications or promotion qualification are separate from 90-minute market settlement.",
+  "fixtures": [
+    {
+      "id": "2047896",
+      "match": "Kosovo vs Israel",
+      "status": "FT",
+      "score": "0-0",
+      "source_urls": [
+        "https://www.skorgol.com/en/league/uefa-nations-league",
+        "https://www.reddit.com/r/soccer/comments/1xw02ha/daily_discussion_november_14_2026/"
+      ]
+    },
+    {
+      "id": "2047893",
+      "match": "Norway vs Wales",
+      "status": "FT",
+      "score": "3-1",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xw6z83/match_thread_norway_vs_wales_uefa_nations_league/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047895",
+      "match": "Georgia vs Hungary",
+      "status": "FT",
+      "score": "0-2",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xw7g9f/match_thread_georgia_vs_hungary_uefa_nations/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047892",
+      "match": "Portugal vs Denmark",
+      "status": "FT",
+      "score": "1-4",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwe7d1/post_match_thread_portugal_14_denmark_uefa/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047897",
+      "match": "Northern Ireland vs Ukraine",
+      "status": "FT",
+      "score": "1-0",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwe5so/post_match_thread_northern_ireland_10_ukraine/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047894",
+      "match": "Austria vs Republic of Ireland",
+      "status": "FT",
+      "score": "1-0",
+      "source_urls": [
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047891",
+      "match": "Romania vs Poland",
+      "status": "FT",
+      "score": "2-1",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwbftu/match_thread_romania_vs_poland_uefa_nations_league/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    },
+    {
+      "id": "2047890",
+      "match": "Sweden vs Bosnia and Herzegovina",
+      "status": "FT",
+      "score": "3-2",
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwe70t/post_match_thread_sweden_32_bosniaherzegovina/",
+        "https://www.skorgol.com/en/league/uefa-nations-league"
+      ]
+    }
+  ],
+  "detailed_matches": {
+    "2047892": {
+      "match": "Portugal vs Denmark",
+      "final_score": "Portugal 1-4 Denmark",
+      "goals": [
+        "43' Pierre-Emile Hojbjerg",
+        "49' Rasmus Hojlund",
+        "57' Rasmus Hojlund",
+        "75' Joachim Andersen",
+        "90+3' Bernardo Silva"
+      ],
+      "cards": {
+        "Portugal": "2 yellow",
+        "Denmark": "0 yellow",
+        "red": "none reported"
+      },
+      "penalties": "Denmark awarded a penalty after Ruben Dias handball; Pierre-Emile Hojbjerg converted at 43'. FotMob shotmap classifies it as a penalty goal.",
+      "shots": {
+        "Portugal": {
+          "total": 15,
+          "on_target": 8
+        },
+        "Denmark": {
+          "total": 17,
+          "on_target": 6
+        }
+      },
+      "xg": {
+        "provider": "FotMob",
+        "home": 1.26,
+        "away": 2.33
+      },
+      "xg_note": "FotMob final match xG is recorded below. A separate live/community candidate snippet conflicted, so FotMob is the selected named provider value.",
+      "starting_xi": {
+        "Portugal": [
+          "Diogo Costa",
+          "Renato Veiga",
+          "Diogo Dalot",
+          "Alberto Costa",
+          "Ruben Dias",
+          "Joao Felix",
+          "Bruno Fernandes",
+          "Vitinha",
+          "Pedro Neto",
+          "Ruben Neves",
+          "Goncalo Ramos"
+        ],
+        "Denmark": [
+          "Mads Hermansen",
+          "Alexander Bah",
+          "Oliver Provstgaard",
+          "Joakim Maehle",
+          "Joachim Andersen",
+          "Mikkel Damsgaard",
+          "Gustav Isaksen",
+          "Mohamed Daramy",
+          "Morten Hjulmand",
+          "Pierre-Emile Hojbjerg",
+          "Rasmus Hojlund"
+        ]
+      },
+      "key_substitutions": [
+        "64' Portugal: Trincao for Pedro Neto, Joao Palhinha for Ruben Neves, Carlos Forbs for Joao Felix",
+        "66' Denmark: Andreas Skov Olsen for Gustav Isaksen; Mathias Jensen for Mikkel Damsgaard",
+        "73' Denmark: William Osula for Rasmus Hojlund; Victor Froholdt for Mohamed Daramy",
+        "79' Portugal: Bernardo Silva for Bruno Fernandes",
+        "82' Denmark: Victor Nelsson for injured Joachim Andersen",
+        "83' Portugal: Joao Neves for Vitinha"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwe7d1/post_match_thread_portugal_14_denmark_uefa/",
+        "https://www.skorgol.com/en/league/uefa-nations-league",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5181870"
+      ]
+    },
+    "2047890": {
+      "match": "Sweden vs Bosnia and Herzegovina",
+      "final_score": "Sweden 3-2 Bosnia and Herzegovina",
+      "goals": [
+        "5' Daniel Svensson",
+        "11' Viktor Gyokeres",
+        "45+2' Viktor Gyokeres",
+        "47' Armin Gigovic",
+        "62' Sead Kolasinac"
+      ],
+      "other_timeline": "23' Alexander Isak goal overturned by VAR; 39' Bosnia substitution Haris Tabakovic off injured for Ermin Mahmic.",
+      "cards": {
+        "Sweden": "1 yellow",
+        "Bosnia and Herzegovina": "0 yellow",
+        "red": "none reported"
+      },
+      "penalties": "Sweden had two penalties: Viktor Gyokeres converted both (11', 45+2'); FotMob stats list two penalty kicks and two penalty goals.",
+      "shots": {
+        "Sweden": {
+          "total": 13,
+          "on_target": 7
+        },
+        "Bosnia and Herzegovina": {
+          "total": 16,
+          "on_target": 7
+        }
+      },
+      "xg": {
+        "provider": "FotMob",
+        "home": 2.28,
+        "away": 1.14
+      },
+      "xg_note": "FotMob final match xG is recorded below.",
+      "starting_xi": {
+        "Sweden": [
+          "Viktor Johansson",
+          "Victor Lindelof",
+          "Gustaf Lagerbielke",
+          "Gabriel Gudmundsson",
+          "Daniel Svensson",
+          "Yasin Ayari",
+          "Hugo Larsson",
+          "Sebastian Nanasi",
+          "Anthony Elanga",
+          "Alexander Isak",
+          "Viktor Gyokeres"
+        ],
+        "Bosnia and Herzegovina": [
+          "Martin Zlomislic",
+          "Nikola Katic",
+          "Sead Kolasinac",
+          "Stjepan Radeljic",
+          "Ermedin Demirovic",
+          "Armin Gigovic",
+          "Kerim Alajbegovic",
+          "Ivan Basic",
+          "Amar Dedic",
+          "Esmir Bajraktarevic",
+          "Haris Tabakovic"
+        ]
+      },
+      "key_substitutions": [
+        "39' Bosnia: Ermin Mahmic for injured Haris Tabakovic",
+        "61' Sweden: Dejan Kulusevski for Anthony Elanga; Benjamin Nygren for Sebastian Nanasi",
+        "67' Bosnia: Arjan Malic for Esmir Bajraktarevic; Amar Memic for Stjepan Radeljic; Benjamin Tahirovic for Ivan Basic",
+        "81' Sweden: Elliot Stroud for Alexander Isak",
+        "90' Sweden: Felix Beijmo for Daniel Svensson",
+        "90+1' Sweden: Jesper Karlstrom for Yasin Ayari"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/soccer/comments/1xwe70t/post_match_thread_sweden_32_bosniaherzegovina/",
+        "https://www.skorgol.com/en/league/uefa-nations-league",
+        "https://www.fotmob.com/api/data/matchDetails?matchId=5181846"
+      ]
+    }
+  },
+  "limitations": [
+    "Scores/status and detailed stats were cross-checked with FotMob's public match API; provider stats can differ from federation reports in definitions.",
+    "No claim is made about bet/account settlement or bookmaker market rules. Competition standings/promotion implications are separate from 90-minute market settlement."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "import-2026-11-14-2047892-home-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-14",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Portugal",
+    "away": "Denmark"
+  },
+  "market": {
+    "rawLabel": "Portugal win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "conditional",
+  "source": {
+    "identity": "research/2026-11-14/coverage-inventory.json#import-2026-11-14-2047892-home-win",
+    "report": "research/2026-11-14/coverage-inventory.json",
+    "sha256": "e73ee9ed7435fe463579665c1b091ce93d661be0d0684237106474bb1be3bd89"
+  },
+  "originalTime": {
+    "value": "2026-11-14T03:45:11+00:00",
+    "precision": "exact",
+    "preKickoffEvidence": "verified"
+  },
+  "kickoff": "2026-11-14T19:45:00+00:00",
+  "evidence": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "countercase": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.5,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "conditional candidate",
+  "decisionReason": "Deep comparison: Portugal win conditional at1.50; replacement full-back/wing personnel, confirmed XI, price and account/market terms unresolved. BTTS Yes price pass atPaddy1.5714286.",
+  "coverageLevel": "deep",
+  "priceObservation": {
+    "bookmaker": "bet365",
+    "region": "UK public en-gb hub",
+    "market": "Full Time Result 1X2",
+    "observed_at": "2026-11-14T03:38:42+00:00",
+    "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+    "home": {
+      "fractional": "1/2",
+      "decimal": 1.5
+    },
+    "draw": {
+      "fractional": "15/4",
+      "decimal": 4.75
+    },
+    "away": {
+      "fractional": "9/2",
+      "decimal": 5.5
+    },
+    "account_executable_verified": false
+  },
+  "missing": {
+    "confirmed_XI": null,
+    "verified_comparable_xg": null,
+    "verified_npxg": null,
+    "club_minutes_load": null,
+    "calibrated_event_probability": null
+  },
+  "originalDecisionLedger": "research/2026-11-14/decision-ledger.json",
+  "scopeNote": "Screened direction, not a final selection. Conditional/reserve only where explicitly retained.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.216725Z",
+  "appendedAt": "2026-11-15T09:50:34.225332Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "import-2026-11-12-spain-pair-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-12-spain-pair",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "lost",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181857",
+    "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  ],
+  "statisticalLegs": [
+    {
+      "player": "Adam Hložek",
+      "event": "shots",
+      "threshold": 1,
+      "count": 1,
+      "minutes": 85,
+      "started": true
+    },
+    {
+      "player": "Marc Cucurella",
+      "event": "tackles",
+      "threshold": 2,
+      "count": 0,
+      "minutes": 90,
+      "started": true
+    }
+  ],
+  "verificationDate": "2026-11-12",
+  "outcomeScope": "Statistical thresholds only, not actual builder settlement. Selected non-starter may be void.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.980329Z",
+  "appendedAt": "2026-11-15T09:50:33.985276Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-08-historic-17-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-08-historic-17",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.kaagent.be/nl/team/games/jupiler-pro-league-2026-2027/11/kaa-gent/kv-kortrijk/verslag",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "1–0",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.798540Z",
+  "appendedAt": "2026-11-15T09:50:33.801082Z"
+}

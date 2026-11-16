@@ -1,0 +1,74 @@
+{
+  "id": "import-2026-11-14-2047896-home-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-14",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Kosovo",
+    "away": "Israel"
+  },
+  "market": {
+    "rawLabel": "Kosovo win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "pass",
+  "source": {
+    "identity": "research/2026-11-14/coverage-inventory.json#import-2026-11-14-2047896-home-win",
+    "report": "research/2026-11-14/coverage-inventory.json",
+    "sha256": "e73ee9ed7435fe463579665c1b091ce93d661be0d0684237106474bb1be3bd89"
+  },
+  "originalTime": {
+    "value": "2026-11-14T03:45:11+00:00",
+    "precision": "exact",
+    "preKickoffEvidence": "verified"
+  },
+  "kickoff": "2026-11-14T14:00:00+00:00",
+  "evidence": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "countercase": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.8,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Insufficient evidence: current4 Kosovo3GF/4GA, Israel2GF/7GA; reverse0-0; no strong repeatable attacking difference to accept Kosovo1.80, and no independent two-team scoring case.",
+  "decisionReason": "Insufficient evidence: current4 Kosovo3GF/4GA, Israel2GF/7GA; reverse0-0; no strong repeatable attacking difference to accept Kosovo1.80, and no independent two-team scoring case.",
+  "coverageLevel": "basic",
+  "priceObservation": {
+    "bookmaker": "bet365",
+    "region": "UK public en-gb hub",
+    "market": "Full Time Result 1X2",
+    "observed_at": "2026-11-14T03:38:42+00:00",
+    "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+    "home": {
+      "fractional": "4/5",
+      "decimal": 1.8
+    },
+    "draw": {
+      "fractional": "27/10",
+      "decimal": 3.7
+    },
+    "away": {
+      "fractional": "16/5",
+      "decimal": 4.2
+    },
+    "account_executable_verified": false
+  },
+  "missing": {
+    "confirmed_XI": null,
+    "verified_comparable_xg": null,
+    "verified_npxg": null,
+    "club_minutes_load": null,
+    "calibrated_event_probability": null
+  },
+  "originalDecisionLedger": "research/2026-11-14/decision-ledger.json",
+  "scopeNote": "Screened direction, not a final selection. Conditional/reserve only where explicitly retained.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.109970Z",
+  "appendedAt": "2026-11-15T09:50:34.117320Z"
+}

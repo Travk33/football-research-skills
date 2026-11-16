@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-14-2047890-btts-yes-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-14-2047890-btts-yes",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matches?date=20261114",
+    "research/2026-11-14/post-match-results.json",
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181846"
+  ],
+  "fullTimeScore": "3-2",
+  "observedAt": "2026-11-14T21:58:03Z",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.431288Z",
+  "appendedAt": "2026-11-15T09:50:34.439602Z"
+}

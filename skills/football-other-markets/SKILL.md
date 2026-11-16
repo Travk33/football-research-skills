@@ -9,6 +9,8 @@ Choose a market because the evidence supports its event mechanism, not because a
 
 Read [model-routing.md](references/model-routing.md) for efficient lead/subagent choices. Cheaper workers can retrieve source-linked ledgers and terms; the reasoning lead compares market families, reconciles conflicts and decides. Read [market-mechanics.md](references/market-mechanics.md) only for the market families under consideration.
 
+Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
+
 ## Establish reliable inputs
 
 Verify current date/timezone, kickoff, venue, competition stage and fixture status. Inventory the screened matches and distinguish deep research from initial screening. Verify whether the bookmaker actually offers the exact market.
@@ -44,9 +46,13 @@ Different same-match markets may share one game-state assumption. Treat them as 
 
 For each finalist, compare at least the most relevant competing interpretation: e.g. team total versus match total, corners versus goals, or a lower versus higher line. Explain why the chosen contract best expresses the evidence. State the strongest counterargument and the lineup/price condition that would remove or downgrade the candidate. Some counterarguments remain unresolved even after lineups are confirmed.
 
+When an alternative is preferred to a researched match winner or BTTS event, compare them directly at contemporaneous prices. Show which shared game states support one but defeat the other: an early efficient lead can help a winner while suppressing corners. State why the preferred event clears the inclusion standard despite its strongest observed counterexample and relevant venue split. A small price improvement, pooled hit rate or lower reciprocal hurdle does not establish superiority. If the comparison remains unresolved, retain research status rather than call the alternative the best selection.
+
 Use **conditional candidate**, **selection at observed terms**, **reserve**, **price pass**, or **insufficient evidence**. Do not fill an accumulator to meet a target return. “Most supported of these” is not a probability ranking.
 
 **Price pass** means the evidence does not justify the offered terms, not proven negative expected value without a calibrated forecast. **Insufficient evidence** means the event case cannot be established. When the actual quote is missing, use **quote pending**, not an invented price judgment.
+
+Separate research candidates from final selections. Do not place a candidate in a main/final ticket table while a declared material XI, price or contract condition remains unresolved. Answer requests to confirm a “main bet” from those conditions, not from the presence of a row in a watchlist. Record the time, new evidence and reason for any promotion or downgrade. A broader search or requested leg count does not lower the inclusion standard.
 
 Provide a table of selection, kickoff, exact odds/time and status, followed by recent counts, baseline/context, tactical explanation, limitations and direct source links. Give decisive evidence rather than a long list of loosely relevant statistics. Report verified terms separately from unresolved terms.
 

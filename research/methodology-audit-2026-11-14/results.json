@@ -1,0 +1,349 @@
+{
+  "schema_version": "retrospective-audit/1",
+  "audited_date": "2026-11-14",
+  "timezone": "Europe/London",
+  "scope_note": "20 archived directions, not the complete116fixtures or a cohort of approved/placed bets.18directions in user-discussed successful groups; include omittedBrighton and losingMonacowatch. Reference odds not verifiedacceptedodds. Recorded statuses summarize savedreports, which include laterclarifications.",
+  "actual_wager_profit": null,
+  "rows": [
+    {
+      "id": "historic-1",
+      "date": "2026-11-05",
+      "fixture": "Benfica–Lech",
+      "market_direction": "Benfica win",
+      "full_time_score_home_away": "3–1",
+      "archived_reference_quote": "1.14",
+      "archived_research_status_summary": "Main football direction; demanding price",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-2",
+      "date": "2026-11-05",
+      "fixture": "Copenhagen–Iberia",
+      "market_direction": "Copenhagen win",
+      "full_time_score_home_away": "2–1",
+      "archived_reference_quote": "1.14",
+      "archived_research_status_summary": "Main football direction; incomplete opponent data",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://fck.dk/en/news/conference-league-victory-over-fc-iberia"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-3",
+      "date": "2026-11-05",
+      "fixture": "Lugano–Kauno Žalgiris",
+      "market_direction": "Lugano win",
+      "full_time_score_home_away": "3–0",
+      "archived_reference_quote": "1.17",
+      "archived_research_status_summary": "Main football direction; finishing and rotation caveats",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://fclugano.com/en/news/tre-su-tre-in-europa"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-4",
+      "date": "2026-11-05",
+      "fixture": "Panathinaikos–CSKA Sofia",
+      "market_direction": "Panathinaikos win",
+      "full_time_score_home_away": "2–1",
+      "archived_reference_quote": "1.40",
+      "archived_research_status_summary": "Main football direction; opponent threat and XI condition",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.pao.gr/es/match/105434/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-5",
+      "date": "2026-11-05",
+      "fixture": "Sparta Praha–Bournemouth",
+      "market_direction": "Bournemouth win",
+      "full_time_score_home_away": "1–3",
+      "archived_reference_quote": "1.50",
+      "archived_research_status_summary": "Conditional away-win candidate",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-6",
+      "date": "2026-11-05",
+      "fixture": "Midtjylland–Ajax",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "1–6",
+      "archived_reference_quote": "1.44",
+      "archived_research_status_summary": "Leading BTTS candidate; demanding older quote",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.fcm.dk/kampe/fc-midtjylland-afc-ajax-05-11-2026/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-7",
+      "date": "2026-11-05",
+      "fixture": "Celtic–Beşiktaş",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "3–2",
+      "archived_reference_quote": "1.50",
+      "archived_research_status_summary": "Qualified secondary BTTS candidate/watch",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-8",
+      "date": "2026-11-05",
+      "fixture": "Monaco–Nordsjælland",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "2–0",
+      "archived_reference_quote": "1.60",
+      "archived_research_status_summary": "Explicit watch only",
+      "included_in_discussed_successful_group": false,
+      "direction_occurred_at_full_time": false,
+      "result_sources": [
+        "https://www.bbc.com/sport/football/live/c574pyzklg2zt"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-9",
+      "date": "2026-11-07",
+      "fixture": "Roma–Sassuolo",
+      "market_direction": "Roma win",
+      "full_time_score_home_away": "3–0",
+      "archived_reference_quote": "1.30",
+      "archived_research_status_summary": "First win direction; personnel checks pending",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://en.legaseriea.it/serie-a/match/77528f387ef442ce82bf5f5de73fb66b/Roma-vs-Sassuolo"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-10",
+      "date": "2026-11-07",
+      "fixture": "Arsenal–Hull",
+      "market_direction": "Arsenal win",
+      "full_time_score_home_away": "1–0",
+      "archived_reference_quote": "1/6",
+      "archived_research_status_summary": "Short-priced win direction; availability caveat",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.premierleague.com/en/news/4757016"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-11",
+      "date": "2026-11-07",
+      "fixture": "Mainz–Bayern",
+      "market_direction": "Bayern win",
+      "full_time_score_home_away": "1–2",
+      "archived_reference_quote": "6/17",
+      "archived_research_status_summary": "Away-win direction; Kane/Olise condition",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.bundesliga.com/en/bundesliga/news/mainz-bayern-munich-match-report-highlights-matchday-9-39922"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-12",
+      "date": "2026-11-07",
+      "fixture": "Valencia–Real Madrid",
+      "market_direction": "Real Madrid win",
+      "full_time_score_home_away": "0–3",
+      "archived_reference_quote": "1.30",
+      "archived_research_status_summary": "Away-win direction; lineup/recovery condition",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://iaas-public-front-pro.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-madrid-12"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-13",
+      "date": "2026-11-07",
+      "fixture": "ADO–Sparta Rotterdam",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "3–1",
+      "archived_reference_quote": "1.50",
+      "archived_research_status_summary": "First BTTS direction; attacking XI uncertainty",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://adodenhaag.nl/nl/teams/1e-elftal/resultaten/ado-den-haag-sparta-rotterdam-1333"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-14",
+      "date": "2026-11-07",
+      "fixture": "St Johnstone–Dundee",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "2–1",
+      "archived_reference_quote": "8/13",
+      "archived_research_status_summary": "Secondary BTTS direction; attacking availability/price sensitive",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://dundeefc.co.uk/news/st-johnstone-2-1-dundee-match-report-07-11-26/"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-15",
+      "date": "2026-11-08",
+      "fixture": "Hoffenheim–Schalke",
+      "market_direction": "Hoffenheim win",
+      "full_time_score_home_away": "2–1",
+      "archived_reference_quote": "11/17",
+      "archived_research_status_summary": "Conditional; attacking/midfield gate",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.bundesliga.com/en/bundesliga/news/hoffenheim-schalke-match-report-highlights-matchday-9-39951"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-16",
+      "date": "2026-11-08",
+      "fixture": "Brighton–Brentford",
+      "market_direction": "Brighton win",
+      "full_time_score_home_away": "2–0",
+      "archived_reference_quote": "15/16",
+      "archived_research_status_summary": "Watch/reserve; user omitted",
+      "included_in_discussed_successful_group": false,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.brentfordfc.com/en/news/match-reports-brighton-and-hove-albion-2-brentford-0-premier-league-08-11-2026"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-17",
+      "date": "2026-11-08",
+      "fixture": "Gent–Kortrijk",
+      "market_direction": "Gent win",
+      "full_time_score_home_away": "1–0",
+      "archived_reference_quote": "5/11",
+      "archived_research_status_summary": "Win direction/price watch; no demonstrated edge",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.kaagent.be/nl/team/games/jupiler-pro-league-2026-2027/11/kaa-gent/kv-kortrijk/verslag"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-18",
+      "date": "2026-11-08",
+      "fixture": "Estrela–Benfica",
+      "market_direction": "Benfica win",
+      "full_time_score_home_away": "2–3",
+      "archived_reference_quote": "1/4",
+      "archived_research_status_summary": "Reserve/short-priced favourite",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.slbenfica.pt/pt-pt/futebol/match-center/estrela-amadora-benfica-8-novembro-2026"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-19",
+      "date": "2026-11-08",
+      "fixture": "Celtic–Kilmarnock",
+      "market_direction": "Celtic win",
+      "full_time_score_home_away": "1–0",
+      "archived_reference_quote": "1/5",
+      "archived_research_status_summary": "Reserve/short-priced favourite",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www.skysports.com/football/celtic-vs-kilmarnock/558406"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    },
+    {
+      "id": "historic-20",
+      "date": "2026-11-08",
+      "fixture": "Utrecht–NEC",
+      "market_direction": "BTTS Yes",
+      "full_time_score_home_away": "2–3",
+      "archived_reference_quote": "4/9",
+      "archived_research_status_summary": "Explicit price pass; user intended inclusion",
+      "included_in_discussed_successful_group": true,
+      "direction_occurred_at_full_time": true,
+      "result_sources": [
+        "https://www-nec.gxcloud.net/wedstrijden/wedstrijd/matchcenter-fc-utrecht-n.e.c.-8-11-2026.htm"
+      ],
+      "actual_placement_verified": false,
+      "actual_settlement": null,
+      "early_payout_needed_for_direction": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-05-historic-4-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-05-historic-4",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.pao.gr/es/match/105434/",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "2–1",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.724518Z",
+  "appendedAt": "2026-11-15T09:50:33.725600Z"
+}

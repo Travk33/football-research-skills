@@ -1,0 +1,4 @@
+interface:
+  display_name: "Football Journal"
+  short_description: "Archive decisions, verify results and review lessons"
+  default_prompt: "Use $football-journal to verify and review the recorded football decisions for the requested date."

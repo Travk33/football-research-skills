@@ -1,0 +1,36 @@
+{
+  "id": "import-2026-11-12-turkiye-pair-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-12-turkiye-pair",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "needs-review",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181796",
+    "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  ],
+  "statisticalLegs": [
+    {
+      "player": "Arda Güler",
+      "event": "SOT",
+      "threshold": 1,
+      "count": 3,
+      "minutes": 90,
+      "started": true
+    },
+    {
+      "player": "Zeki Çelik",
+      "event": "tackles",
+      "threshold": 2,
+      "count": 2,
+      "minutes": 20,
+      "started": false
+    }
+  ],
+  "verificationDate": "2026-11-12",
+  "outcomeScope": "Statistical thresholds only, not actual builder settlement. Selected non-starter may be void.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.941880Z",
+  "appendedAt": "2026-11-15T09:50:33.946839Z"
+}

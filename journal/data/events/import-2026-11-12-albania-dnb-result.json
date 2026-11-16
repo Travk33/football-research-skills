@@ -1,0 +1,22 @@
+{
+  "id": "import-2026-11-12-albania-dnb-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-12-albania-dnb",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181902",
+    "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  ],
+  "fullTimeScore": [
+    2,
+    0
+  ],
+  "verificationDate": "2026-11-12",
+  "observedEventCount": null,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.882424Z",
+  "appendedAt": "2026-11-15T09:50:33.886839Z"
+}

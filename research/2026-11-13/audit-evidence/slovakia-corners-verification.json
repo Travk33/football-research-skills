@@ -1,0 +1,12 @@
+{
+  "matchId": "5181942",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181942",
+  "rawResponse": "fotmob-match-5181942.json",
+  "observedAt": "2026-11-15T09:56:19.919241+00:00",
+  "timeBasis": "Timestamp of saved raw response; observedAt below refers to the separate day feed.",
+  "note": "Original raw-response save timestamp preserved as fixed metadata on 15 November 2026; do not recalculate it from future filesystem timestamps.",
+  "corners": {
+    "Slovakia": 9,
+    "Faroe Islands": 5
+  }
+}

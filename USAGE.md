@@ -10,6 +10,12 @@ Explicitly name cheaper workers. Without model/effort overrides or configured de
 
 ## Start a request
 
+Use one new research chat per matchday in this project as an organizational default, then keep its lineup/price refresh in that same chat. A fresh chat does not improve football forecasting by itself. Carry forward the saved decision records and project preferences rather than a claim that an earlier winning streak proved the method.
+
+Start with the market family you actually want. Run other markets or player builders as separate, explicitly scoped tasks when useful; they do not each need to produce selections. A separate builder chat is optional for a large task, not a prerequisite for accuracy. Share the same saved match evidence, and reconcile any same-fixture alternatives before forming a final list. Do not concatenate three category watchlists into an accumulator.
+
+Project-specific exclusions belong in `AGENTS.md`; check them before each research run. Historical excluded markets remain in the audit record. General skill instructions do not turn a user's preference into a universal claim about a market.
+
 1. Open a new Codex chat, preferably in the football research project so earlier reports are available when you ask for comparisons.
 2. Choose the lead model and reasoning effort.
 3. Replace `[DATE]` with a calendar date and any bracketed fixture field with your intended scope. Keep Europe/London if you want UK kickoffs. This avoids ambiguous “next Saturday” dates during international breaks.
@@ -20,6 +26,8 @@ Explicitly name cheaper workers. Without model/effort overrides or configured de
 
 ```text
 Use $football-wins-btts and its relevant references for matches on [DATE], Europe/London.
+
+Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Consider wins and BTTS Yes only. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
 
 Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Verify that the matches actually take place on this date. Research that day only.
 
@@ -37,6 +45,8 @@ For Europa or Conference League, replace the domestic-league scope with the rele
 ```text
 Use $football-other-markets and its relevant references for [DATE], Europe/London.
 
+Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
+
 Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Consider match/team goals, handicaps, corners and cards. Choose the market that best matches the evidence for each fixture; do not add markets simply to increase the odds.
 
 Keep the selected lead model responsible for analysis and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for bounded data, team-news, market and rule retrieval, and gpt-6.1-sol at high effort to challenge the finalists. Audit decisive evidence and report the models actually used; disclose unavailable routes.
@@ -50,6 +60,8 @@ Return up to five supported candidates, fewer if warranted, with source-linked e
 
 ```text
 Use $football-bet-builders and its relevant references for [MATCHES OR COMPETITION] on [DATE], Europe/London. Research two selections per match, with a third only when separately justified.
+
+Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Respect the project's BTTS Yes-only preference inside builders. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
 
 Check which UK bet365 markets are actually offered. Consider player total shots, shots on target, fouls committed, to be fouled and tackles, plus a team market only when it improves the evidence-based case. Investigate reasonable prices without raising thresholds merely to inflate the payout.
 
@@ -66,6 +78,7 @@ In the same research chat, send:
 
 ```text
 Recheck the existing shortlist using confirmed lineups, fresh availability, current odds and the exact settlement terms. Keep the original report for comparison. Explain what changed and label every candidate keep, downgrade, remove or still pending. Do not fill gaps with weaker replacements. Update the decision ledger before kickoff.
+Keep unresolved candidates outside the final selection table. For alternative markets on the same game, compare the winner/BTTS case directly with the proposed alternative, including prices, extra failure modes and why one is preferred. If none completes the material checks, return no final selection for that game.
 ```
 
 Use a new refresh request when the relevant lineups are actually available; one early check cannot verify later team sheets automatically. The refresh is narrower than a new full-slate investigation and normally does not need Ultra.
@@ -75,3 +88,9 @@ Use a new refresh request when the relevant lineups are actually available; one 
 They retain the useful research principles from earlier analysis: screening broadly, deeply comparing finalists, analyzing both opponents, checking underlying chance production, tactical exposure, current lineups, price and reasons to exclude uncertain games. They add clearer safeguards around sample size, player minutes, market definitions, missing data, correlation and prospective review.
 
 They do not preserve a proven winning formula. Three successful slates are encouraging but too small to establish a sustainable edge, and wins/BTTS results do not validate new player-prop markets. The skills are thorough research procedures; quality still depends on sources, judgment and honest decisions to pass.
+
+## Local journal (no UI)
+
+Every research skill now reads the project journal and archives its decisions. Use `$football-journal` to archive supplied reports, verify named completed slates, or review process lessons. The implementation lives in `journal/README.md`; run `python3 scripts/journal.py validate` and `python3 scripts/journal.py summary` to inspect it. No automatic schedule is enabled.
+
+Example: `Use $football-journal to verify the recorded decisions for [DATE], Europe/London, and review the evidence behind wins and losses. Preserve original statuses, distinguish retrospective discoveries from pre-match evidence, and propose only specific, prospectively testable improvements. Do not make new selections or place bets.`

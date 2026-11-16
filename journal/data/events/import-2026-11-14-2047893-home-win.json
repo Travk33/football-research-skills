@@ -1,0 +1,74 @@
+{
+  "id": "import-2026-11-14-2047893-home-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-14",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Norway",
+    "away": "Wales"
+  },
+  "market": {
+    "rawLabel": "Norway win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "pass",
+  "source": {
+    "identity": "research/2026-11-14/coverage-inventory.json#import-2026-11-14-2047893-home-win",
+    "report": "research/2026-11-14/coverage-inventory.json",
+    "sha256": "e73ee9ed7435fe463579665c1b091ce93d661be0d0684237106474bb1be3bd89"
+  },
+  "originalTime": {
+    "value": "2026-11-14T03:45:11+00:00",
+    "precision": "exact",
+    "preKickoffEvidence": "verified"
+  },
+  "kickoff": "2026-11-14T17:00:00+00:00",
+  "evidence": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "countercase": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.2222222222222223,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Norway win price pass at1.222222: current4 only1W3L,6GF8GA including defeat at Wales. Wales scored in1/4 and0/2 away, so Norway4/4 BTTS does not establish Wales route. Availability news/suspensions retained, no deep approval.",
+  "decisionReason": "Norway win price pass at1.222222: current4 only1W3L,6GF8GA including defeat at Wales. Wales scored in1/4 and0/2 away, so Norway4/4 BTTS does not establish Wales route. Availability news/suspensions retained, no deep approval.",
+  "coverageLevel": "basic",
+  "priceObservation": {
+    "bookmaker": "bet365",
+    "region": "UK public en-gb hub",
+    "market": "Full Time Result 1X2",
+    "observed_at": "2026-11-14T03:38:42+00:00",
+    "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+    "home": {
+      "fractional": "2/9",
+      "decimal": 1.2222222222222223
+    },
+    "draw": {
+      "fractional": "13/2",
+      "decimal": 7.5
+    },
+    "away": {
+      "fractional": "17/2",
+      "decimal": 9.5
+    },
+    "account_executable_verified": false
+  },
+  "missing": {
+    "confirmed_XI": null,
+    "verified_comparable_xg": null,
+    "verified_npxg": null,
+    "club_minutes_load": null,
+    "calibrated_event_probability": null
+  },
+  "originalDecisionLedger": "research/2026-11-14/decision-ledger.json",
+  "scopeNote": "Screened direction, not a final selection. Conditional/reserve only where explicitly retained.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.144388Z",
+  "appendedAt": "2026-11-15T09:50:34.151688Z"
+}

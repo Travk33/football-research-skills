@@ -1,0 +1,26 @@
+{
+  "id": "import-2026-11-12-review",
+  "type": "review",
+  "decisionIds": [
+    "import-2026-11-12-england-win",
+    "import-2026-11-12-england-corners",
+    "import-2026-11-12-montenegro-win",
+    "import-2026-11-12-albania-win",
+    "import-2026-11-12-albania-dnb",
+    "import-2026-11-12-armenia-cyprus-under35",
+    "import-2026-11-12-italy-france-btts",
+    "import-2026-11-12-belarus-win",
+    "import-2026-11-12-drcongo-win",
+    "import-2026-11-12-turkiye-pair",
+    "import-2026-11-12-england-pair",
+    "import-2026-11-12-italy-pair",
+    "import-2026-11-12-spain-pair"
+  ],
+  "matchDate": "2026-11-12",
+  "note": "Preserve successful ordinary directions and failed Cucurella watch pair without promoting watches/passes. Cucurella had 0 tackles, one ground duel and limited opponent exposure. Çelik came off bench; event counts do not determine pre-match non-starter settlement. User-reported tickets remain separate.",
+  "source": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md",
+  "retrospective": true,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.986262Z",
+  "appendedAt": "2026-11-15T09:50:33.991265Z"
+}

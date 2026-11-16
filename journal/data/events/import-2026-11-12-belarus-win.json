@@ -1,0 +1,43 @@
+{
+  "id": "import-2026-11-12-belarus-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-12",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "San Marino",
+    "away": "Belarus"
+  },
+  "market": {
+    "rawLabel": "Belarus win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "reserve",
+  "source": {
+    "identity": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md#import-2026-11-12-belarus-win",
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md",
+    "sha256": "331491b46ae228480cfa9c4a9f266752d2632ca2ca80708c7abd477a182bd212"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-12T19:45:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": null,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Short-price reserve; not leading core",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.910917Z",
+  "appendedAt": "2026-11-15T09:50:33.915830Z"
+}

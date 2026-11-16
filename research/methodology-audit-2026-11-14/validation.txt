@@ -1,0 +1,7 @@
+football-wins-btts: exit=0; Skill is valid! 
+football-wins-btts: installed entrypoint matches; relative markdown links resolve
+football-other-markets: exit=0; Skill is valid! 
+football-other-markets: installed entrypoint matches; relative markdown links resolve
+football-bet-builders: exit=0; Skill is valid! 
+football-bet-builders: installed entrypoint matches; relative markdown links resolve
+Historical subset:20 rows;18 discussed-group directions occurred; omittedBrighton occurred; Monaco watch failed. Noactualbetsettlementverified.

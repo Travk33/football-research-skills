@@ -1,0 +1,24 @@
+{
+  "id": "import-2026-11-13-slovakia-corners-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-13-slovakia-corners",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matches?date=20261113",
+    "research/2026-11-13/audit-evidence/day-results-check.json",
+    "research/2026-11-13/audit-evidence/fotmob-match-5181942.json",
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181942"
+  ],
+  "fullTimeScore": "2 - 2",
+  "observedAt": "2026-11-15T09:55:33.108555+00:00",
+  "observedEventCount": 9,
+  "opponentCorners": 5,
+  "statisticObservedAt": "2026-11-15T09:56:19.919241+00:00",
+  "statisticTimeBasis": "Timestamp of saved raw response; observedAt below refers to the separate day feed.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.357416Z",
+  "appendedAt": "2026-11-15T09:58:03.367136Z"
+}

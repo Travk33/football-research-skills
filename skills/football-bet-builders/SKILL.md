@@ -9,6 +9,8 @@ Construct a small, defensible same-match combination when the evidence and offer
 
 Read [model-routing.md](references/model-routing.md) before assigning retrieval work. Use cheaper workers for bounded ledgers and rule extraction; retain a stronger reasoning lead for tactical interactions, threshold decisions, source conflicts and the final pair. Read [player-markets.md](references/player-markets.md) for market-specific checks and [evidence-contract.md](references/evidence-contract.md) for extraction, handoff and report formats.
 
+Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
+
 ## Frame the fixture and contract
 
 Verify date/timezone, kickoff, competition, actual venue and fixture status. State whether the analysis is pre-match or in-play. Check current squad withdrawals, suspensions, registration and matchday news. A listed player or predicted XI is not a confirmed starter.
@@ -58,6 +60,8 @@ Compare better-supported lower thresholds with genuinely riskier alternatives. I
 Before selecting, test each decisive assumption: is the stat exact, are zeros handled correctly, is the sample comparable, does the player start in the expected role, is the tactical interaction plausible, is the line really offered, and does the price refer to this combination? Resolve contradictions or downgrade the candidate.
 
 Return two or three selections only where warranted, with: exact names/lines; individual and actual combined odds clearly separated; evidence counts and minutes; club-versus-country distinction; tactical rationale labeled as inference; strongest counterargument; starting-XI condition; source links; and a status. Use **conditional candidate**, **quote pending**, **reserve**, **price pass**, or **insufficient evidence** as appropriate. Do not call every investigated game a recommended builder.
+
+Keep exploratory player pairs and completed builder selections in separate tables. A pair missing a declared material starting-role, contract or actual joint-price check cannot appear in the final selections. When asked for the “main” builder, explicitly state if none has completed those checks. Record promotions with the time and new evidence; do not silently combine separate single-player watches into an approved cross-match ticket. Do not inherit confidence from a winner/BTTS shortlist or fill a requested category just because the other workflows returned candidates.
 
 **Price pass** means evidence does not justify the actual offered terms; without a calibrated joint forecast it does not prove negative expected value. **Insufficient evidence** means one or more event cases cannot be established. **Quote pending** preserves the distinction between a plausible pair and a price-checked selection.
 

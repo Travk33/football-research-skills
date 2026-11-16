@@ -1,0 +1,43 @@
+{
+  "id": "import-2026-11-12-montenegro-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-12",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Montenegro",
+    "away": "Latvia"
+  },
+  "market": {
+    "rawLabel": "Montenegro win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "conditional",
+  "source": {
+    "identity": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md#import-2026-11-12-montenegro-win",
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md",
+    "sha256": "331491b46ae228480cfa9c4a9f266752d2632ca2ca80708c7abd477a182bd212"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-12T19:45:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.3,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Conditional leading candidate",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.855510Z",
+  "appendedAt": "2026-11-15T09:50:33.859478Z"
+}

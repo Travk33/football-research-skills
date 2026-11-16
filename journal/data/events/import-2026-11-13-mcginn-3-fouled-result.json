@@ -1,0 +1,34 @@
+{
+  "id": "import-2026-11-13-mcginn-3-fouled-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-13-mcginn-3-fouled",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "lost",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181784",
+    "research/2026-11-13/audit-evidence/nov13-player-prop-verification.json"
+  ],
+  "fullTimeScore": "2 - 1",
+  "statisticalLegs": [
+    {
+      "player": "John McGinn",
+      "started": true,
+      "minutes": 90,
+      "total_shots_regulation": 2,
+      "fouls_drawn": 1,
+      "selectedEvent": "fouls drawn",
+      "selectedThreshold": 3
+    }
+  ],
+  "observedAt": "2026-11-15T09:54:36.096653+00:00",
+  "outcomeScope": "Statistical thresholds only; no verified bookmaker settlement.",
+  "redCards": {
+    "home": 0,
+    "away": 0
+  },
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.546599Z",
+  "appendedAt": "2026-11-15T09:58:03.557014Z"
+}

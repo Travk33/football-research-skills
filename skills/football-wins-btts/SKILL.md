@@ -7,6 +7,8 @@ description: Research football match winners and both-teams-to-score selections 
 
 Produce a source-linked shortlist with strong reasons both for and against each candidate. Preserve the user's date, competitions, exclusions and requested market scope. Do not equate a desired number of legs with that many worthwhile selections.
 
+Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
+
 ## Route work intelligently
 
 Read [model-routing.md](references/model-routing.md) when selecting a lead or delegating. Prefer a capable reasoning lead for comparative judgment and a cheaper model for bounded retrieval and extraction. Delegate independent competition or team ledgers when useful; the lead must reconcile them and review decisive evidence. A worker's confident wording is not verification.
@@ -18,6 +20,7 @@ For competition-specific context, read [competition-context.md](references/compe
 - Resolve the actual date and timezone, home/away venue, competition stage, kickoff and status from current sources. Use official competition schedules where available. Exclude started or postponed games from a pre-match shortlist unless explicitly requested otherwise.
 - Keep an inventory of all screened fixtures and distinguish basic screening from deep analysis. “Second candidate investigated” must not become “second most likely among 44 matches.” Define what any ranking measures.
 - Screen for data coverage, meaningful team-strength differences, availability uncertainty and prices. Deepen the plausible cases and retain concise rejection reasons; do not exhaustively collect every metric for every fixture.
+- Make the first pass reproducible: record a separate disposition for each in-scope winner and BTTS direction, its decisive evidence/source, missing information, and what would reopen a borderline case. Rejecting the win case does not reject BTTS, or vice versa. Before closing a large slate, challenge the closest exclusions and weakly covered plausible cases; report actual counts screened, researched deeply and unresolved. Do not let familiar teams or easier data access silently determine the shortlist.
 
 ## Build comparable evidence for both teams
 
@@ -44,6 +47,7 @@ Check official availability, suspension/registration, likely XI, rest/travel and
 ## Price without false precision
 
 - Record bookmaker, region, exact market and line, decimal odds, observation time and source. Distinguish direct quotes from comparison sites and user screenshots.
+- Confirm the result period, including whether extra time counts, and any relevant postponement/abandonment or void terms. Apply the actual regional contract when recording settlement.
 - For an ordinary binary bet, `1 / decimal odds` is the break-even price hurdle, not the model forecast or a margin-free probability. Do not label this column “our probability.” Removing margin requires all mutually exclusive prices from the same market/time and still produces a market reference.
 - Separate descriptive evidence, any model estimate and the price verdict. Without a declared numerical forecasting method, say whether the direction is supported and whether value remains unestablished; do not invent fair odds or a minimum acceptable price.
 - If modeling, declare the training/calibration basis, opponent/venue treatment, parameter uncertainty and key assumptions. A simple Poisson illustration is not a calibrated forecast. Stress-test plausible rates and lineup scenarios; do not use precise percentages to conceal sparse data.
@@ -54,9 +58,13 @@ Check official availability, suspension/registration, likely XI, rest/travel and
 
 Before deciding, challenge each candidate: what evidence would favor the opponent or a no-bet decision, what depends on an unconfirmed assumption, and would the case survive removal of its most favorable match? Resolve contradictions or explicitly lower confidence.
 
+When choosing between already-researched markets for the same fixture, record a direct comparison at contemporaneous prices. Explain the decision-changing evidence for the preferred event, its extra failure modes, and why the alternative remains a reserve or pass. Do not leave the winner assessed by a short screen while calling a deeply researched alternative the better selection. If comparative superiority is unestablished, say so; an extra source, higher payout or more detailed narrative is not sufficient.
+
 Use clear statuses: **conditional candidate** (XI/quote still needed), **selection at observed terms** (all stated gates satisfied), **reserve**, **price pass**, **insufficient evidence**. Being the best available candidate does not imply high absolute confidence or positive expected value.
 
 A **price pass** means the available evidence does not justify accepting the offered terms; without a calibrated forecast it is not proof of negative expected value. **Insufficient evidence** means the football/statistical case itself cannot be established. Use **quote pending** when the required price is absent instead of declaring a price pass from an invented quote.
+
+Keep research candidates and final selections in separate tables. A candidate with an unresolved material XI, availability, price or contract condition cannot enter the final selection table. When asked whether a watchlist is the “main bet” or “final ticket,” answer from the satisfied conditions rather than reaffirming the watchlist. Record any status change with its time, new evidence and market-specific reason. Zero final selections is a valid result. A request for more games does not lower the inclusion standard.
 
 Deliver a concise comparison table with exact selection, kickoff, observed odds/time, status and principal reason. Follow with evidence counts, strongest counterargument, tactical inference, lineup condition and source links for each finalist. Explain important rejected candidates. Report evidence confidence separately from estimated event probability; omit a numerical probability if none was defensibly modeled.
 

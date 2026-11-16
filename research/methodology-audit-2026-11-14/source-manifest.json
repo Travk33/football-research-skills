@@ -1,0 +1,23 @@
+[
+  {
+    "imported_at": "2026-11-14",
+    "source_path": "/Users/traviskerali/Documents/Codex/2026-11-05/i-need-you-to-do-extreme-2/outputs/european-football-analysis-2026-11-05.md",
+    "snapshot_path": "source-reports/european-football-analysis-2026-11-05.md",
+    "sha256": "e12140a0f93055b8f15d03ac0b167789a93b77dc4b003fee13646e4d07211717",
+    "historical_prematch_version_authenticated": false
+  },
+  {
+    "imported_at": "2026-11-14",
+    "source_path": "/Users/traviskerali/Documents/Codex/2026-11-05/i-need-you-to-do-extreme-2/outputs/saturday-7-november-2026-european-football.md",
+    "snapshot_path": "source-reports/saturday-7-november-2026-european-football.md",
+    "sha256": "80bb01397187b11e6f1b2923420521a68750e2cdfacb6a4909dde4ba5957bd1f",
+    "historical_prematch_version_authenticated": false
+  },
+  {
+    "imported_at": "2026-11-14",
+    "source_path": "/Users/traviskerali/Documents/Codex/2026-11-05/i-need-you-to-do-extreme-2/outputs/sunday-8-november-2026-european-football.md",
+    "snapshot_path": "source-reports/sunday-8-november-2026-european-football.md",
+    "sha256": "aabb374fc4d67e9a7a23235a2194060ccc8a1df171a1b289451225ce65c1df3d",
+    "historical_prematch_version_authenticated": false
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "id": "import-2026-11-05-historic-7",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-05",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Celtic",
+    "away": "Beşiktaş"
+  },
+  "market": {
+    "rawLabel": "BTTS Yes",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "watch",
+  "source": {
+    "identity": "research/methodology-audit-2026-11-14/results.json#import-2026-11-05-historic-7",
+    "report": "research/methodology-audit-2026-11-14/results.json",
+    "sha256": "4bde4794087d781909c9a4aa75689d66f69a2506e72d9b4542fdb7d27ebafadc"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-05T20:00:00Z",
+  "evidence": {
+    "report": "research/methodology-audit-2026-11-14/results.json"
+  },
+  "countercase": {
+    "report": "research/methodology-audit-2026-11-14/results.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.5,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Qualified secondary BTTS candidate/watch",
+  "originalQuote": "1.50",
+  "includedInUserReportedWinningGroup": true,
+  "statusNormalization": "Retains row qualifiers; main direction is not evidence that lineup/price conditions closed.",
+  "archiveAudit": "research/methodology-audit-2026-11-14/audit.md",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.735618Z",
+  "appendedAt": "2026-11-15T09:50:33.736793Z"
+}

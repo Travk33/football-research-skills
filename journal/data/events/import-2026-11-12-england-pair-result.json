@@ -1,0 +1,36 @@
+{
+  "id": "import-2026-11-12-england-pair-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-12-england-pair",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181858",
+    "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  ],
+  "statisticalLegs": [
+    {
+      "player": "Elliot Anderson",
+      "event": "fouls",
+      "threshold": 1,
+      "count": 1,
+      "minutes": 90,
+      "started": true
+    },
+    {
+      "player": "Luka Vušković",
+      "event": "fouls",
+      "threshold": 1,
+      "count": 1,
+      "minutes": 90,
+      "started": true
+    }
+  ],
+  "verificationDate": "2026-11-12",
+  "outcomeScope": "Statistical thresholds only, not actual builder settlement. Selected non-starter may be void.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.954277Z",
+  "appendedAt": "2026-11-15T09:50:33.959681Z"
+}

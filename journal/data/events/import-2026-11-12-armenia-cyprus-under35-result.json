@@ -1,0 +1,22 @@
+{
+  "id": "import-2026-11-12-armenia-cyprus-under35-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-12-armenia-cyprus-under35",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181929",
+    "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  ],
+  "fullTimeScore": [
+    1,
+    1
+  ],
+  "verificationDate": "2026-11-12",
+  "observedEventCount": null,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.893526Z",
+  "appendedAt": "2026-11-15T09:50:33.898292Z"
+}

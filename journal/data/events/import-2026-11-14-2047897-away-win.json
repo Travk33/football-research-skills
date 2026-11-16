@@ -1,0 +1,74 @@
+{
+  "id": "import-2026-11-14-2047897-away-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-14",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Northern Ireland",
+    "away": "Ukraine"
+  },
+  "market": {
+    "rawLabel": "Ukraine win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "pass",
+  "source": {
+    "identity": "research/2026-11-14/coverage-inventory.json#import-2026-11-14-2047897-away-win",
+    "report": "research/2026-11-14/coverage-inventory.json",
+    "sha256": "e73ee9ed7435fe463579665c1b091ce93d661be0d0684237106474bb1be3bd89"
+  },
+  "originalTime": {
+    "value": "2026-11-14T03:45:11+00:00",
+    "precision": "exact",
+    "preKickoffEvidence": "verified"
+  },
+  "kickoff": "2026-11-14T19:45:00+00:00",
+  "evidence": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "countercase": {
+    "report": "research/2026-11-14/coverage-inventory.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 3.1,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Insufficient evidence: NI4clean sheets in4 and bothhome0-0; Ukraine2GF/5GA in4. Strong draw risk prevents winner recommendation and no supported two-team scoring case.",
+  "decisionReason": "Insufficient evidence: NI4clean sheets in4 and bothhome0-0; Ukraine2GF/5GA in4. Strong draw risk prevents winner recommendation and no supported two-team scoring case.",
+  "coverageLevel": "basic",
+  "priceObservation": {
+    "bookmaker": "bet365",
+    "region": "UK public en-gb hub",
+    "market": "Full Time Result 1X2",
+    "observed_at": "2026-11-14T03:38:42+00:00",
+    "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+    "home": {
+      "fractional": "6/4",
+      "decimal": 2.5
+    },
+    "draw": {
+      "fractional": "2/1",
+      "decimal": 3
+    },
+    "away": {
+      "fractional": "21/10",
+      "decimal": 3.1
+    },
+    "account_executable_verified": false
+  },
+  "missing": {
+    "confirmed_XI": null,
+    "verified_comparable_xg": null,
+    "verified_npxg": null,
+    "club_minutes_load": null,
+    "calibrated_event_probability": null
+  },
+  "originalDecisionLedger": "research/2026-11-14/decision-ledger.json",
+  "scopeNote": "Screened direction, not a final selection. Conditional/reserve only where explicitly retained.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.273958Z",
+  "appendedAt": "2026-11-15T09:50:34.282434Z"
+}

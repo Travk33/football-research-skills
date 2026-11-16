@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-07-historic-12-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-07-historic-12",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://iaas-public-front-pro.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-valencia-cf-real-madrid-12",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "0–3",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.765506Z",
+  "appendedAt": "2026-11-15T09:50:33.767724Z"
+}

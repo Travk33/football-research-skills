@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-13-luxembourg-btts-no-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-13-luxembourg-btts-no",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181958",
+    "research/2026-11-13/result-verification.json"
+  ],
+  "fullTimeScore": "0–1",
+  "observedEventCount": null,
+  "observedAt": "2026-11-14T22:00:17Z",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.044873Z",
+  "appendedAt": "2026-11-15T09:50:34.051348Z"
+}

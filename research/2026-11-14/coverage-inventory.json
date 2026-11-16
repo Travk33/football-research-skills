@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-14",
+  "timezone": "Europe/London",
+  "competition": "UEFA Nations League men, league phase MD5",
+  "scope_change": "User replaced domestic top-division scope with Nations League only. No matches from another date selected.",
+  "decision_at": "2026-11-14T03:45:11+00:00",
+  "fixture_count": 8,
+  "started_excluded": 0,
+  "postponements_detected": 0,
+  "scope_status": "Eight fixtures listed by UEFA. All scheduled after report cutoff; no confirmed XI is claimed.",
+  "market_scope": [
+    "90-minute match winner",
+    "BTTS Yes"
+  ],
+  "basic_screen_definition": "Verified fixture/venue/time plus current4 results for both, prices and selected material news. No claim to have collected last8 advanced metrics for early rejected games.",
+  "deep_definition": "Portugal-Denmark and Sweden-Bosnia: both teams last8 competitive result ledgers and complete current4 official shot/SOT ledgers plus availability, tactical, market and counterevidence review.",
+  "fixtures": [
+    {
+      "id": "2047896",
+      "home": "Kosovo",
+      "away": "Israel",
+      "group": "B3",
+      "venue": "Stadiumi Fadil Vokrri, Pristina",
+      "kickoff": "2026-11-14T14:00:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047896--kosovo-vs-israel/",
+      "fixture_verified_at": "2026-11-13T22:03:49+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "4/5",
+          "decimal": 1.8
+        },
+        "draw": {
+          "fractional": "27/10",
+          "decimal": 3.7
+        },
+        "away": {
+          "fractional": "16/5",
+          "decimal": 4.2
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Insufficient evidence: current4 Kosovo3GF/4GA, Israel2GF/7GA; reverse0-0; no strong repeatable attacking difference to accept Kosovo1.80, and no independent two-team scoring case.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047893",
+      "home": "Norway",
+      "away": "Wales",
+      "group": "A4",
+      "venue": "Ullevaal Stadion, Oslo",
+      "kickoff": "2026-11-14T17:00:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047893--norway-vs-wales/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "2/9",
+          "decimal": 1.2222222222222223
+        },
+        "draw": {
+          "fractional": "13/2",
+          "decimal": 7.5
+        },
+        "away": {
+          "fractional": "17/2",
+          "decimal": 9.5
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Norway win price pass at1.222222: current4 only1W3L,6GF8GA including defeat at Wales. Wales scored in1/4 and0/2 away, so Norway4/4 BTTS does not establish Wales route. Availability news/suspensions retained, no deep approval.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://faw.cymru/news/cymru-squad-announced-for-norway-and-portugal/"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047895",
+      "home": "Georgia",
+      "away": "Hungary",
+      "group": "B2",
+      "venue": "Mikheil Meskhi Stadium, Tbilisi",
+      "kickoff": "2026-11-14T17:00:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047895--georgia-vs-hungary/",
+      "fixture_verified_at": "2026-11-13T22:03:49+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "2/1",
+          "decimal": 3
+        },
+        "draw": {
+          "fractional": "21/10",
+          "decimal": 3.1
+        },
+        "away": {
+          "fractional": "7/5",
+          "decimal": 2.4
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Insufficient evidence: Georgia0GF in4 and Hungary3GF/2GA; Hungary win2.40 cannot be supported robustly with unresolved Szoboszlai status; Georgia scoring route too weak for BTTS Yes.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://en.mlsz.hu/hir/hungary-men-begin-preparations-with-szoboszlais-involvement-still-to-be-decided"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047892",
+      "home": "Portugal",
+      "away": "Denmark",
+      "group": "A4",
+      "venue": "Estádio Municipal de Braga, Braga",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047892--portugal-vs-denmark/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "deep",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": 8,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "1/2",
+          "decimal": 1.5
+        },
+        "draw": {
+          "fractional": "15/4",
+          "decimal": 4.75
+        },
+        "away": {
+          "fractional": "9/2",
+          "decimal": 5.5
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Deep comparison: Portugal win conditional at1.50; replacement full-back/wing personnel, confirmed XI, price and account/market terms unresolved. BTTS Yes price pass atPaddy1.5714286.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.fpf.pt/pt/News/Todas-as-not%C3%ADcias/Not%C3%ADcia/news/58732",
+        "https://www.fpf.pt/pt/News/Todas-as-not%C3%ADcias/Not%C3%ADcia/news/58734",
+        "https://editorial.uefa.com/resources/02ab-21ff83a8e158-d6ae699e56ad-1000/bookinglist_unl_before_md5.pdf"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047897",
+      "home": "Northern Ireland",
+      "away": "Ukraine",
+      "group": "B2",
+      "venue": "Clearer Twist National Stadium at Windsor Park, Belfast",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047897--northern-ireland-vs-ukraine/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "6/4",
+          "decimal": 2.5
+        },
+        "draw": {
+          "fractional": "2/1",
+          "decimal": 3
+        },
+        "away": {
+          "fractional": "21/10",
+          "decimal": 3.1
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Insufficient evidence: NI4clean sheets in4 and bothhome0-0; Ukraine2GF/5GA in4. Strong draw risk prevents winner recommendation and no supported two-team scoring case.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.irishfa.com/news/2026/november/preview-o-neill-sets-sights-on-a-positive-result-in-belfast-against-ukraine"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047894",
+      "home": "Austria",
+      "away": "Republic of Ireland",
+      "group": "B3",
+      "venue": "Raiffeisen Arena, Linz",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047894--austria-vs-republic-of-ireland/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "3/5",
+          "decimal": 1.6
+        },
+        "draw": {
+          "fractional": "29/10",
+          "decimal": 3.9
+        },
+        "away": {
+          "fractional": "9/2",
+          "decimal": 5.5
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Win price pass at1.60: current4 2W2D9GF5GA, reverse2-2, material Schlager/Prass withdrawals weaken midfield press. BTTS raw4/4 Austria not sufficient independently to establish Ireland route at an unverified quote.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://sport.orf.at/stories/3164834/",
+        "https://www.fai.ie/latest/hallgrimsson-names-24-man-squad-austria-and-kosovo/"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047891",
+      "home": "Romania",
+      "away": "Poland",
+      "group": "B4",
+      "venue": "National Arena Bucharest",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047891--romania-vs-poland/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "basic",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": null,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "11/4",
+          "decimal": 3.75
+        },
+        "draw": {
+          "fractional": "29/10",
+          "decimal": 3.9
+        },
+        "away": {
+          "fractional": "17/20",
+          "decimal": 1.85
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Poland win price pass at1.85:6of7group goals from6-0 against Romania with red22at0-0,pen24,OG49; remaining3only1GF. Romania4losses not enough to override Poland attack fragility. BTTS insufficient evidence.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.uefa.com/newsfiles/UNL/2027/2047963_FR.pdf"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    },
+    {
+      "id": "2047890",
+      "home": "Sweden",
+      "away": "Bosnia and Herzegovina",
+      "group": "B4",
+      "venue": "Strawberry Arena, Solna",
+      "kickoff": "2026-11-14T19:45:00+00:00",
+      "timezone": "Europe/London",
+      "fixture_source": "https://www.uefa.com/uefanationsleague/match/2047890--sweden-vs-bosnia-and-herzegovina/",
+      "fixture_verified_at": "2026-11-13T22:03:20+00:00",
+      "status_at_decision": "scheduled; not started at cutoff",
+      "coverage": "deep",
+      "current_competition_sample_each": 4,
+      "recent_competitive_sample_each": 8,
+      "prices": {
+        "bookmaker": "bet365",
+        "region": "UK public en-gb hub",
+        "market": "Full Time Result 1X2",
+        "observed_at": "2026-11-14T03:38:42+00:00",
+        "source": "https://www.bet365.com/hub/en-gb/football/football-competitions/nations-league",
+        "home": {
+          "fractional": "1/2",
+          "decimal": 1.5
+        },
+        "draw": {
+          "fractional": "10/3",
+          "decimal": 4.333333333333334
+        },
+        "away": {
+          "fractional": "5/1",
+          "decimal": 6
+        },
+        "account_executable_verified": false
+      },
+      "decision_reason": "Deep comparison: Sweden win reserve at1.50. Current4 shotbalance43-46, home23-29, Bosniaunbeaten; improved Swedish availability not enough to overcome draw/price doubts. BTTS Yes insufficient repeatable Bosnia scoring and quote pending.",
+      "sources": [
+        "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+        "https://www.fotbollskanalen.se/artiklar/sverige/potters-besked-om-gyokeres-och-kulusevski",
+        "https://www.svt.se/sport/fotboll/40-000-vantas-stotta-bosnien"
+      ],
+      "missing": {
+        "confirmed_XI": null,
+        "verified_comparable_xg": null,
+        "verified_npxg": null,
+        "club_minutes_load": null,
+        "calibrated_event_probability": null
+      },
+      "final_selection": false
+    }
+  ]
+}

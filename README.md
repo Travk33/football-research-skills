@@ -1,14 +1,17 @@
 # Football research skills
 
-Three reusable Codex skills for evidence-led football analysis. They produce auditable shortlists and explicit passes, not guaranteed winners or a demonstrated betting edge.
+Three football research skills and one journal/review skill. They produce auditable shortlists, explicit passes and preserved decisions. Forecasting performance remains to be established prospectively.
 
-| Skill | Use it for |
-|---|---|
-| [football-wins-btts](skills/football-wins-btts/SKILL.md) | Match winners and both teams to score across domestic leagues, European cups and internationals |
-| [football-other-markets](skills/football-other-markets/SKILL.md) | Goal totals, team totals, handicaps, corners and cards |
-| [football-bet-builders](skills/football-bet-builders/SKILL.md) | Two or three compatible player/match selections within a fixture, with actual market availability and joint price |
+**Read first:** [brief skill map](SKILL-MAP.md). Each skill below also has a short human-readable README; `SKILL.md` contains its full operating instructions.
 
-The methods keep football evidence, numerical forecasts, offered prices and settlement separate. A successful result does not retrospectively convert a price pass into an approved selection. Recent results are reviewed prospectively rather than used to justify longer accumulators.
+| Read first | Full instructions | Use it for |
+|---|---|---|
+| [Wins / BTTS guide](skills/football-wins-btts/README.md) | [football-wins-btts](skills/football-wins-btts/SKILL.md) | Match winners and BTTS; this project's future suggestions use BTTS Yes only |
+| [Other markets guide](skills/football-other-markets/README.md) | [football-other-markets](skills/football-other-markets/SKILL.md) | Goal totals, team totals, handicaps, corners and cards |
+| [Bet builders guide](skills/football-bet-builders/README.md) | [football-bet-builders](skills/football-bet-builders/SKILL.md) | Compatible selections within a fixture, with actual market availability and joint price |
+| [Journal guide](skills/football-journal/README.md) | [football-journal](skills/football-journal/SKILL.md) | Archive decisions, verify outcomes and review specific lessons |
+
+The methods keep football evidence, numerical forecasts, offered prices and settlement separate. A successful result does not retrospectively convert a price pass into an approved selection. Results are reviewed against original decisions, and proposed improvements are evaluated prospectively.
 
 ## Use
 
@@ -34,10 +37,12 @@ Date/venue/fixture status; broader baseline and recent form; opponent quality; m
 
 The methods do not require expensive modeling for every task. They do require honest labeling: a descriptive hit rate, an illustrative model and a calibrated forecast are different outputs. Fair odds or a positive expected-value claim require a declared forecasting method and uncertainty assessment.
 
-## Prediction journal design
+## Journal and implementation status
 
-[Matchday design and build handoff](design/journal/README.md) specifies a polished static journal with one tab per research skill, immutable JSON records, source-linked reasoning and separate outcome reviews. It includes an original desktop concept, responsive layouts, a 20-entry historical import inventory, rule-aware verification workflow and a [copy-and-paste build prompt](design/journal/BUILD-PROMPT.md). The application, fourth archive skill and proposed recurring checks are not yet implemented or enabled.
+The [local JSON journal](journal/README.md), append/validation scripts and fourth archive/review skill are implemented. [Active lessons](journal/active-lessons.md) feed subsequent research. The [earlier UI design](design/journal/README.md) remains a design artifact; no journal UI or recurring checks are enabled.
+
+Staged screening, bounded cheaper-model retrieval and evidence reuse are already instructed. There is no automated 44-game collection/screening runner, enforced shared cache, or measured cost-saving percentage. The selected lead coordinates those steps and reports actual coverage and model use.
 
 ## Validation and review
 
-Skill frontmatter and references are checked during packaging. [Behavioral cases](validation-cases.md) capture common decision errors for future independent review. These checks validate workflow instructions; they are not a historical profitability backtest. No private account data, personal stakes, account screenshots or bulk source datasets are part of this repository. The journal pack includes an original generated design concept.
+Skill frontmatter and references are checked during packaging. [Behavioral cases](validation-cases.md) capture common decision errors for independent review. The journal also has executable integrity tests. These checks assess workflow and record integrity, not historical profitability. Research archives contain source-linked reports and public match-data snapshots; actual bookmaker settlement is tracked separately and remains unknown where unverified.

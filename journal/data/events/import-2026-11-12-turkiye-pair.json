@@ -1,0 +1,45 @@
+{
+  "id": "import-2026-11-12-turkiye-pair",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-12",
+  "category": "bet-builders",
+  "fixture": {
+    "home": "Turkiye",
+    "away": "Belgium"
+  },
+  "market": {
+    "rawLabel": "Arda Güler 1+ SOT + Zeki Çelik 2+ tackles",
+    "resolved": false,
+    "period": "regulation time"
+  },
+  "status": "conditional",
+  "source": {
+    "identity": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md#import-2026-11-12-turkiye-pair",
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md",
+    "sha256": "331491b46ae228480cfa9c4a9f266752d2632ca2ca80708c7abd477a182bd212"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-12T17:00:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-12/archive/thursday-12-november-2026-results-audit.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": null,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Supported lower-threshold pair",
+  "combinedQuoteStatus": "No observed combined quote; singles were not multiplied.",
+  "contractNote": "Statistical event thresholds identified; exact operator contract not verified.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.935645Z",
+  "appendedAt": "2026-11-15T09:50:33.940735Z"
+}

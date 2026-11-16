@@ -1,0 +1,71 @@
+{
+  "retrieved_at_utc": "2026-11-15T09:55:33.108555+00:00",
+  "provider": "FotMob public matches-by-date API",
+  "day_feed_url": "https://www.fotmob.com/api/data/matches?date=20261113",
+  "results": [
+    {
+      "fixture": "Andorra vs Gibraltar",
+      "match_id": "5181878",
+      "kickoff_utc": "2026-11-13T19:45:00.000Z",
+      "status": "FT",
+      "score": "2 - 0",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=5181878"
+    },
+    {
+      "fixture": "Slovenia vs Switzerland",
+      "match_id": "5181785",
+      "kickoff_utc": "2026-11-13T19:45:00.000Z",
+      "status": "FT",
+      "score": "0 - 0",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=5181785"
+    },
+    {
+      "fixture": "Slovakia vs Faroe Islands",
+      "match_id": "5181942",
+      "kickoff_utc": "2026-11-13T19:45:00.000Z",
+      "status": "FT",
+      "score": "2 - 2",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=5181942"
+    },
+    {
+      "fixture": "Moldova vs Kazakhstan",
+      "match_id": "5181941",
+      "kickoff_utc": "2026-11-13T17:00:00.000Z",
+      "status": "FT",
+      "score": "2 - 1",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=5181941"
+    },
+    {
+      "fixture": "Mali vs Rwanda",
+      "match_id": "6040377",
+      "kickoff_utc": "2026-11-13T19:00:00.000Z",
+      "status": "FT",
+      "score": "3 - 2",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=6040377"
+    },
+    {
+      "fixture": "Mozambique vs Ethiopia",
+      "match_id": "6040400",
+      "kickoff_utc": "2026-11-13T13:00:00.000Z",
+      "status": "FT",
+      "score": "0 - 1",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=6040400"
+    },
+    {
+      "fixture": "Bermuda vs Saint Lucia",
+      "match_id": "6375163",
+      "kickoff_utc": "2026-11-13T19:00:00.000Z",
+      "status": "FT",
+      "score": "1 - 2",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=6375163"
+    },
+    {
+      "fixture": "Burkina Faso vs Mauritania",
+      "match_id": "6040278",
+      "kickoff_utc": "2026-11-13T16:00:00.000Z",
+      "status": "FT",
+      "score": "1 - 0",
+      "source_url": "https://www.fotmob.com/api/data/matchDetails?matchId=6040278"
+    }
+  ]
+}

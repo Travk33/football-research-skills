@@ -9,3 +9,7 @@ work/
 *.jpg
 *.jpeg
 *.jsonl
+
+# Journal CLI lock and transient files
+journal/data/.write.lock
+journal/data/**/*.tmp

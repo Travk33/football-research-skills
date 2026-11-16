@@ -1,0 +1,283 @@
+{
+  "retrieved_at_utc": "2026-11-13",
+  "scope": "Competitive senior internationals before 2026-11-14; friendlies excluded from competitive ledgers and should be recorded separately.",
+  "fixtures": [
+    {
+      "fixture": "Sweden-Bosnia and Herzegovina",
+      "date": "2026-11-14",
+      "kickoff_local": "19:45",
+      "venue": "Strawberry Arena",
+      "competition": "UEFA Nations League",
+      "current_four_match_baseline": {
+        "Sweden": {
+          "W-D-L": "3-1-0",
+          "GF": 7,
+          "GA": 3
+        },
+        "Bosnia and Herzegovina": {
+          "W-D-L": "2-2-0",
+          "GF": 6,
+          "GA": 3
+        }
+      }
+    },
+    {
+      "fixture": "Romania-Poland",
+      "date": "2026-11-14",
+      "kickoff_local": "19:45",
+      "venue": "Bucharest (screening only)",
+      "competition": "UEFA Nations League",
+      "current_four_match_baseline": {
+        "Romania": {
+          "W-D-L": "0-0-4",
+          "GF": 3,
+          "GA": 13,
+          "note": "GF recomputed from match results 1-2, 2-4, 0-6, 0-1 = 3; earlier 1-goal figure is inconsistent with results."
+        },
+        "Poland": {
+          "W-D-L": "1-1-2",
+          "GF": 7,
+          "GA": 4
+        }
+      }
+    }
+  ],
+  "verified_key_match": {
+    "date": "2026-10-02",
+    "fixture": "Bosnia and Herzegovina 1-1 Sweden",
+    "venue": "Stadion Bilino Polje, Zenica",
+    "competition": "UEFA Nations League, Matchday 3",
+    "shots_BIH-SWE": "4-8",
+    "shots_on_target_BIH-SWE": "2-4",
+    "xg": null,
+    "context": "Goals Gyökeres 61; Alajbegović 80; no penalty or red shown. Official UEFA full report and ESPN team stats agree. Ignore misleading individual leader number/widget parsing.",
+    "source": "https://www.uefa.com/newsfiles/UNL/2027/2047964_FR.pdf"
+  },
+  "reverse_fixture_source_leads": [
+    "https://www.espn.co.uk/football/match/_/gameId/401861107/sweden-bosnia-herzegovina",
+    "https://optaplayerstats.statsperform.com/en_GB/soccer/uefa-nations-league-2026-2027/7wshhtqrzmwrkkygjqf9l0idw/match/bosnia-herzegovina-vs-sweden/etf9jfqj7jwbrxlr9qc1ha3o4"
+  ],
+  "availability_leads": {
+    "Sweden": {
+      "source": "https://www.fotbollskanalen.se/artiklar/sverige/potters-besked-om-gyokeres-och-kulusevski",
+      "reported": "Potter said Gyokeres, Nygren, Kulusevski available; Kulusevski minutes not guaranteed. Zeneli/Walemark withdrew; Emil Holm out."
+    },
+    "Bosnia": {
+      "source": "https://www.nfsbih.ba/en/news/football-m/a-national-team-m/sergej-barbarez-announces-roster-for-matches-against-sweden-and-romania/",
+      "reported": "Official squad: Demirovic and Tabakovic included; Dzeko absent."
+    },
+    "Romania": {
+      "source": "https://www.frf.ro/",
+      "reported": "Stanciu and Mihaila unavailable; exact official report to verify."
+    }
+  },
+  "teams": [],
+  "sources": [
+    "https://www.uefa.com/newsfiles/UNL/2027/2047964_FR.pdf",
+    "https://www.uefa.com/newsfiles/UNL/2027/2047963_FR.pdf",
+    "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/",
+    "https://www.espn.co.uk/football/match/_/gameId/401861107/sweden-bosnia-herzegovina"
+  ],
+  "team_recent4": {
+    "Sweden": [
+      {
+        "date": "2026-10-05",
+        "opponent": "Romania",
+        "venue": "away",
+        "score": "1-0",
+        "competition": "UNL",
+        "shots_SWE-opp": null,
+        "sot_SWE-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.co.uk/football/match/_/gameId/401861128/sweden-romania"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Bosnia and Herzegovina",
+        "venue": "away",
+        "score": "1-1",
+        "competition": "UNL",
+        "shots_SWE-opp": "8-4",
+        "sot_SWE-opp": "4-2",
+        "xg": null,
+        "context": "No penalty/red; goals 61,80",
+        "source": "https://www.uefa.com/newsfiles/UNL/2027/2047964_FR.pdf"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Poland",
+        "venue": "away",
+        "score": "3-1",
+        "competition": "UNL",
+        "shots_SWE-opp": null,
+        "sot_SWE-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861080/poland-sweden"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Romania",
+        "venue": "home",
+        "score": "2-1",
+        "competition": "UNL",
+        "shots_SWE-opp": null,
+        "sot_SWE-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861051/romania-sweden"
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "date": "2026-10-05",
+        "opponent": "Poland",
+        "venue": "home",
+        "score": "1-0",
+        "competition": "UNL",
+        "shots_BIH-opp": null,
+        "sot_BIH-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861133/poland-bosnia-herzegovina"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Sweden",
+        "venue": "home",
+        "score": "1-1",
+        "competition": "UNL",
+        "shots_BIH-opp": "4-8",
+        "sot_BIH-opp": "2-4",
+        "xg": null,
+        "context": "No penalty/red; goals 80,61",
+        "source": "https://www.uefa.com/newsfiles/UNL/2027/2047964_FR.pdf"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Romania",
+        "venue": "away",
+        "score": "4-2",
+        "competition": "UNL",
+        "shots_BIH-opp": null,
+        "sot_BIH-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861078/bosnia-herzegovina-romania"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Poland",
+        "venue": "away",
+        "score": "0-0",
+        "competition": "UNL",
+        "shots_BIH-opp": null,
+        "sot_BIH-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.uefa.com/uefanationsleague/match/2048013--poland-vs-bosnia-and-herzegovina/"
+      }
+    ],
+    "Poland": [
+      {
+        "date": "2026-10-05",
+        "opponent": "Bosnia and Herzegovina",
+        "venue": "away",
+        "score": "0-1",
+        "competition": "UNL",
+        "shots_POL-opp": null,
+        "sot_POL-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861133/poland-bosnia-herzegovina"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Romania",
+        "venue": "home",
+        "score": "6-0",
+        "competition": "UNL",
+        "shots_POL-opp": "24-10",
+        "sot_POL-opp": "10-3",
+        "xg": null,
+        "context": "Dragusin red 22' at 0-0; Lewandowski penalty 24'; own goal 49'",
+        "source": "https://www.uefa.com/newsfiles/UNL/2027/2047963_FR.pdf"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Sweden",
+        "venue": "home",
+        "score": "1-3",
+        "competition": "UNL",
+        "shots_POL-opp": null,
+        "sot_POL-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.uefa.com/uefanationsleague/match/2047985--sweden-vs-poland/"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Bosnia and Herzegovina",
+        "venue": "home",
+        "score": "0-0",
+        "competition": "UNL",
+        "shots_POL-opp": null,
+        "sot_POL-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.uefa.com/uefanationsleague/match/2048013--poland-vs-bosnia-and-herzegovina/"
+      }
+    ],
+    "Romania": [
+      {
+        "date": "2026-10-05",
+        "opponent": "Sweden",
+        "venue": "home",
+        "score": "0-1",
+        "competition": "UNL",
+        "shots_ROU-opp": null,
+        "sot_ROU-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861128/sweden-romania"
+      },
+      {
+        "date": "2026-10-02",
+        "opponent": "Poland",
+        "venue": "away",
+        "score": "0-6",
+        "competition": "UNL",
+        "shots_ROU-opp": "10-24",
+        "sot_ROU-opp": "3-10",
+        "xg": null,
+        "context": "Dragusin red 22' at 0-0; Lewandowski penalty 24'; own goal 49'",
+        "source": "https://www.uefa.com/newsfiles/UNL/2027/2047963_FR.pdf"
+      },
+      {
+        "date": "2026-09-28",
+        "opponent": "Bosnia and Herzegovina",
+        "venue": "home",
+        "score": "2-4",
+        "competition": "UNL",
+        "shots_ROU-opp": null,
+        "sot_ROU-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861078/bosnia-herzegovina-romania"
+      },
+      {
+        "date": "2026-09-25",
+        "opponent": "Sweden",
+        "venue": "away",
+        "score": "1-2",
+        "competition": "UNL",
+        "shots_ROU-opp": null,
+        "sot_ROU-opp": null,
+        "xg": null,
+        "context": null,
+        "source": "https://www.espn.com/soccer/match/_/gameId/401861051/romania-sweden"
+      }
+    ]
+  }
+}

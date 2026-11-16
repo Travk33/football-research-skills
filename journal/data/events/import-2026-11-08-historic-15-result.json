@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-08-historic-15-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-08-historic-15",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.bundesliga.com/en/bundesliga/news/hoffenheim-schalke-match-report-highlights-matchday-9-39951",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "2–1",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.784404Z",
+  "appendedAt": "2026-11-15T09:50:33.787004Z"
+}

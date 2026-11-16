@@ -1,0 +1,3357 @@
+[
+  {
+    "match_id": 5181862,
+    "general": {
+      "matchId": "5181862",
+      "matchName": "Portugal-vs-Wales_Thu, Sep 24, 2026, 18:45 UTC",
+      "matchRound": "1",
+      "teamColors": {
+        "darkMode": {
+          "home": "#ab0027",
+          "away": "#ffffff"
+        },
+        "lightMode": {
+          "home": "#ab0027",
+          "away": "#108878"
+        },
+        "fontDarkMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(29, 29, 29, 1.0)"
+        },
+        "fontLightMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        }
+      },
+      "leagueId": 920742,
+      "leagueName": "UEFA Nations League A Grp. 4",
+      "leagueRoundName": "1",
+      "parentLeagueId": 9806,
+      "countryCode": "INT",
+      "homeTeam": {
+        "name": "Portugal",
+        "id": 8361
+      },
+      "awayTeam": {
+        "name": "Wales",
+        "id": 5790
+      },
+      "coverageLevel": "xG",
+      "matchTimeUTC": "Thu, Sep 24, 2026, 18:45 UTC",
+      "matchTimeUTCDate": "2026-09-24T18:45:00.000Z",
+      "started": true,
+      "finished": true,
+      "gender": "male"
+    },
+    "teams": [
+      {
+        "name": "Portugal",
+        "id": 8361,
+        "score": 1,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_small.png",
+        "pageUrl": "/teams/8361/overview/portugal",
+        "fifaRank": 7
+      },
+      {
+        "name": "Wales",
+        "id": 5790,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5790_small.png",
+        "pageUrl": "/teams/5790/overview/wales",
+        "fifaRank": 38
+      }
+    ],
+    "stats": {
+      "expected_goals": [
+        "1.93",
+        "0.85"
+      ],
+      "total_shots": [
+        23,
+        5
+      ],
+      "ShotsOnTarget": [
+        5,
+        1
+      ],
+      "big_chance": [
+        1,
+        3
+      ],
+      "shots_inside_box": [
+        17,
+        5
+      ],
+      "expected_goals_open_play": [
+        "1.64",
+        "0.80"
+      ],
+      "expected_goals_non_penalty": [
+        "1.93",
+        "0.85"
+      ],
+      "expected_goals_on_target": [
+        "0.86",
+        "0.00"
+      ],
+      "keeper_saves": [
+        0,
+        4
+      ],
+      "duel_won": [
+        39,
+        27
+      ],
+      "red_cards": [
+        0,
+        0
+      ]
+    },
+    "events": {
+      "ongoing": false,
+      "events": [
+        {
+          "reactKey": "1447956622Goal794427undefinedtrue",
+          "timeStr": 22,
+          "type": "Goal",
+          "time": 22,
+          "overloadTime": null,
+          "eventId": 14479566,
+          "player": {
+            "id": 794427,
+            "name": "Joao F\u00e9lix",
+            "profileUrl": "/players/794427/joao-felix"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/794427/joao-felix",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Joao F\u00e9lix",
+          "firstName": "Joao",
+          "lastName": "F\u00e9lix",
+          "fullName": "Joao F\u00e9lix",
+          "playerId": 794427,
+          "newScore": [
+            1,
+            0
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2974379915,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 794427,
+            "playerName": "Joao F\u00e9lix",
+            "x": 81.80922330160001,
+            "y": 32.856249999999996,
+            "min": 22,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 36.36375,
+            "goalCrossedZ": 0.160526315,
+            "expectedGoals": 0.07426533102989197,
+            "expectedGoalsOnTarget": 0.15204469859600067,
+            "shotType": "RightFoot",
+            "situation": "FastBreak",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.37466931216931143,
+              "y": 0.042467279100529096,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": false,
+            "keeperId": 254472,
+            "firstName": "Joao",
+            "lastName": "F\u00e9lix",
+            "fullName": "Joao F\u00e9lix",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Nuno Mendes",
+          "assistProfileUrl": "/players/1158945/nuno-mendes",
+          "assistPlayerId": 1158945,
+          "assistKey": "assist_by",
+          "assistInput": "Nuno Mendes"
+        },
+        {
+          "reactKey": "undefined45HalfNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "Half",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "halfStrShort": "HT",
+          "halfStrKey": "halftime_short"
+        },
+        {
+          "reactKey": "1447967959VAR30893undefinedtrue",
+          "timeStr": 59,
+          "type": "VAR",
+          "time": 59,
+          "overloadTime": null,
+          "eventId": 14479679,
+          "player": {
+            "id": 30893,
+            "name": "Cristiano Ronaldo",
+            "profileUrl": "/players/30893/cristiano-ronaldo"
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "/players/30893/cristiano-ronaldo",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Cristiano Ronaldo",
+          "VAR": {
+            "pendingDecision": false,
+            "decision": {
+              "key": [
+                "var_goal_cancelled",
+                "offside"
+              ],
+              "value": [
+                "Goal ruled out",
+                "offside"
+              ]
+            }
+          }
+        },
+        {
+          "reactKey": "undefined63SubstitutionNaN717176false",
+          "timeStr": 63,
+          "type": "Substitution",
+          "time": 63,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Daniel James",
+              "id": "717176",
+              "profileUrl": "/players/717176/daniel-james"
+            },
+            {
+              "name": "David Brooks",
+              "id": "674014",
+              "profileUrl": "/players/674014/david-brooks"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined67SubstitutionNaN524434true",
+          "timeStr": 67,
+          "type": "Substitution",
+          "time": 67,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Jo\u00e3o Palhinha",
+              "id": "524434",
+              "profileUrl": "/players/524434/joao-palhinha"
+            },
+            {
+              "name": "R\u00faben Neves",
+              "id": "534684",
+              "profileUrl": "/players/534684/ruben-neves"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined67SubstitutionNaN940087true",
+          "timeStr": 67,
+          "type": "Substitution",
+          "time": 67,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Gon\u00e7alo Ramos",
+              "id": "940087",
+              "profileUrl": "/players/940087/goncalo-ramos"
+            },
+            {
+              "name": "Cristiano Ronaldo",
+              "id": "30893",
+              "profileUrl": "/players/30893/cristiano-ronaldo"
+            }
+          ]
+        },
+        {
+          "reactKey": "1447994468Card33781undefinedfalse",
+          "timeStr": 68,
+          "type": "Card",
+          "time": 68,
+          "overloadTime": null,
+          "eventId": 14479944,
+          "player": {
+            "id": 33781,
+            "name": "Craig Bellamy",
+            "profileUrl": "/players/33781/craig-bellamy"
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "/players/33781/craig-bellamy",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Craig Bellamy",
+          "firstName": "Craig",
+          "lastName": "Bellamy",
+          "fullName": "Craig Bellamy",
+          "playerId": 33781,
+          "card": "Yellow",
+          "cardDescription": {
+            "localizedKey": "coach",
+            "defaultText": "Coach"
+          },
+          "cardReason": null
+        },
+        {
+          "reactKey": "undefined71SubstitutionNaN819762false",
+          "timeStr": 71,
+          "type": "Substitution",
+          "time": 71,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": true,
+          "swap": [
+            {
+              "name": "Chris Mepham",
+              "id": "819762",
+              "profileUrl": "/players/819762/chris-mepham"
+            },
+            {
+              "name": "Ben Cabango",
+              "id": "948555",
+              "profileUrl": "/players/948555/ben-cabango"
+            }
+          ]
+        },
+        {
+          "reactKey": "1447974871Card948555undefinedfalse",
+          "timeStr": 71,
+          "type": "Card",
+          "time": 71,
+          "overloadTime": null,
+          "eventId": 14479748,
+          "player": {
+            "id": 948555,
+            "name": "Ben Cabango",
+            "profileUrl": "/players/948555/ben-cabango"
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "/players/948555/ben-cabango",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Ben Cabango",
+          "firstName": "Ben",
+          "lastName": "Cabango",
+          "fullName": "Ben Cabango",
+          "playerId": 948555,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": null
+        },
+        {
+          "reactKey": "undefined77SubstitutionNaN469202false",
+          "timeStr": 77,
+          "type": "Substitution",
+          "time": 77,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Kieffer Moore",
+              "id": "469202",
+              "profileUrl": "/players/469202/kieffer-moore"
+            },
+            {
+              "name": "Lewis Koumas",
+              "id": "1364042",
+              "profileUrl": "/players/1364042/lewis-koumas"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined77SubstitutionNaN812982false",
+          "timeStr": 77,
+          "type": "Substitution",
+          "time": 77,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Sorba Thomas",
+              "id": "812982",
+              "profileUrl": "/players/812982/sorba-thomas"
+            },
+            {
+              "name": "Jordan James",
+              "id": "1310975",
+              "profileUrl": "/players/1310975/jordan-james"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined78SubstitutionNaN957118true",
+          "timeStr": 78,
+          "type": "Substitution",
+          "time": 78,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Nuno Tavares",
+              "id": "957118",
+              "profileUrl": "/players/957118/nuno-tavares"
+            },
+            {
+              "name": "Nuno Mendes",
+              "id": "1158945",
+              "profileUrl": "/players/1158945/nuno-mendes"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90SubstitutionNaN751550true",
+          "timeStr": 90,
+          "type": "Substitution",
+          "time": 90,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Diogo Dalot",
+              "id": "751550",
+              "profileUrl": "/players/751550/diogo-dalot"
+            },
+            {
+              "name": "Jo\u00e3o Cancelo",
+              "id": "361757",
+              "profileUrl": "/players/361757/joao-cancelo"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90SubstitutionNaN1342757true",
+          "timeStr": 90,
+          "type": "Substitution",
+          "time": 90,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Jo\u00e3o Neves",
+              "id": "1342757",
+              "profileUrl": "/players/1342757/joao-neves"
+            },
+            {
+              "name": "Bruno Fernandes",
+              "id": "422685",
+              "profileUrl": "/players/422685/bruno-fernandes"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90AddedTimeNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "AddedTime",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "minutesAddedStr": "+ 5 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 5
+        },
+        {
+          "reactKey": "undefined90HalfNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "Half",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 0,
+          "halfStrShort": "FT",
+          "halfStrKey": "fulltime_short"
+        }
+      ],
+      "eventTypes": [
+        "Goal",
+        "Assist",
+        "Half",
+        "VAR",
+        "Substitution",
+        "Card",
+        "AddedTime",
+        "Yellow"
+      ],
+      "penaltyShootoutEvents": null
+    },
+    "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181862",
+    "observed_at": "2026-11-14T21:57:31.969359+00:00"
+  },
+  {
+    "match_id": 5181864,
+    "general": {
+      "matchId": "5181864",
+      "matchName": "Norway-vs-Portugal_Sun, Sep 27, 2026, 18:45 UTC",
+      "matchRound": "2",
+      "teamColors": {
+        "darkMode": {
+          "home": "#b53032",
+          "away": "#2a6749"
+        },
+        "lightMode": {
+          "home": "#b53032",
+          "away": "#236043"
+        },
+        "fontDarkMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        },
+        "fontLightMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        }
+      },
+      "leagueId": 920742,
+      "leagueName": "UEFA Nations League A Grp. 4",
+      "leagueRoundName": "2",
+      "parentLeagueId": 9806,
+      "countryCode": "INT",
+      "homeTeam": {
+        "name": "Norway",
+        "id": 8492
+      },
+      "awayTeam": {
+        "name": "Portugal",
+        "id": 8361
+      },
+      "coverageLevel": "xG",
+      "matchTimeUTC": "Sun, Sep 27, 2026, 18:45 UTC",
+      "matchTimeUTCDate": "2026-09-27T18:45:00.000Z",
+      "started": true,
+      "finished": true,
+      "gender": "male"
+    },
+    "teams": [
+      {
+        "name": "Norway",
+        "id": 8492,
+        "score": 1,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8492_small.png",
+        "pageUrl": "/teams/8492/overview/norway",
+        "fifaRank": 19
+      },
+      {
+        "name": "Portugal",
+        "id": 8361,
+        "score": 2,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_small.png",
+        "pageUrl": "/teams/8361/overview/portugal",
+        "fifaRank": 7
+      }
+    ],
+    "stats": {
+      "expected_goals": [
+        "2.52",
+        "1.04"
+      ],
+      "total_shots": [
+        22,
+        12
+      ],
+      "ShotsOnTarget": [
+        6,
+        4
+      ],
+      "big_chance": [
+        6,
+        3
+      ],
+      "shots_inside_box": [
+        16,
+        7
+      ],
+      "expected_goals_open_play": [
+        "0.98",
+        "0.90"
+      ],
+      "expected_goals_non_penalty": [
+        "2.52",
+        "1.04"
+      ],
+      "expected_goals_on_target": [
+        "3.25",
+        "0.99"
+      ],
+      "keeper_saves": [
+        2,
+        5
+      ],
+      "duel_won": [
+        63,
+        44
+      ],
+      "red_cards": [
+        0,
+        0
+      ]
+    },
+    "events": {
+      "ongoing": false,
+      "events": [
+        {
+          "reactKey": "1449726616Card659272undefinedtrue",
+          "timeStr": 16,
+          "type": "Card",
+          "time": 16,
+          "overloadTime": null,
+          "eventId": 14497266,
+          "player": {
+            "id": 659272,
+            "name": "Julian Ryerson",
+            "profileUrl": "/players/659272/julian-ryerson"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/659272/julian-ryerson",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Julian Ryerson",
+          "firstName": "Julian",
+          "lastName": "Ryerson",
+          "fullName": "Julian Ryerson",
+          "playerId": 659272,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "1449727017Goal794427undefinedfalse",
+          "timeStr": 17,
+          "type": "Goal",
+          "time": 17,
+          "overloadTime": null,
+          "eventId": 14497270,
+          "player": {
+            "id": 794427,
+            "name": "Joao F\u00e9lix",
+            "profileUrl": "/players/794427/joao-felix"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/794427/joao-felix",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Joao F\u00e9lix",
+          "firstName": "Joao",
+          "lastName": "F\u00e9lix",
+          "fullName": "Joao F\u00e9lix",
+          "playerId": 794427,
+          "newScore": [
+            0,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2975557585,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 794427,
+            "playerName": "Joao F\u00e9lix",
+            "x": 88.8,
+            "y": 32.551249999999996,
+            "min": 17,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 36.745000000000005,
+            "goalCrossedZ": 0.0834736838,
+            "expectedGoals": 0.05298977717757225,
+            "expectedGoalsOnTarget": 0.6042226552963257,
+            "shotType": "RightFoot",
+            "situation": "RegularPlay",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.2738095238095226,
+              "y": 0.02208298513227513,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 73409,
+            "firstName": "Joao",
+            "lastName": "F\u00e9lix",
+            "fullName": "Joao F\u00e9lix",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Pedro Neto",
+          "assistProfileUrl": "/players/843040/pedro-neto",
+          "assistPlayerId": 843040,
+          "assistKey": "assist_by",
+          "assistInput": "Pedro Neto"
+        },
+        {
+          "reactKey": "1449727820Card159073undefinedfalse",
+          "timeStr": 20,
+          "type": "Card",
+          "time": 20,
+          "overloadTime": null,
+          "eventId": 14497278,
+          "player": {
+            "id": 159073,
+            "name": "Jorge Jesus",
+            "profileUrl": "/players/159073/jorge-jesus"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/159073/jorge-jesus",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Jorge Jesus",
+          "firstName": "Jorge",
+          "lastName": "Jesus",
+          "fullName": "Jorge Jesus",
+          "playerId": 159073,
+          "card": "Yellow",
+          "cardDescription": {
+            "localizedKey": "coach",
+            "defaultText": "Coach"
+          },
+          "cardReason": {
+            "localizedKey": "card_desc_dissent",
+            "defaultText": "Dissent"
+          }
+        },
+        {
+          "reactKey": "undefined45AddedTimeNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "AddedTime",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "minutesAddedStr": "+ 2 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 2
+        },
+        {
+          "reactKey": "undefined45HalfNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "Half",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "halfStrShort": "HT",
+          "halfStrKey": "halftime_short"
+        },
+        {
+          "reactKey": "1449751647Card310768undefinedtrue",
+          "timeStr": 47,
+          "type": "Card",
+          "time": 47,
+          "overloadTime": null,
+          "eventId": 14497516,
+          "player": {
+            "id": 310768,
+            "name": "Fredrik Aursnes",
+            "profileUrl": "/players/310768/fredrik-aursnes"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/310768/fredrik-aursnes",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Fredrik Aursnes",
+          "firstName": "Fredrik",
+          "lastName": "Aursnes",
+          "fullName": "Fredrik Aursnes",
+          "playerId": 310768,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "1449752049Card524434undefinedfalse",
+          "timeStr": 49,
+          "type": "Card",
+          "time": 49,
+          "overloadTime": null,
+          "eventId": 14497520,
+          "player": {
+            "id": 524434,
+            "name": "Jo\u00e3o Palhinha",
+            "profileUrl": "/players/524434/joao-palhinha"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/524434/joao-palhinha",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Jo\u00e3o Palhinha",
+          "firstName": "Jo\u00e3o",
+          "lastName": "Palhinha",
+          "fullName": "Jo\u00e3o Palhinha",
+          "playerId": 524434,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "1449752551Goal737066undefinedtrue",
+          "timeStr": 51,
+          "type": "Goal",
+          "time": 51,
+          "overloadTime": null,
+          "eventId": 14497525,
+          "player": {
+            "id": 737066,
+            "name": "Erling Haaland",
+            "profileUrl": "/players/737066/erling-haaland"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/737066/erling-haaland",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Erling Haaland",
+          "firstName": "Erling",
+          "lastName": "Haaland",
+          "fullName": "Erling Haaland",
+          "playerId": 737066,
+          "newScore": [
+            1,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2975589581,
+            "eventType": "Goal",
+            "teamId": 8492,
+            "playerId": 737066,
+            "playerName": "Erling Haaland",
+            "x": 101.3965517244,
+            "y": 32.9325,
+            "min": 51,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 34.7625,
+            "goalCrossedZ": 0.2439999988,
+            "expectedGoals": 0.7232944965362549,
+            "expectedGoalsOnTarget": 0.9550886154174805,
+            "shotType": "LeftFoot",
+            "situation": "SetPiece",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.7982804232804226,
+              "y": 0.06455026423280423,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 795630,
+            "firstName": "Erling",
+            "lastName": "Haaland",
+            "fullName": "Erling Haaland",
+            "teamColor": "#b53032"
+          },
+          "assistStr": "assist by Patrick Berg",
+          "assistProfileUrl": "/players/530635/patrick-berg",
+          "assistPlayerId": 530635,
+          "assistKey": "assist_by",
+          "assistInput": "Patrick Berg"
+        },
+        {
+          "reactKey": "1449754154Goal940087undefinedfalse",
+          "timeStr": 54,
+          "type": "Goal",
+          "time": 54,
+          "overloadTime": null,
+          "eventId": 14497541,
+          "player": {
+            "id": 940087,
+            "name": "Gon\u00e7alo Ramos",
+            "profileUrl": "/players/940087/goncalo-ramos"
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "/players/940087/goncalo-ramos",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Gon\u00e7alo Ramos",
+          "firstName": "Gon\u00e7alo",
+          "lastName": "Ramos",
+          "fullName": "Gon\u00e7alo Ramos",
+          "playerId": 940087,
+          "newScore": [
+            1,
+            2
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2975591285,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 940087,
+            "playerName": "Gon\u00e7alo Ramos",
+            "x": 79.55679611760002,
+            "y": 35.9825,
+            "min": 54,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 35.220000000000006,
+            "goalCrossedZ": 1.2199999940000001,
+            "expectedGoals": 0.041380736976861954,
+            "expectedGoalsOnTarget": 0.060581352561712265,
+            "shotType": "RightFoot",
+            "situation": "RegularPlay",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.6772486772486757,
+              "y": 0.32275132116402117,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": false,
+            "keeperId": 73409,
+            "firstName": "Gon\u00e7alo",
+            "lastName": "Ramos",
+            "fullName": "Gon\u00e7alo Ramos",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": null,
+          "assistProfileUrl": null
+        },
+        {
+          "reactKey": "undefined55SubstitutionNaN848844false",
+          "timeStr": 55,
+          "type": "Substitution",
+          "time": 55,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Rafael Le\u00e3o",
+              "id": "848844",
+              "profileUrl": "/players/848844/rafael-leao"
+            },
+            {
+              "name": "Francisco Concei\u00e7\u00e3o",
+              "id": "1185336",
+              "profileUrl": "/players/1185336/francisco-conceicao"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined55SubstitutionNaN1061249false",
+          "timeStr": 55,
+          "type": "Substitution",
+          "time": 55,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "V\u00edtinha",
+              "id": "1061249",
+              "profileUrl": "/players/1061249/vitinha"
+            },
+            {
+              "name": "Jo\u00e3o Neves",
+              "id": "1342757",
+              "profileUrl": "/players/1342757/joao-neves"
+            }
+          ]
+        },
+        {
+          "reactKey": "1449756258VAR940087undefinedfalse",
+          "timeStr": 58,
+          "type": "VAR",
+          "time": 58,
+          "overloadTime": null,
+          "eventId": 14497562,
+          "player": {
+            "id": 940087,
+            "name": "Gon\u00e7alo Ramos",
+            "profileUrl": "/players/940087/goncalo-ramos"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/940087/goncalo-ramos",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Gon\u00e7alo Ramos",
+          "VAR": {
+            "pendingDecision": false,
+            "decision": {
+              "key": [
+                "var_goal_cancelled",
+                "offside"
+              ],
+              "value": [
+                "Goal ruled out",
+                "offside"
+              ]
+            }
+          }
+        },
+        {
+          "reactKey": "1449761765Card552718undefinedtrue",
+          "timeStr": 65,
+          "type": "Card",
+          "time": 65,
+          "overloadTime": null,
+          "eventId": 14497617,
+          "player": {
+            "id": 552718,
+            "name": "Kristoffer Ajer",
+            "profileUrl": "/players/552718/kristoffer-ajer"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/552718/kristoffer-ajer",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Kristoffer Ajer",
+          "firstName": "Kristoffer",
+          "lastName": "Ajer",
+          "fullName": "Kristoffer Ajer",
+          "playerId": 552718,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined66SubstitutionNaN740944true",
+          "timeStr": 66,
+          "type": "Substitution",
+          "time": 66,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": true,
+          "swap": [
+            {
+              "name": "Leo \u00d8stigard",
+              "id": "740944",
+              "profileUrl": "/players/740944/leo-ostigard"
+            },
+            {
+              "name": "Julian Ryerson",
+              "id": "659272",
+              "profileUrl": "/players/659272/julian-ryerson"
+            }
+          ]
+        },
+        {
+          "reactKey": "1449763967Card1343750undefinedfalse",
+          "timeStr": 67,
+          "type": "Card",
+          "time": 67,
+          "overloadTime": null,
+          "eventId": 14497639,
+          "player": {
+            "id": 1343750,
+            "name": "Renato Veiga",
+            "profileUrl": "/players/1343750/renato-veiga"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/1343750/renato-veiga",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Renato Veiga",
+          "firstName": "Renato",
+          "lastName": "Veiga",
+          "fullName": "Renato Veiga",
+          "playerId": 1343750,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined72SubstitutionNaN1113790true",
+          "timeStr": 72,
+          "type": "Substitution",
+          "time": 72,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Oscar Bobb",
+              "id": "1113790",
+              "profileUrl": "/players/1113790/oscar-bobb"
+            },
+            {
+              "name": "Patrick Berg",
+              "id": "530635",
+              "profileUrl": "/players/530635/patrick-berg"
+            }
+          ]
+        },
+        {
+          "reactKey": "1449769876Card1061249undefinedfalse",
+          "timeStr": 76,
+          "type": "Card",
+          "time": 76,
+          "overloadTime": null,
+          "eventId": 14497698,
+          "player": {
+            "id": 1061249,
+            "name": "V\u00edtinha",
+            "profileUrl": "/players/1061249/vitinha"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/1061249/vitinha",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "V\u00edtinha",
+          "firstName": "",
+          "lastName": "V\u00edtinha",
+          "fullName": "V\u00edtinha",
+          "playerId": 1061249,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_time_wasting",
+            "defaultText": "Time wasting"
+          }
+        },
+        {
+          "reactKey": "1449770676Card361757undefinedfalse",
+          "timeStr": 76,
+          "type": "Card",
+          "time": 76,
+          "overloadTime": null,
+          "eventId": 14497706,
+          "player": {
+            "id": 361757,
+            "name": "Jo\u00e3o Cancelo",
+            "profileUrl": "/players/361757/joao-cancelo"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/361757/joao-cancelo",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Jo\u00e3o Cancelo",
+          "firstName": "Jo\u00e3o",
+          "lastName": "Cancelo",
+          "fullName": "Jo\u00e3o Cancelo",
+          "playerId": 361757,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined81SubstitutionNaN732282false",
+          "timeStr": 81,
+          "type": "Substitution",
+          "time": 81,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Trinc\u00e3o",
+              "id": "732282",
+              "profileUrl": "/players/732282/trincao"
+            },
+            {
+              "name": "Gon\u00e7alo Ramos",
+              "id": "940087",
+              "profileUrl": "/players/940087/goncalo-ramos"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined81SubstitutionNaN534684false",
+          "timeStr": 81,
+          "type": "Substitution",
+          "time": 81,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "R\u00faben Neves",
+              "id": "534684",
+              "profileUrl": "/players/534684/ruben-neves"
+            },
+            {
+              "name": "Jo\u00e3o Palhinha",
+              "id": "524434",
+              "profileUrl": "/players/524434/joao-palhinha"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined81SubstitutionNaN821100true",
+          "timeStr": 81,
+          "type": "Substitution",
+          "time": 81,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "J\u00f8rgen Strand Larsen",
+              "id": "821100",
+              "profileUrl": "/players/821100/jorgen-strand-larsen"
+            },
+            {
+              "name": "Antonio Nusa",
+              "id": "1248482",
+              "profileUrl": "/players/1248482/antonio-nusa"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined87SubstitutionNaN488139false",
+          "timeStr": 87,
+          "type": "Substitution",
+          "time": 87,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Bernardo Silva",
+              "id": "488139",
+              "profileUrl": "/players/488139/bernardo-silva"
+            },
+            {
+              "name": "Pedro Neto",
+              "id": "843040",
+              "profileUrl": "/players/843040/pedro-neto"
+            }
+          ]
+        },
+        {
+          "reactKey": "1449780688Card614006undefinedfalse",
+          "timeStr": 88,
+          "type": "Card",
+          "time": 88,
+          "overloadTime": null,
+          "eventId": 14497806,
+          "player": {
+            "id": 614006,
+            "name": "R\u00faben Dias",
+            "profileUrl": "/players/614006/ruben-dias"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/614006/ruben-dias",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "R\u00faben Dias",
+          "firstName": "R\u00faben",
+          "lastName": "Dias",
+          "fullName": "R\u00faben Dias",
+          "playerId": 614006,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": null
+        },
+        {
+          "reactKey": "undefined90AddedTimeNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "AddedTime",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "minutesAddedStr": "+ 6 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 6
+        },
+        {
+          "reactKey": "1449784690Card488139undefinedfalse",
+          "timeStr": "90 + 4",
+          "type": "Card",
+          "time": 90,
+          "overloadTime": 4,
+          "eventId": 14497846,
+          "player": {
+            "id": 488139,
+            "name": "Bernardo Silva",
+            "profileUrl": "/players/488139/bernardo-silva"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/488139/bernardo-silva",
+          "overloadTimeStr": "+4",
+          "isHome": false,
+          "nameStr": "Bernardo Silva",
+          "firstName": "Bernardo",
+          "lastName": "Silva",
+          "fullName": "Bernardo Silva",
+          "playerId": 488139,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined90HalfNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "Half",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "halfStrShort": "FT",
+          "halfStrKey": "fulltime_short"
+        }
+      ],
+      "eventTypes": [
+        "Card",
+        "Goal",
+        "Assist",
+        "AddedTime",
+        "Half",
+        "Substitution",
+        "VAR",
+        "Yellow"
+      ],
+      "penaltyShootoutEvents": null
+    },
+    "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181864",
+    "observed_at": "2026-11-14T21:57:32.010796+00:00"
+  },
+  {
+    "match_id": 5181865,
+    "general": {
+      "matchId": "5181865",
+      "matchName": "Denmark-vs-Portugal_Thu, Oct 1, 2026, 18:45 UTC",
+      "matchRound": "3",
+      "teamColors": {
+        "darkMode": {
+          "home": "#D2151A",
+          "away": "#2a6749"
+        },
+        "lightMode": {
+          "home": "#D2151A",
+          "away": "#236043"
+        },
+        "fontDarkMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        },
+        "fontLightMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        }
+      },
+      "leagueId": 920742,
+      "leagueName": "UEFA Nations League A Grp. 4",
+      "leagueRoundName": "3",
+      "parentLeagueId": 9806,
+      "countryCode": "INT",
+      "homeTeam": {
+        "name": "Denmark",
+        "id": 8238
+      },
+      "awayTeam": {
+        "name": "Portugal",
+        "id": 8361
+      },
+      "coverageLevel": "xG",
+      "matchTimeUTC": "Thu, Oct 1, 2026, 18:45 UTC",
+      "matchTimeUTCDate": "2026-10-01T18:45:00.000Z",
+      "started": true,
+      "finished": true,
+      "gender": "male"
+    },
+    "teams": [
+      {
+        "name": "Denmark",
+        "id": 8238,
+        "score": 2,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8238_small.png",
+        "pageUrl": "/teams/8238/overview/denmark",
+        "fifaRank": 21
+      },
+      {
+        "name": "Portugal",
+        "id": 8361,
+        "score": 4,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_small.png",
+        "pageUrl": "/teams/8361/overview/portugal",
+        "fifaRank": 7
+      }
+    ],
+    "stats": {
+      "expected_goals": [
+        "0.76",
+        "2.25"
+      ],
+      "total_shots": [
+        12,
+        19
+      ],
+      "ShotsOnTarget": [
+        3,
+        10
+      ],
+      "big_chance": [
+        1,
+        6
+      ],
+      "shots_inside_box": [
+        5,
+        13
+      ],
+      "expected_goals_open_play": [
+        "0.74",
+        "1.97"
+      ],
+      "expected_goals_non_penalty": [
+        "0.76",
+        "2.25"
+      ],
+      "expected_goals_on_target": [
+        "0.98",
+        "3.36"
+      ],
+      "keeper_saves": [
+        6,
+        1
+      ],
+      "duel_won": [
+        44,
+        29
+      ],
+      "red_cards": [
+        0,
+        0
+      ]
+    },
+    "events": {
+      "ongoing": false,
+      "events": [
+        {
+          "reactKey": "1450668513Goal361757undefinedfalse",
+          "timeStr": 13,
+          "type": "Goal",
+          "time": 13,
+          "overloadTime": null,
+          "eventId": 14506685,
+          "player": {
+            "id": 361757,
+            "name": "Jo\u00e3o Cancelo",
+            "profileUrl": "/players/361757/joao-cancelo"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/361757/joao-cancelo",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Jo\u00e3o Cancelo",
+          "firstName": "Jo\u00e3o",
+          "lastName": "Cancelo",
+          "fullName": "Jo\u00e3o Cancelo",
+          "playerId": 361757,
+          "newScore": [
+            0,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976469633,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 361757,
+            "playerName": "Jo\u00e3o Cancelo",
+            "x": 96.2192982446,
+            "y": 37.50750000000001,
+            "min": 13,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 36.51625,
+            "goalCrossedZ": 0.160526315,
+            "expectedGoals": 0.14118050038814545,
+            "expectedGoalsOnTarget": 0.37291640043258667,
+            "shotType": "RightFoot",
+            "situation": "RegularPlay",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.33432539682539697,
+              "y": 0.042467279100529096,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 967941,
+            "firstName": "Jo\u00e3o",
+            "lastName": "Cancelo",
+            "fullName": "Jo\u00e3o Cancelo",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Gon\u00e7alo Ramos",
+          "assistProfileUrl": "/players/940087/goncalo-ramos",
+          "assistPlayerId": 940087,
+          "assistKey": "assist_by",
+          "assistInput": "Gon\u00e7alo Ramos"
+        },
+        {
+          "reactKey": "1450671923Goal888912undefinedtrue",
+          "timeStr": 23,
+          "type": "Goal",
+          "time": 23,
+          "overloadTime": null,
+          "eventId": 14506719,
+          "player": {
+            "id": 888912,
+            "name": "Mikkel Damsgaard",
+            "profileUrl": "/players/888912/mikkel-damsgaard"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/888912/mikkel-damsgaard",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Mikkel Damsgaard",
+          "firstName": "Mikkel",
+          "lastName": "Damsgaard",
+          "fullName": "Mikkel Damsgaard",
+          "playerId": 888912,
+          "newScore": [
+            1,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976473383,
+            "eventType": "Goal",
+            "teamId": 8238,
+            "playerId": 888912,
+            "playerName": "Mikkel Damsgaard",
+            "x": 90.9,
+            "y": 46.2428025441,
+            "min": 23,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 30.873749999999998,
+            "goalCrossedZ": 1.2585263096000001,
+            "expectedGoals": 0.0401308573782444,
+            "expectedGoalsOnTarget": 0.6287201642990112,
+            "shotType": "RightFoot",
+            "situation": "RegularPlay",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 1.8270502645502642,
+              "y": 0.3329434681481482,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 795630,
+            "firstName": "Mikkel",
+            "lastName": "Damsgaard",
+            "fullName": "Mikkel Damsgaard",
+            "teamColor": "#D2151A"
+          },
+          "assistStr": "assist by Joakim M\u00e6hle",
+          "assistProfileUrl": "/players/759097/joakim-maehle",
+          "assistPlayerId": 759097,
+          "assistKey": "assist_by",
+          "assistInput": "Joakim M\u00e6hle"
+        },
+        {
+          "reactKey": "1450672425Goal940087undefinedfalse",
+          "timeStr": 25,
+          "type": "Goal",
+          "time": 25,
+          "overloadTime": null,
+          "eventId": 14506724,
+          "player": {
+            "id": 940087,
+            "name": "Gon\u00e7alo Ramos",
+            "profileUrl": "/players/940087/goncalo-ramos"
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "/players/940087/goncalo-ramos",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Gon\u00e7alo Ramos",
+          "firstName": "Gon\u00e7alo",
+          "lastName": "Ramos",
+          "fullName": "Gon\u00e7alo Ramos",
+          "playerId": 940087,
+          "newScore": [
+            1,
+            2
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976474197,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 940087,
+            "playerName": "Gon\u00e7alo Ramos",
+            "x": 94.1929824545,
+            "y": 41.483437499999994,
+            "min": 25,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 36.8975,
+            "goalCrossedZ": 0.160526315,
+            "expectedGoals": 0.3432961702346802,
+            "expectedGoalsOnTarget": 0.8118943572044373,
+            "shotType": "LeftFoot",
+            "situation": "RegularPlay",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.23346560846560827,
+              "y": 0.042467279100529096,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 967941,
+            "firstName": "Gon\u00e7alo",
+            "lastName": "Ramos",
+            "fullName": "Gon\u00e7alo Ramos",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Bruno Fernandes",
+          "assistProfileUrl": "/players/422685/bruno-fernandes",
+          "assistPlayerId": 422685,
+          "assistKey": "assist_by",
+          "assistInput": "Bruno Fernandes"
+        },
+        {
+          "reactKey": "undefined45AddedTimeNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "AddedTime",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "minutesAddedStr": "+ 1 minute added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 1
+        },
+        {
+          "reactKey": "undefined45HalfNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "Half",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "halfStrShort": "HT",
+          "halfStrKey": "halftime_short"
+        },
+        {
+          "reactKey": "undefined46SubstitutionNaN1016093true",
+          "timeStr": 46,
+          "type": "Substitution",
+          "time": 46,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Gustav Isaksen",
+              "id": "1016093",
+              "profileUrl": "/players/1016093/gustav-isaksen"
+            },
+            {
+              "name": "Adam Daghim",
+              "id": "1353000",
+              "profileUrl": "/players/1353000/adam-daghim"
+            }
+          ]
+        },
+        {
+          "reactKey": "1450682553Goal1199272undefinedtrue",
+          "timeStr": 53,
+          "type": "Goal",
+          "time": 53,
+          "overloadTime": null,
+          "eventId": 14506825,
+          "player": {
+            "id": 1199272,
+            "name": "Rasmus H\u00f8jlund",
+            "profileUrl": "/players/1199272/rasmus-hojlund"
+          },
+          "homeScore": 1,
+          "awayScore": 2,
+          "profileUrl": "/players/1199272/rasmus-hojlund",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Rasmus H\u00f8jlund",
+          "firstName": "Rasmus",
+          "lastName": "H\u00f8jlund",
+          "fullName": "Rasmus H\u00f8jlund",
+          "playerId": 1199272,
+          "newScore": [
+            2,
+            2
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976487359,
+            "eventType": "Goal",
+            "teamId": 8238,
+            "playerId": 1199272,
+            "playerName": "Rasmus H\u00f8jlund",
+            "x": 93.3,
+            "y": 41.225952381,
+            "min": 53,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 33.77125,
+            "goalCrossedZ": 0.6934736808,
+            "expectedGoals": 0.3324606418609619,
+            "expectedGoalsOnTarget": 0.29877302050590515,
+            "shotType": "LeftFoot",
+            "situation": "FastBreak",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 1.0605158730158726,
+              "y": 0.18345864571428572,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 795630,
+            "firstName": "Rasmus",
+            "lastName": "H\u00f8jlund",
+            "fullName": "Rasmus H\u00f8jlund",
+            "teamColor": "#D2151A"
+          },
+          "assistStr": "assist by Mikkel Damsgaard",
+          "assistProfileUrl": "/players/888912/mikkel-damsgaard",
+          "assistPlayerId": 888912,
+          "assistKey": "assist_by",
+          "assistInput": "Mikkel Damsgaard"
+        },
+        {
+          "reactKey": "undefined63SubstitutionNaN751550false",
+          "timeStr": 63,
+          "type": "Substitution",
+          "time": 63,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Diogo Dalot",
+              "id": "751550",
+              "profileUrl": "/players/751550/diogo-dalot"
+            },
+            {
+              "name": "Jo\u00e3o Cancelo",
+              "id": "361757",
+              "profileUrl": "/players/361757/joao-cancelo"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined63SubstitutionNaN732282false",
+          "timeStr": 63,
+          "type": "Substitution",
+          "time": 63,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 2,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Trinc\u00e3o",
+              "id": "732282",
+              "profileUrl": "/players/732282/trincao"
+            },
+            {
+              "name": "Rafael Le\u00e3o",
+              "id": "848844",
+              "profileUrl": "/players/848844/rafael-leao"
+            }
+          ]
+        },
+        {
+          "reactKey": "1450688467Goal1061249undefinedfalse",
+          "timeStr": 67,
+          "type": "Goal",
+          "time": 67,
+          "overloadTime": null,
+          "eventId": 14506884,
+          "player": {
+            "id": 1061249,
+            "name": "V\u00edtinha",
+            "profileUrl": "/players/1061249/vitinha"
+          },
+          "homeScore": 2,
+          "awayScore": 2,
+          "profileUrl": "/players/1061249/vitinha",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": "Header",
+          "goalDescriptionKey": "header",
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "V\u00edtinha",
+          "firstName": "",
+          "lastName": "V\u00edtinha",
+          "fullName": "V\u00edtinha",
+          "playerId": 1061249,
+          "newScore": [
+            2,
+            3
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976493813,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 1061249,
+            "playerName": "V\u00edtinha",
+            "x": 98.24561403470001,
+            "y": 37.05,
+            "min": 67,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 37.50750000000001,
+            "goalCrossedZ": 0.40452631380000004,
+            "expectedGoals": 0.3435659110546112,
+            "expectedGoalsOnTarget": 0.8755462765693665,
+            "shotType": "Header",
+            "situation": "RegularPlay",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.0720899470899452,
+              "y": 0.10701754333333334,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 967941,
+            "firstName": "",
+            "lastName": "V\u00edtinha",
+            "fullName": "V\u00edtinha",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Bruno Fernandes",
+          "assistProfileUrl": "/players/422685/bruno-fernandes",
+          "assistPlayerId": 422685,
+          "assistKey": "assist_by",
+          "assistInput": "Bruno Fernandes"
+        },
+        {
+          "reactKey": "1450689968Card159073undefinedfalse",
+          "timeStr": 68,
+          "type": "Card",
+          "time": 68,
+          "overloadTime": null,
+          "eventId": 14506899,
+          "player": {
+            "id": 159073,
+            "name": "Jorge Jesus",
+            "profileUrl": "/players/159073/jorge-jesus"
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "/players/159073/jorge-jesus",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "Jorge Jesus",
+          "firstName": "Jorge",
+          "lastName": "Jesus",
+          "fullName": "Jorge Jesus",
+          "playerId": 159073,
+          "card": "Yellow",
+          "cardDescription": {
+            "localizedKey": "coach",
+            "defaultText": "Coach"
+          },
+          "cardReason": {
+            "localizedKey": "card_desc_dissent",
+            "defaultText": "Dissent"
+          }
+        },
+        {
+          "reactKey": "undefined74SubstitutionNaN1436856true",
+          "timeStr": 74,
+          "type": "Substitution",
+          "time": 74,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Victor Froholdt",
+              "id": "1436856",
+              "profileUrl": "/players/1436856/victor-froholdt"
+            },
+            {
+              "name": "Morten Hjulmand",
+              "id": "950199",
+              "profileUrl": "/players/950199/morten-hjulmand"
+            }
+          ]
+        },
+        {
+          "reactKey": "1450697579Card965349undefinedtrue",
+          "timeStr": 79,
+          "type": "Card",
+          "time": 79,
+          "overloadTime": null,
+          "eventId": 14506975,
+          "player": {
+            "id": 965349,
+            "name": "Mohamed Daramy",
+            "profileUrl": "/players/965349/mohamed-daramy"
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "/players/965349/mohamed-daramy",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Mohamed Daramy",
+          "firstName": "Mohamed",
+          "lastName": "Daramy",
+          "fullName": "Mohamed Daramy",
+          "playerId": 965349,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined80SubstitutionNaN869298true",
+          "timeStr": 80,
+          "type": "Substitution",
+          "time": 80,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Nikolas Nartey",
+              "id": "869298",
+              "profileUrl": "/players/869298/nikolas-nartey"
+            },
+            {
+              "name": "Joakim M\u00e6hle",
+              "id": "759097",
+              "profileUrl": "/players/759097/joakim-maehle"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined81SubstitutionNaN794427false",
+          "timeStr": 81,
+          "type": "Substitution",
+          "time": 81,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Jo\u00e3o F\u00e9lix",
+              "id": "794427",
+              "profileUrl": "/players/794427/joao-felix"
+            },
+            {
+              "name": "Pedro Neto",
+              "id": "843040",
+              "profileUrl": "/players/843040/pedro-neto"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined81SubstitutionNaN1342757false",
+          "timeStr": 81,
+          "type": "Substitution",
+          "time": 81,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Jo\u00e3o Neves",
+              "id": "1342757",
+              "profileUrl": "/players/1342757/joao-neves"
+            },
+            {
+              "name": "Gon\u00e7alo Ramos",
+              "id": "940087",
+              "profileUrl": "/players/940087/goncalo-ramos"
+            }
+          ]
+        },
+        {
+          "reactKey": "1450698982Card534684undefinedfalse",
+          "timeStr": 82,
+          "type": "Card",
+          "time": 82,
+          "overloadTime": null,
+          "eventId": 14506989,
+          "player": {
+            "id": 534684,
+            "name": "R\u00faben Neves",
+            "profileUrl": "/players/534684/ruben-neves"
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "/players/534684/ruben-neves",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "nameStr": "R\u00faben Neves",
+          "firstName": "R\u00faben",
+          "lastName": "Neves",
+          "fullName": "R\u00faben Neves",
+          "playerId": 534684,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined85SubstitutionNaN934960true",
+          "timeStr": 85,
+          "type": "Substitution",
+          "time": 85,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": true,
+          "swap": [
+            {
+              "name": "Kasper Waarts H\u00f8gh",
+              "id": "934960",
+              "profileUrl": "/players/934960/kasper-waarts-hogh"
+            },
+            {
+              "name": "Mikkel Damsgaard",
+              "id": "888912",
+              "profileUrl": "/players/888912/mikkel-damsgaard"
+            }
+          ]
+        },
+        {
+          "reactKey": "1450702387Goal794427undefinedfalse",
+          "timeStr": 87,
+          "type": "Goal",
+          "time": 87,
+          "overloadTime": null,
+          "eventId": 14507023,
+          "player": {
+            "id": 794427,
+            "name": "Jo\u00e3o F\u00e9lix",
+            "profileUrl": "/players/794427/joao-felix"
+          },
+          "homeScore": 2,
+          "awayScore": 3,
+          "profileUrl": "/players/794427/joao-felix",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Jo\u00e3o F\u00e9lix",
+          "firstName": "Jo\u00e3o",
+          "lastName": "F\u00e9lix",
+          "fullName": "Jo\u00e3o F\u00e9lix",
+          "playerId": 794427,
+          "newScore": [
+            2,
+            4
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2976502775,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 794427,
+            "playerName": "Joao F\u00e9lix",
+            "x": 93.3,
+            "y": 30.328,
+            "min": 87,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 35.525000000000006,
+            "goalCrossedZ": 1.3419999934,
+            "expectedGoals": 0.14525330066680908,
+            "expectedGoalsOnTarget": 0.6254935264587402,
+            "shotType": "RightFoot",
+            "situation": "RegularPlay",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.5965608465608451,
+              "y": 0.35502645328042326,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 967941,
+            "firstName": "Joao",
+            "lastName": "F\u00e9lix",
+            "fullName": "Joao F\u00e9lix",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Diogo Dalot",
+          "assistProfileUrl": "/players/751550/diogo-dalot",
+          "assistPlayerId": 751550,
+          "assistKey": "assist_by",
+          "assistInput": "Diogo Dalot"
+        },
+        {
+          "reactKey": "undefined90AddedTimeNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "AddedTime",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 4,
+          "minutesAddedStr": "+ 4 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 4
+        },
+        {
+          "reactKey": "undefined90SubstitutionNaN1187283false",
+          "timeStr": "90 + 2",
+          "type": "Substitution",
+          "time": 90,
+          "overloadTime": 2,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 4,
+          "profileUrl": "",
+          "overloadTimeStr": "+2",
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Tom\u00e1s Ara\u00fajo",
+              "id": "1187283",
+              "profileUrl": "/players/1187283/tomas-araujo"
+            },
+            {
+              "name": "Bruno Fernandes",
+              "id": "422685",
+              "profileUrl": "/players/422685/bruno-fernandes"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90HalfNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "Half",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 4,
+          "halfStrShort": "FT",
+          "halfStrKey": "fulltime_short"
+        }
+      ],
+      "eventTypes": [
+        "Goal",
+        "Assist",
+        "AddedTime",
+        "Half",
+        "Substitution",
+        "Card",
+        "Yellow"
+      ],
+      "penaltyShootoutEvents": null
+    },
+    "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181865",
+    "observed_at": "2026-11-14T21:57:31.734345+00:00"
+  },
+  {
+    "match_id": 5181867,
+    "general": {
+      "matchId": "5181867",
+      "matchName": "Portugal-vs-Norway_Sun, Oct 4, 2026, 18:45 UTC",
+      "matchRound": "4",
+      "teamColors": {
+        "darkMode": {
+          "home": "#ab0027",
+          "away": "#f7fafb"
+        },
+        "lightMode": {
+          "home": "#ab0027",
+          "away": "#0F6AB4"
+        },
+        "fontDarkMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(29, 29, 29, 1.0)"
+        },
+        "fontLightMode": {
+          "home": "rgba(255, 255, 255, 1.0)",
+          "away": "rgba(255, 255, 255, 1.0)"
+        }
+      },
+      "leagueId": 920742,
+      "leagueName": "UEFA Nations League A Grp. 4",
+      "leagueRoundName": "4",
+      "parentLeagueId": 9806,
+      "countryCode": "INT",
+      "homeTeam": {
+        "name": "Portugal",
+        "id": 8361
+      },
+      "awayTeam": {
+        "name": "Norway",
+        "id": 8492
+      },
+      "coverageLevel": "xG",
+      "matchTimeUTC": "Sun, Oct 4, 2026, 18:45 UTC",
+      "matchTimeUTCDate": "2026-10-04T18:45:00.000Z",
+      "started": true,
+      "finished": true,
+      "gender": "male"
+    },
+    "teams": [
+      {
+        "name": "Portugal",
+        "id": 8361,
+        "score": 2,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_small.png",
+        "pageUrl": "/teams/8361/overview/portugal",
+        "fifaRank": 7
+      },
+      {
+        "name": "Norway",
+        "id": 8492,
+        "score": 1,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8492_small.png",
+        "pageUrl": "/teams/8492/overview/norway",
+        "fifaRank": 19
+      }
+    ],
+    "stats": {
+      "expected_goals": [
+        "1.78",
+        "0.45"
+      ],
+      "total_shots": [
+        20,
+        9
+      ],
+      "ShotsOnTarget": [
+        7,
+        3
+      ],
+      "big_chance": [
+        2,
+        0
+      ],
+      "shots_inside_box": [
+        11,
+        6
+      ],
+      "expected_goals_open_play": [
+        "1.44",
+        "0.25"
+      ],
+      "expected_goals_non_penalty": [
+        "1.78",
+        "0.45"
+      ],
+      "expected_goals_on_target": [
+        "0.67",
+        "0.18"
+      ],
+      "keeper_saves": [
+        2,
+        5
+      ],
+      "duel_won": [
+        38,
+        33
+      ],
+      "red_cards": [
+        1,
+        0
+      ]
+    },
+    "events": {
+      "ongoing": false,
+      "events": [
+        {
+          "reactKey": "1452574412Card361757undefinedtrue",
+          "timeStr": 12,
+          "type": "Card",
+          "time": 12,
+          "overloadTime": null,
+          "eventId": 14525744,
+          "player": {
+            "id": 361757,
+            "name": "Jo\u00e3o Cancelo",
+            "profileUrl": "/players/361757/joao-cancelo"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/361757/joao-cancelo",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Jo\u00e3o Cancelo",
+          "firstName": "Jo\u00e3o",
+          "lastName": "Cancelo",
+          "fullName": "Jo\u00e3o Cancelo",
+          "playerId": 361757,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "1452585836Goal552718undefinedfalse",
+          "timeStr": 36,
+          "type": "Goal",
+          "time": 36,
+          "overloadTime": null,
+          "eventId": 14525858,
+          "player": {
+            "id": 552718,
+            "name": "Kristoffer Ajer",
+            "profileUrl": "/players/552718/kristoffer-ajer"
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "profileUrl": "/players/552718/kristoffer-ajer",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Kristoffer Ajer",
+          "firstName": "Kristoffer",
+          "lastName": "Ajer",
+          "fullName": "Kristoffer Ajer",
+          "playerId": 552718,
+          "newScore": [
+            0,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2977551949,
+            "eventType": "Goal",
+            "teamId": 8492,
+            "playerId": 552718,
+            "playerName": "Kristoffer Ajer",
+            "x": 87.85588235280001,
+            "y": 17.6234394922,
+            "min": 36,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 36.21125,
+            "goalCrossedZ": 1.3034736778000002,
+            "expectedGoals": 0.01911248452961445,
+            "expectedGoalsOnTarget": 0.09389658272266388,
+            "shotType": "RightFoot",
+            "situation": "SetPiece",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 0.41501322751322767,
+              "y": 0.34483430629629636,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": false,
+            "keeperId": 795630,
+            "firstName": "Kristoffer",
+            "lastName": "Ajer",
+            "fullName": "Kristoffer Ajer",
+            "teamColor": "#b53032"
+          },
+          "assistStr": "assist by Martin \u00d8degaard",
+          "assistProfileUrl": "/players/534670/martin-odegaard",
+          "assistPlayerId": 534670,
+          "assistKey": "assist_by",
+          "assistInput": "Martin \u00d8degaard"
+        },
+        {
+          "eventId": 0,
+          "type": "Comment",
+          "card": null,
+          "cardDescription": null,
+          "cardReason": null,
+          "missedPenaltyOutcome": null,
+          "time": 37,
+          "addedTime": null,
+          "overloadTime": null,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "isHome": false,
+          "isPenaltyShootoutEvent": false,
+          "player": {
+            "id": 0,
+            "name": " ",
+            "profileUrl": ""
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "swap": [
+            {},
+            {}
+          ],
+          "penalty": false,
+          "VAR": null
+        },
+        {
+          "reactKey": "1452587538Goal361757undefinedtrue",
+          "timeStr": 38,
+          "type": "Goal",
+          "time": 38,
+          "overloadTime": null,
+          "eventId": 14525875,
+          "player": {
+            "id": 361757,
+            "name": "Jo\u00e3o Cancelo",
+            "profileUrl": "/players/361757/joao-cancelo"
+          },
+          "homeScore": 0,
+          "awayScore": 1,
+          "profileUrl": "/players/361757/joao-cancelo",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Jo\u00e3o Cancelo",
+          "firstName": "Jo\u00e3o",
+          "lastName": "Cancelo",
+          "fullName": "Jo\u00e3o Cancelo",
+          "playerId": 361757,
+          "newScore": [
+            1,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2977553533,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 361757,
+            "playerName": "Jo\u00e3o Cancelo",
+            "x": 85.9235294112,
+            "y": 30.568749999999998,
+            "min": 38,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 32.70374999999999,
+            "goalCrossedZ": 2.1125263054,
+            "expectedGoals": 0.05170084536075592,
+            "expectedGoalsOnTarget": 0.14081183075904846,
+            "shotType": "RightFoot",
+            "situation": "ThrowInSetPiece",
+            "period": "FirstHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 1.3429232804232825,
+              "y": 0.5588693929629629,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": false,
+            "keeperId": 631757,
+            "firstName": "Jo\u00e3o",
+            "lastName": "Cancelo",
+            "fullName": "Jo\u00e3o Cancelo",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Nuno Mendes",
+          "assistProfileUrl": "/players/1158945/nuno-mendes",
+          "assistPlayerId": 1158945,
+          "assistKey": "assist_by",
+          "assistInput": "Nuno Mendes"
+        },
+        {
+          "reactKey": "undefined45AddedTimeNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "AddedTime",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "minutesAddedStr": "+ 2 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 2
+        },
+        {
+          "reactKey": "undefined45HalfNaNundefinedundefined",
+          "timeStr": 45,
+          "type": "Half",
+          "time": 45,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "halfStrShort": "HT",
+          "halfStrKey": "halftime_short"
+        },
+        {
+          "reactKey": "undefined62SubstitutionNaN751550true",
+          "timeStr": 62,
+          "type": "Substitution",
+          "time": 62,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Diogo Dalot",
+              "id": "751550",
+              "profileUrl": "/players/751550/diogo-dalot"
+            },
+            {
+              "name": "Jo\u00e3o Cancelo",
+              "id": "361757",
+              "profileUrl": "/players/361757/joao-cancelo"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined63SubstitutionNaN534684true",
+          "timeStr": 63,
+          "type": "Substitution",
+          "time": 63,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "R\u00faben Neves",
+              "id": "534684",
+              "profileUrl": "/players/534684/ruben-neves"
+            },
+            {
+              "name": "Jo\u00e3o Palhinha",
+              "id": "524434",
+              "profileUrl": "/players/524434/joao-palhinha"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined67SubstitutionNaN821100false",
+          "timeStr": 67,
+          "type": "Substitution",
+          "time": 67,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": true,
+          "swap": [
+            {
+              "name": "J\u00f8rgen Strand Larsen",
+              "id": "821100",
+              "profileUrl": "/players/821100/jorgen-strand-larsen"
+            },
+            {
+              "name": "Erling Haaland",
+              "id": "737066",
+              "profileUrl": "/players/737066/erling-haaland"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined74SubstitutionNaN1113790false",
+          "timeStr": 74,
+          "type": "Substitution",
+          "time": 74,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Oscar Bobb",
+              "id": "1113790",
+              "profileUrl": "/players/1113790/oscar-bobb"
+            },
+            {
+              "name": "Antonio Nusa",
+              "id": "1248482",
+              "profileUrl": "/players/1248482/antonio-nusa"
+            }
+          ]
+        },
+        {
+          "reactKey": "1452621379Goal940087undefinedtrue",
+          "timeStr": 79,
+          "type": "Goal",
+          "time": 79,
+          "overloadTime": null,
+          "eventId": 14526213,
+          "player": {
+            "id": 940087,
+            "name": "Gon\u00e7alo Ramos",
+            "profileUrl": "/players/940087/goncalo-ramos"
+          },
+          "homeScore": 1,
+          "awayScore": 1,
+          "profileUrl": "/players/940087/goncalo-ramos",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "suffix": null,
+          "suffixKey": null,
+          "isPenaltyShootoutEvent": false,
+          "nameStr": "Gon\u00e7alo Ramos",
+          "firstName": "Gon\u00e7alo",
+          "lastName": "Ramos",
+          "fullName": "Gon\u00e7alo Ramos",
+          "playerId": 940087,
+          "newScore": [
+            2,
+            1
+          ],
+          "penShootoutScore": null,
+          "shotmapEvent": {
+            "id": 2977589803,
+            "eventType": "Goal",
+            "teamId": 8361,
+            "playerId": 940087,
+            "playerName": "Gon\u00e7alo Ramos",
+            "x": 102.629310345,
+            "y": 35.6775,
+            "min": 79,
+            "minAdded": null,
+            "isBlocked": false,
+            "isOnTarget": true,
+            "blockedX": null,
+            "blockedY": null,
+            "goalCrossedY": 32.779999999999994,
+            "goalCrossedZ": 0.2439999988,
+            "expectedGoals": 0.8016804456710815,
+            "expectedGoalsOnTarget": 0.17757442593574524,
+            "shotType": "LeftFoot",
+            "situation": "RegularPlay",
+            "period": "SecondHalf",
+            "isOwnGoal": false,
+            "onGoalShot": {
+              "x": 1.3227513227513243,
+              "y": 0.06455026423280423,
+              "zoomRatio": 1
+            },
+            "isSavedOffLine": false,
+            "isFromInsideBox": true,
+            "keeperId": 631757,
+            "firstName": "Gon\u00e7alo",
+            "lastName": "Ramos",
+            "fullName": "Gon\u00e7alo Ramos",
+            "teamColor": "#ab0027"
+          },
+          "assistStr": "assist by Joao F\u00e9lix",
+          "assistProfileUrl": "/players/794427/joao-felix",
+          "assistPlayerId": 794427,
+          "assistKey": "assist_by",
+          "assistInput": "Joao F\u00e9lix"
+        },
+        {
+          "eventId": 0,
+          "type": "Comment",
+          "card": null,
+          "cardDescription": null,
+          "cardReason": null,
+          "missedPenaltyOutcome": null,
+          "time": 81,
+          "addedTime": null,
+          "overloadTime": null,
+          "ownGoal": null,
+          "goalDescription": null,
+          "goalDescriptionKey": null,
+          "isHome": false,
+          "isPenaltyShootoutEvent": false,
+          "player": {
+            "id": 0,
+            "name": " ",
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "swap": [
+            {},
+            {}
+          ],
+          "penalty": false,
+          "VAR": null
+        },
+        {
+          "reactKey": "undefined86SubstitutionNaN488139true",
+          "timeStr": 86,
+          "type": "Substitution",
+          "time": 86,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Bernardo Silva",
+              "id": "488139",
+              "profileUrl": "/players/488139/bernardo-silva"
+            },
+            {
+              "name": "V\u00edtinha",
+              "id": "1061249",
+              "profileUrl": "/players/1061249/vitinha"
+            }
+          ]
+        },
+        {
+          "reactKey": "1452628786Card1185336undefinedtrue",
+          "timeStr": 86,
+          "type": "Card",
+          "time": 86,
+          "overloadTime": null,
+          "eventId": 14526287,
+          "player": {
+            "id": 1185336,
+            "name": "Francisco Concei\u00e7\u00e3o",
+            "profileUrl": "/players/1185336/francisco-conceicao"
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "/players/1185336/francisco-conceicao",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Francisco Concei\u00e7\u00e3o",
+          "firstName": "Francisco",
+          "lastName": "Concei\u00e7\u00e3o",
+          "fullName": "Francisco Concei\u00e7\u00e3o",
+          "playerId": 1185336,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_time_wasting",
+            "defaultText": "Time wasting"
+          }
+        },
+        {
+          "reactKey": "1452628886Card1185336undefinedtrue",
+          "timeStr": 86,
+          "type": "Card",
+          "time": 86,
+          "overloadTime": null,
+          "eventId": 14526288,
+          "player": {
+            "id": 1185336,
+            "name": "Francisco Concei\u00e7\u00e3o",
+            "profileUrl": "/players/1185336/francisco-conceicao"
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "/players/1185336/francisco-conceicao",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Francisco Concei\u00e7\u00e3o",
+          "firstName": "Francisco",
+          "lastName": "Concei\u00e7\u00e3o",
+          "fullName": "Francisco Concei\u00e7\u00e3o",
+          "playerId": 1185336,
+          "card": "YellowRed",
+          "cardDescription": null,
+          "cardReason": null
+        },
+        {
+          "reactKey": "undefined87SubstitutionNaN1184468false",
+          "timeStr": 87,
+          "type": "Substitution",
+          "time": 87,
+          "overloadTime": 0,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": false,
+          "isHome": false,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Thelo Aasgaard",
+              "id": "1184468",
+              "profileUrl": "/players/1184468/thelo-aasgaard"
+            },
+            {
+              "name": "Patrick Berg",
+              "id": "530635",
+              "profileUrl": "/players/530635/patrick-berg"
+            }
+          ]
+        },
+        {
+          "reactKey": "1452630888Card422685undefinedtrue",
+          "timeStr": 88,
+          "type": "Card",
+          "time": 88,
+          "overloadTime": null,
+          "eventId": 14526308,
+          "player": {
+            "id": 422685,
+            "name": "Bruno Fernandes",
+            "profileUrl": "/players/422685/bruno-fernandes"
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "/players/422685/bruno-fernandes",
+          "overloadTimeStr": false,
+          "isHome": true,
+          "nameStr": "Bruno Fernandes",
+          "firstName": "Bruno",
+          "lastName": "Fernandes",
+          "fullName": "Bruno Fernandes",
+          "playerId": 422685,
+          "card": "Yellow",
+          "cardDescription": null,
+          "cardReason": {
+            "localizedKey": "card_desc_foul",
+            "defaultText": "Foul"
+          }
+        },
+        {
+          "reactKey": "undefined90AddedTimeNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "AddedTime",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "minutesAddedStr": "+ 5 minutes added",
+          "minutesAddedKey": "added_injury_time",
+          "minutesAddedInput": 5
+        },
+        {
+          "reactKey": "undefined90SubstitutionNaN732282true",
+          "timeStr": "90 + 2",
+          "type": "Substitution",
+          "time": 90,
+          "overloadTime": 2,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": "+2",
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Trinc\u00e3o",
+              "id": "732282",
+              "profileUrl": "/players/732282/trincao"
+            },
+            {
+              "name": "Joao F\u00e9lix",
+              "id": "794427",
+              "profileUrl": "/players/794427/joao-felix"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90SubstitutionNaN957118true",
+          "timeStr": "90 + 2",
+          "type": "Substitution",
+          "time": 90,
+          "overloadTime": 2,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "profileUrl": "",
+          "overloadTimeStr": "+2",
+          "isHome": true,
+          "injuredPlayerOut": false,
+          "swap": [
+            {
+              "name": "Nuno Tavares",
+              "id": "957118",
+              "profileUrl": "/players/957118/nuno-tavares"
+            },
+            {
+              "name": "Bruno Fernandes",
+              "id": "422685",
+              "profileUrl": "/players/422685/bruno-fernandes"
+            }
+          ]
+        },
+        {
+          "reactKey": "undefined90HalfNaNundefinedundefined",
+          "timeStr": 90,
+          "type": "Half",
+          "time": 90,
+          "overloadTime": null,
+          "player": {
+            "id": null,
+            "profileUrl": ""
+          },
+          "homeScore": 2,
+          "awayScore": 1,
+          "halfStrShort": "FT",
+          "halfStrKey": "fulltime_short"
+        }
+      ],
+      "eventTypes": [
+        "Card",
+        "Goal",
+        "Assist",
+        "Comment",
+        "AddedTime",
+        "Half",
+        "Substitution",
+        "Yellow",
+        "YellowRed"
+      ],
+      "penaltyShootoutEvents": null
+    },
+    "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181867",
+    "observed_at": "2026-11-14T21:57:31.999446+00:00"
+  }
+]

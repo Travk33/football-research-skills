@@ -1,0 +1,11 @@
+# Market-choice audit — 13 November 2026
+
+The original Iceland winner remained reserve at 1.70; Iceland 5+ corners entered the conditional shortlist at 1.80. The winner had supporting current-cycle chance production, but the pre-match analysis also identified Bulgaria's home creation and Iceland's weak attacking match at Estonia. Corners had 3/4 overall hits and 3/4 opponent concessions, but each relevant venue split was 1/2. Iceland's prior 3–0 Luxembourg win with only two corners was an explicit counterexample.
+
+The missing decision was a direct comparison of the two same-fixture markets. The review compared Iceland corners with Dutch corners without adequately establishing why the Iceland corner event passed the inclusion standard while its winner did not. The extra 0.10 in decimal odds and a lower reciprocal hurdle did not establish superiority. Today's score does not retrospectively prove the win was the correct pre-match selection.
+
+The original skills already called for market-specific evidence, counterarguments, price discipline and distinct statuses. The application fell short when conditional research was repeatedly affirmed as the main shortlist. The instructions have now been tightened to require an explicit comparison of already-researched alternatives, separate final selections from unresolved candidates, and timestamp status changes with new evidence. These corrections apply across market families without turning one result into a universal preference for winners over corners.
+
+User exclusions are preserved in project instructions: BTTS Yes only for future BTTS recommendations. Historical BTTS No selections remain unchanged. For future work, use a new chat per matchday in the same project, scope the market family explicitly, and keep that day's final refresh in its research chat. Other-market and builder tasks may be separate, but their outputs must not be concatenated into a final ticket without reconciliation. A fresh chat is an organizational aid, not a forecasting improvement established by evidence.
+
+The three installed and repository skills were synchronized and validated. Two hypothetical instruction-behavior cases passed a bounded independent review. No future performance, profit or improved predictive accuracy is established by these edits.

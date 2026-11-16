@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-05-historic-3-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-05-historic-3",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://fclugano.com/en/news/tre-su-tre-in-europa",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "3–0",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.720845Z",
+  "appendedAt": "2026-11-15T09:50:33.721761Z"
+}

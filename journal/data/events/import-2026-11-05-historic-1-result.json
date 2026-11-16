@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-05-historic-1-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-05-historic-1",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "3–1",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.713889Z",
+  "appendedAt": "2026-11-15T09:50:33.714442Z"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "import-2026-11-13-netherlands-corners",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-13",
+  "category": "other-markets",
+  "fixture": {
+    "home": "Netherlands",
+    "away": "Greece"
+  },
+  "market": {
+    "rawLabel": "Netherlands 6+ team corners",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "conditional",
+  "source": {
+    "identity": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md#import-2026-11-13-netherlands-corners",
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md",
+    "sha256": "8de0098fc88b7a040b2b156f42a80a94726712f6c0887edbb0a83ee2105f172b"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-13T19:45:00Z",
+  "evidence": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.727,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Retained direction/candidate; lineup and price gates not documented closed",
+  "excludedFromFutureSuggestions": false,
+  "presentationIssue": "Conditional directions were treated as main-ticket choices in discussion; retain this failure explicitly.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.020415Z",
+  "appendedAt": "2026-11-15T09:50:34.026252Z"
+}

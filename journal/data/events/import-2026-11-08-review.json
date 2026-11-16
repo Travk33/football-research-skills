@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-08-review",
+  "type": "review",
+  "decisionIds": [
+    "import-2026-11-08-historic-15",
+    "import-2026-11-08-historic-16",
+    "import-2026-11-08-historic-17",
+    "import-2026-11-08-historic-18",
+    "import-2026-11-08-historic-19",
+    "import-2026-11-08-historic-20"
+  ],
+  "matchDate": "2026-11-08",
+  "note": "User-reported successful group archived with original candidate/watch/reserve/pass qualifiers. All directions, including the failed Monaco watch and omitted Brighton win, remain visible. No actual settlement or profit is established; no causal explanation of a three-group streak is identified.",
+  "source": "research/methodology-audit-2026-11-14/audit.md",
+  "retrospective": true,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.832598Z",
+  "appendedAt": "2026-11-15T09:50:33.835663Z"
+}

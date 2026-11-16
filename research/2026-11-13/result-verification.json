@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-13",
+  "observed_at_utc": "2026-11-14T22:00:17Z",
+  "scope": "Historical result verification of five previously discussed calls only; no new selections",
+  "provider": "FotMob public date and matchDetails APIs",
+  "source_urls": {
+    "day_results": "https://www.fotmob.com/api/data/matches?date=20261113",
+    "match_details": {
+      "Scotland-North Macedonia": "https://www.fotmob.com/api/data/matchDetails?matchId=5181784",
+      "Bulgaria-Iceland": "https://www.fotmob.com/api/data/matchDetails?matchId=5181957",
+      "Netherlands-Greece": "https://www.fotmob.com/api/data/matchDetails?matchId=5181833",
+      "Luxembourg-Estonia": "https://www.fotmob.com/api/data/matchDetails?matchId=5181958",
+      "Serbia-Germany": "https://www.fotmob.com/api/data/matchDetails?matchId=5181834"
+    }
+  },
+  "calls": [
+    {
+      "match": "Scotland vs North Macedonia",
+      "final_status": "FT",
+      "score": "2-1",
+      "historical_call": "BTTS No",
+      "outcome": "Lost: both teams scored",
+      "corners": {"Scotland": 9, "North Macedonia": 5},
+      "footnote": "Historical excluded-market recommendation retained for honest review; this does not imply future BTTS No suggestions."
+    },
+    {
+      "match": "Bulgaria vs Iceland",
+      "final_status": "FT",
+      "score": "0-5",
+      "historical_call": "Iceland 5+ team corners",
+      "outcome": "Lost on recorded team corners: Iceland had 1",
+      "corners": {"Bulgaria": 4, "Iceland": 1, "match_total": 5},
+      "footnote": "Interpreted 5+ corners as Iceland team corners, as named in the call. Market line/settlement contract was not independently retrieved."
+    },
+    {
+      "match": "Netherlands vs Greece",
+      "final_status": "FT",
+      "score": "7-0",
+      "historical_call": "Netherlands 6+ team corners",
+      "outcome": "Lost on recorded team corners: Netherlands had 5",
+      "corners": {"Netherlands": 5, "Greece": 4, "match_total": 9},
+      "footnote": "Interpreted 6+ corners as Netherlands team corners, as named in the call. Market line/settlement contract was not independently retrieved."
+    },
+    {
+      "match": "Luxembourg vs Estonia",
+      "final_status": "FT",
+      "score": "0-1",
+      "historical_call": "BTTS No",
+      "outcome": "Won on scoreline: only Estonia scored",
+      "corners": {"Luxembourg": 2, "Estonia": 2},
+      "footnote": "Historical excluded-market recommendation retained for honest review; this does not imply future BTTS No suggestions."
+    },
+    {
+      "match": "Serbia vs Germany",
+      "final_status": "FT",
+      "score": "1-3",
+      "historical_call": "Germany win",
+      "outcome": "Won on 90-minute result",
+      "corners": {"Serbia": 0, "Germany": 6},
+      "footnote": "FotMob recorded two red cards for Serbia and none for Germany; this is match context, not a causal conclusion about the call."
+    }
+  ],
+  "limitations": [
+    "Corners are FotMob match-stat provider values; another provider or bookmaker may apply its own rules or corrections.",
+    "Calls are evaluated by their named event only; no price, account availability, or bookmaker settlement has been verified."
+  ]
+}

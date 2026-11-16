@@ -1,0 +1,47 @@
+{
+  "id": "import-2026-11-08-historic-16",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-08",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Brighton",
+    "away": "Brentford"
+  },
+  "market": {
+    "rawLabel": "Brighton win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "reserve",
+  "source": {
+    "identity": "research/methodology-audit-2026-11-14/results.json#import-2026-11-08-historic-16",
+    "report": "research/methodology-audit-2026-11-14/results.json",
+    "sha256": "4bde4794087d781909c9a4aa75689d66f69a2506e72d9b4542fdb7d27ebafadc"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-08T14:00:00Z",
+  "evidence": {
+    "report": "research/methodology-audit-2026-11-14/results.json"
+  },
+  "countercase": {
+    "report": "research/methodology-audit-2026-11-14/results.json"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.9375,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Watch/reserve; user omitted",
+  "originalQuote": "15/16",
+  "includedInUserReportedWinningGroup": false,
+  "statusNormalization": "Retains row qualifiers; main direction is not evidence that lineup/price conditions closed.",
+  "archiveAudit": "research/methodology-audit-2026-11-14/audit.md",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.787939Z",
+  "appendedAt": "2026-11-15T09:50:33.790459Z"
+}

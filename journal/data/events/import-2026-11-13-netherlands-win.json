@@ -1,0 +1,45 @@
+{
+  "id": "import-2026-11-13-netherlands-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-13",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Netherlands",
+    "away": "Greece"
+  },
+  "market": {
+    "rawLabel": "Netherlands win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "reserve",
+  "source": {
+    "identity": "research/2026-11-13/archive/friday-13-november-2026-market-choice-audit.md#import-2026-11-13-netherlands-win",
+    "report": "research/2026-11-13/archive/friday-13-november-2026-market-choice-audit.md",
+    "sha256": "307ab3c1e4ea2ffec5d3d7a49dcc72a15ec534df9a4d83b7b8b589073ee74491"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-13T19:45:00Z",
+  "evidence": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-market-choice-audit.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-market-choice-audit.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.571,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Reserve alternative",
+  "excludedFromFutureSuggestions": false,
+  "presentationIssue": "Conditional directions were treated as main-ticket choices in discussion; retain this failure explicitly.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.085148Z",
+  "appendedAt": "2026-11-15T09:50:34.091916Z"
+}

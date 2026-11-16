@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-13-netherlands-corners-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-13-netherlands-corners",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "lost",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matchDetails?matchId=5181833",
+    "research/2026-11-13/result-verification.json"
+  ],
+  "fullTimeScore": "7–0",
+  "observedEventCount": 5,
+  "observedAt": "2026-11-14T22:00:17Z",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:34.027485Z",
+  "appendedAt": "2026-11-15T09:50:34.033636Z"
+}

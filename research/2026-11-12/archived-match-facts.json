@@ -1,0 +1,95 @@
+{
+  "note": "Imported Nov12 cached factual results; not freshly verified Nov14.",
+  "matches": {
+    "5181903": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "San Marino",
+      "away": "Belarus",
+      "score": [
+        0,
+        2
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181903"
+    },
+    "5181929": {
+      "kickoff": "2026-11-12T17:00:00.000Z",
+      "home": "Armenia",
+      "away": "Cyprus",
+      "score": [
+        1,
+        1
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181929"
+    },
+    "5181858": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "England",
+      "away": "Croatia",
+      "score": [
+        2,
+        1
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181858"
+    },
+    "5181902": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "Albania",
+      "away": "Finland",
+      "score": [
+        2,
+        0
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181902"
+    },
+    "5181797": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "Italy",
+      "away": "France",
+      "score": [
+        3,
+        1
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181797"
+    },
+    "5181930": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "Montenegro",
+      "away": "Latvia",
+      "score": [
+        2,
+        1
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181930"
+    },
+    "5181796": {
+      "kickoff": "2026-11-12T17:00:00.000Z",
+      "home": "Turkiye",
+      "away": "Belgium",
+      "score": [
+        1,
+        2
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181796"
+    },
+    "5181857": {
+      "kickoff": "2026-11-12T19:45:00.000Z",
+      "home": "Czechia",
+      "away": "Spain",
+      "score": [
+        0,
+        2
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181857"
+    },
+    "6040263": {
+      "kickoff": "2026-11-12T16:00:00.000Z",
+      "home": "DR Congo",
+      "away": "Sierra Leone",
+      "score": [
+        3,
+        1
+      ],
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6040263"
+    }
+  }
+}

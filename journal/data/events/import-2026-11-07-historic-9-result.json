@@ -1,0 +1,19 @@
+{
+  "id": "import-2026-11-07-historic-9-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-07-historic-9",
+  "evidenceLevel": "documented",
+  "onPitchOutcome": "won",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://en.legaseriea.it/serie-a/match/77528f387ef442ce82bf5f5de73fb66b/Roma-vs-Sassuolo",
+    "research/methodology-audit-2026-11-14/results.json"
+  ],
+  "fullTimeScore": "3–0",
+  "verificationDate": "2026-11-14",
+  "earlyPayoutNeededForDirection": false,
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:50:33.748153Z",
+  "appendedAt": "2026-11-15T09:50:33.749762Z"
+}
