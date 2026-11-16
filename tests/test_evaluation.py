@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from uuid import uuid4
 
 from football_pipeline.evaluation import compare_costs, evaluate_journal, usage_report
 from football_pipeline.protocol import load_protocol, record_measurement, register_protocol
@@ -39,7 +40,7 @@ def _call(started_at, usage=None):
 
 
 def _manifest(*calls):
-    return {'mode': 'execute', 'status': 'completed', 'scope': {'fixtureIds': ['1', '2']},
+    return {'runId': uuid4().hex, 'mode': 'execute', 'status': 'completed', 'scope': {'fixtureIds': ['1', '2']},
             'categories': ['wins-btts'], 'evidenceHash': 'same-evidence', 'specHash': 'one',
             'sourceTelemetry': {'requests': 12, 'cacheHits': 5}, 'calls': list(calls),
             'tasks': [{'stage': 'lead', 'fixtureIds': ['1', '2'],
@@ -119,6 +120,28 @@ class UsageTests(unittest.TestCase):
         self.assertIsNone(result['modelCallReduction'])
         self.assertEqual(set(result['reasons']), {'both-runs-must-complete-executed-work',
                                                   'missing-or-different-evidenceHash', 'missing-or-different-workloadHash'})
+
+    def test_distinct_run_ids_required_even_with_different_timestamps(self):
+        baseline = _manifest(_call('2020-01-02T12:00:00Z'))
+        candidate = copy.deepcopy(baseline)
+        candidate['calls'][0]['startedAt'] = '2020-01-02T13:00:00Z'
+        self.assertIn('same-run-measurement', compare_costs(baseline, candidate)['reasons'])
+        baseline.pop('runId'); candidate.pop('runId')
+        self.assertIn('distinct-executed-runs-unverified', compare_costs(baseline, candidate)['reasons'])
+
+    def test_direction_fixture_association_and_multiplicity(self):
+        baseline = _manifest(_call('2020-01-02T12:00:00Z'))
+        candidate = _manifest(_call('2020-01-02T13:00:00Z'))
+        candidate['tasks'] = [
+            {'stage': 'lead', 'fixtureIds': ['1'], 'directions': ['2/wins-btts/btts-yes']},
+            {'stage': 'lead', 'fixtureIds': ['2'], 'directions': ['1/wins-btts/btts-yes']},
+        ]
+        self.assertIn('missing-or-different-workloadHash', compare_costs(baseline, candidate)['reasons'])
+        candidate['tasks'] = copy.deepcopy(baseline['tasks'])
+        candidate['tasks'][0]['directions'].append('1/wins-btts/btts-yes')
+        self.assertIn('missing-or-different-workloadHash', compare_costs(baseline, candidate)['reasons'])
+        candidate['tasks'][0]['directions'] = ['1:wins-btts:btts-yes', '2:wins-btts:btts-yes']
+        self.assertTrue(compare_costs(baseline, candidate)['workComparable'])
 
 
 class EvaluationTests(unittest.TestCase):

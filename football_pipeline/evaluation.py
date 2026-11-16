@@ -107,16 +107,29 @@ def _coverage(manifest):
     tasks = manifest.get('tasks')
     if not isinstance(tasks, list) or not tasks:
         return None
-    coverage = set()
+    coverage = []
     for task in tasks:
+        if not isinstance(task, dict):
+            return None
         stage = task.get('stage') or task.get('phase')
         fixture_ids, directions = task.get('fixtureIds'), task.get('directions')
-        if not stage or not isinstance(fixture_ids, list) or not isinstance(directions, list):
+        if (not isinstance(stage, str) or not stage.strip() or not isinstance(fixture_ids, list)
+                or not isinstance(directions, list) or any(not isinstance(item, str) or not item.strip() for item in fixture_ids + directions)
+                or len(set(fixture_ids)) != len(fixture_ids)):
             return None
-        coverage.update(_hash([stage, 'fixture', fixture_id]) for fixture_id in fixture_ids)
-        coverage.update(_hash([stage, 'direction', direction]) for direction in directions)
+        assigned = set()
+        for direction in directions:
+            separator = '/' if '/' in direction else ':'
+            parts = direction.split(separator)
+            if len(parts) != 3 or any(not part for part in parts) or parts[0] not in fixture_ids:
+                return None
+            assigned.add(parts[0])
+            coverage.append((stage, parts[0], '/'.join(parts[1:])))
+        coverage.extend((stage, fixture_id, '') for fixture_id in fixture_ids if fixture_id not in assigned)
         if not fixture_ids and not directions:
-            coverage.add(_hash([stage, 'global']))
+            coverage.append((stage, '', ''))
+    if len(coverage) != len(set(coverage)):
+        return None
     return _hash(sorted(coverage))
 
 
@@ -124,8 +137,6 @@ def _comparison_identity(manifest, calls):
     scope, categories = manifest.get('scope'), manifest.get('categories')
     return {
         'runId': manifest.get('runId'),
-        'timedCallFingerprint': _hash([call.get('startedAt') for call in calls])
-        if calls and all(timestamp(call.get('startedAt')) for call in calls) else None,
         'scopeHash': _hash([scope, sorted(categories)]) if isinstance(scope, dict) and isinstance(categories, list) else None,
         'evidenceHash': manifest.get('evidenceHash'),
         'workloadHash': _coverage(manifest),
@@ -184,15 +195,11 @@ def compare_costs(baseline, candidate):
     for field in ('scopeHash', 'evidenceHash', 'workloadHash'):
         if not first.get(field) or first[field] != second.get(field):
             reasons.append(f'missing-or-different-{field}')
-    known_distinct = False
-    for key in ('runId', 'timedCallFingerprint'):
-        if first.get(key) and second.get(key):
-            if first[key] == second[key]:
-                reasons.append('same-run-measurement')
-                break
-            known_distinct = True
-    if not known_distinct and 'same-run-measurement' not in reasons:
+    run_ids = [item.get('runId') for item in (first, second)]
+    if not all(isinstance(item, str) and item.strip() for item in run_ids):
         reasons.append('distinct-executed-runs-unverified')
+    elif run_ids[0] == run_ids[1]:
+        reasons.append('same-run-measurement')
     estimates = [report['estimatedApiCost'] for report in reports]
     compatible = not reasons
     estimate_delta = None

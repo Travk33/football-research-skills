@@ -11,6 +11,8 @@ Read [model-routing.md](references/model-routing.md) for efficient lead/subagent
 
 Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
 
+For efficient shared collection and bounded model execution, read [pipeline-workflow.md](references/pipeline-workflow.md) when the active project provides the scoped pipeline. Keep tactical judgment with the selected lead.
+
 ## Establish reliable inputs
 
 Verify current date/timezone, kickoff, venue, competition stage and fixture status. Inventory the screened matches and distinguish deep research from initial screening. Verify whether the bookmaker actually offers the exact market.

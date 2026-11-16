@@ -41,7 +41,9 @@ The methods do not require expensive modeling for every task. They do require ho
 
 The [local JSON journal](journal/README.md), append/validation scripts and fourth archive/review skill are implemented. [Active lessons](journal/active-lessons.md) feed subsequent research. The [earlier UI design](design/journal/README.md) remains a design artifact; no journal UI or recurring checks are enabled.
 
-Staged screening, bounded cheaper-model retrieval and evidence reuse are already instructed. There is no automated 44-game collection/screening runner, enforced shared cache, or measured cost-saving percentage. The selected lead coordinates those steps and reports actual coverage and model use.
+The [scoped research pipeline](pipeline/README.md) now implements variable-size fixture collection, a shared cache, explicit model routing, bounded staged screening, journal archiving and usage/evaluation reports. Its scope follows the requested dates and competitions, teams or fixtures. Material news, player and bookmaker observations still require source verification and enrichment through the active research skill. Model drafts do not replace the lead's judgment.
+
+The tools measure observed usage and support comparable-run cost estimates and prospective evaluation. They do not establish a whole-workflow saving percentage or forecasting superiority from the historical journal. See [implementation validation](pipeline/VALIDATION.md).
 
 ## Validation and review
 

@@ -39,10 +39,12 @@ It combines broader and recent comparable evidence, checks both teams, retains f
 
 ## Cost optimisation: current status
 
-| Already instructed | Still not automated or established |
+| Implemented | Still requires evidence or research |
 |---|---|
-| Shared evidence across wins/BTTS and other markets; bounded cheaper-model retrieval; deeper work on plausible cases; reuse saved ledgers and refresh stale facts | Automated match collection/screening runner; enforced shared cache; measured savings; guaranteed cheapest routing |
+| Variable-scope collector, shared cache, explicit model routes and bounded staged runner; token/call telemetry; comparative cost and prospective evaluation tools | Verified live news/player/odds enrichment; measured whole-workflow savings from comparable executions; demonstrated prospective forecasting advantage |
 
 For the user's typical day: screen all 44 games for wins/BTTS and other markets, deepen warranted cases, and research builders separately for **at most five specified fixtures**. There is no fixed shortlist quota. The lead owns exclusions and checks promising cases with weak coverage; missing information does not silently remove a fixture.
+
+44 is an example, not a program limit: scope always follows the request. Read the [pipeline guide](pipeline/README.md) for execution and current boundaries. Core skills retain tactical freedom; code enforces evidence/scope/timing rules, not numerical football feature weights.
 
 **Read next:** [copyable prompts](USAGE.md), [journal instructions](journal/README.md), [active lessons](journal/active-lessons.md).

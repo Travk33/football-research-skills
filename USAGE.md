@@ -10,6 +10,8 @@ Explicitly name cheaper workers. Without model/effort overrides or configured de
 
 ## Start a request
 
+For shared collection and bounded model execution, the project now provides [scripts/pipeline.py](scripts/pipeline.py); see the [pipeline guide](pipeline/README.md). Ask the chat to translate your actual fixture scope, reuse the cache, report coverage and resolve material gaps before final decisions. There is no fixed 44-game scope. The code does not automatically access your bookmaker account or establish a prediction edge.
+
 Use one new research chat per matchday in this project as an organizational default, then keep its lineup/price refresh in that same chat. A fresh chat does not improve football forecasting by itself. Carry forward the saved decision records and project preferences rather than a claim that an earlier winning streak proved the method.
 
 Start with the market family you actually want. Run other markets or player builders as separate, explicitly scoped tasks when useful; they do not each need to produce selections. A separate builder chat is optional for a large task, not a prerequisite for accuracy. Share the same saved match evidence, and reconcile any same-fixture alternatives before forming a final list. Do not concatenate three category watchlists into an accumulator.

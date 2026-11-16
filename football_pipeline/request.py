@@ -13,7 +13,8 @@ DEFAULT_ROUTING = {
     'lead': {'model': 'gpt-6-astra', 'effort': 'high'},
 }
 DEFAULT_LIMITS = {
-    'maxRequests': 300, 'batchSize': 6, 'maxModelCalls': 40,
+    'maxRequests': 300, 'batchSize': 6, 'leadBatchSize': 12,
+    'deepBatchSize': 3, 'reviewBatchSize': 3, 'maxModelCalls': 40,
     'maxParallel': 2, 'timeoutSeconds': 180,
     'maxBuilderFixtures': 5, 'quoteMaxAgeSeconds': 900,
     'lineupMaxAgeSeconds': 7200,
@@ -35,7 +36,7 @@ def validate_request(value):
     if not isinstance(value, dict):
         raise ValueError('request must be an object')
     permitted = {'schemaVersion', 'id', 'dates', 'timezone', 'scope', 'categories', 'historyMatches',
-                 'historyDetails', 'limits', 'routing', 'builderFixtureIds', 'description', 'comparison'}
+                 'historyDetails', 'includeTargetDetails', 'limits', 'routing', 'builderFixtureIds', 'description', 'comparison'}
     unknown = set(value) - permitted
     if unknown:
         raise ValueError('unknown request fields: ' + ', '.join(sorted(unknown)))
@@ -59,18 +60,22 @@ def validate_request(value):
     except (ZoneInfoNotFoundError, TypeError, ValueError):
         raise ValueError('timezone must be a valid IANA timezone') from None
     scope = spec.get('scope')
-    if not isinstance(scope, dict) or set(scope) - {'competitionIds', 'fixtureIds', 'teamIds', 'allCompetitions'}:
+    if not isinstance(scope, dict) or set(scope) - {'competitionIds', 'fixtureIds', 'teamIds', 'allCompetitions', 'gender'}:
         raise ValueError('scope requires only explicit competitionIds, fixtureIds, teamIds or allCompetitions')
     for field in ('competitionIds', 'fixtureIds', 'teamIds'):
         scope[field] = _ids(scope.get(field, []), 'scope.' + field)
     if type(scope.get('allCompetitions', False)) is not bool:
         raise ValueError('allCompetitions must be boolean')
+    if 'gender' in scope and scope['gender'] not in {'male', 'female'}:
+        raise ValueError('scope.gender must be male or female; omit for unrestricted gender')
     if not any(scope[k] for k in ('competitionIds', 'fixtureIds', 'teamIds')) and not scope.get('allCompetitions'):
         raise ValueError('empty filters require allCompetitions: true; no implicit worldwide scope')
     categories = spec.get('categories')
-    if not isinstance(categories, list) or not categories or any(c not in CATEGORIES for c in categories):
+    if not isinstance(categories, list) or not categories or any(not isinstance(c, str) or c not in CATEGORIES for c in categories):
         raise ValueError('categories must name wins-btts, other-markets and/or bet-builders')
     spec['categories'] = sorted(set(categories))
+    if type(spec.setdefault('includeTargetDetails', True)) is not bool:
+        raise ValueError('includeTargetDetails must be boolean')
     history = spec.setdefault('historyMatches', 8)
     detail = spec.setdefault('historyDetails', min(3, history) if type(history) is int else 3)
     if type(history) is not int or not 0 <= history <= 100:

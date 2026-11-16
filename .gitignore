@@ -5,6 +5,7 @@ __pycache__/
 .env.*
 outputs/
 work/
+.cache/
 *.png
 *.jpg
 *.jpeg

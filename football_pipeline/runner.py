@@ -641,6 +641,8 @@ def _run_call(task, timeout_seconds, executor, logs, attempt_id, fixtures, direc
         else:
             value = executor(deepcopy(task), timeout_seconds)
             result = value if isinstance(value, ExecutionResult) else ExecutionResult(response=value)
+            if monotonic() - clock > timeout_seconds:
+                raise PipelineError(f"executor exceeded timeout of {timeout_seconds}s")
         if result.error:
             raise PipelineError(result.error)
         if result.reported_model is not None and result.reported_model != task["requestedModel"]:
@@ -774,7 +776,9 @@ def _source_inventory(fixture):
 
 def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, executor):
     by_id = {fixture["id"]: fixture for fixture in fixtures}
-    batches = _chunks(fixtures, manifest["limits"]["batchSize"])
+    limits = manifest["limits"]
+    batches = _chunks(fixtures, limits["batchSize"])
+    lead_batches = _chunks(fixtures, limits["leadBatchSize"])
     all_directions = list(directions.values())
     routing = manifest["routing"]
 
@@ -794,7 +798,7 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
             "gaps": {fixture["id"]: fixture.get("gaps", []) for fixture in group},
         }
 
-    screen = _stage_tasks("screen", batches, all_directions, routing, bundle, screen_context)
+    screen = _stage_tasks("screen", lead_batches, all_directions, routing, bundle, screen_context)
     if not execute:
         for task in extraction + screen:
             _register_task(manifest, task, output_dir)
@@ -802,19 +806,27 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
             {
                 "stage": stage, "role": ROLES[stage], "routing": routing[ROLES[stage]],
                 "activation": "surviving and borderline directions only",
-                "maxTasks": len(batches) if stage == "final" else len(fixtures),
+                "maxTasks": len(_chunks(fixtures, limits[{"deep": "deepBatchSize", "review": "reviewBatchSize", "final": "leadBatchSize"}[stage]])),
             }
             for stage in ("deep", "review", "final")
         ]
-        manifest["maximumPlannedModelCalls"] = len(extraction) + len(screen) + 2 * len(fixtures) + len(batches)
+        manifest["maximumPlannedModelCalls"] = len(extraction) + len(screen) + sum(
+            row["maxTasks"] for row in manifest["conditionalStages"]
+        )
         return
 
     screened = [{**directions[row["directionId"]], **row} for row in run(screen)]
+    # Persist the complete screen before any later, independently fallible stage.
+    manifest["screenedDecisions"] = screened
+    manifest["coverage"] = {"fixturesScreened": len(fixtures), "directionsScreened": len(screened),
+                            "fixturesDeepened": 0, "directionsDeepened": 0,
+                            "directionsIndependentlyReviewed": 0}
+    _write(output_dir / "manifest.json", manifest)
     lead_rows = {row["directionId"]: row for row in screened}
     advanced = [row for row in screened if row["status"] in ESCALATE]
     advanced_ids = {row["fixtureId"] for row in advanced}
     deep_fixtures = [fixture for fixture in fixtures if fixture["id"] in advanced_ids]
-    deep_groups = [[fixture] for fixture in deep_fixtures]
+    deep_groups = _chunks(deep_fixtures, limits["deepBatchSize"])
     deep_directions = [directions[row["directionId"]] for row in advanced]
     deep = _stage_tasks(
         "deep", deep_groups, deep_directions, routing, bundle,
@@ -823,7 +835,7 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
     )
     dossiers = [{**directions[row["directionId"]], **row} for row in run(deep)]
     # The reviewer receives the original evidence and assigned directions, without the lead verdicts.
-    review = _stage_tasks("review", deep_groups, deep_directions, routing, bundle, raw=True)
+    review = _stage_tasks("review", _chunks(deep_fixtures, limits["reviewBatchSize"]), deep_directions, routing, bundle, raw=True)
     reviewed = [{**directions[row["directionId"]], **row} for row in run(review)]
 
     def final_context(group):
@@ -836,7 +848,7 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
         }
 
     final = _stage_tasks(
-        "final", _chunks(deep_fixtures, manifest["limits"]["batchSize"]), deep_directions,
+        "final", _chunks(deep_fixtures, limits["leadBatchSize"]), deep_directions,
         routing, bundle, final_context,
     )
     final_rows = {row["directionId"]: row for row in run(final)}
@@ -845,7 +857,6 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
         "fixturesDeepened": len(deep_fixtures), "directionsDeepened": len(dossiers),
         "directionsIndependentlyReviewed": len(reviewed),
     }
-    manifest["screenedDecisions"] = screened
     capture = _now()
     for direction_id, direction in directions.items():
         row = final_rows.get(direction_id, lead_rows[direction_id])
@@ -853,6 +864,8 @@ def _sequence(manifest, fixtures, directions, bundle, output_dir, execute, execu
         if row["status"] == "selected":
             row = _gate_selection(row, fixture, _time(bundle["collectedAt"]), capture, manifest["limits"])
         decision = {
+            "market": None, "quoteId": None, "lineupId": None, "lineupRationale": None,
+            "lineupSources": [], "gates": None,
             **direction, **row, "kickoffUtc": fixture["kickoffUtc"], "home": fixture["home"],
             "away": fixture["away"], "decidedAt": capture.isoformat(),
         }
@@ -865,7 +878,7 @@ def _new_manifest(spec, bundle, fixtures, excluded, execute, reference_time):
         **DEFAULT_LIMITS,
         **spec.get("limits", {}),
     }
-    for key in ("batchSize", "maxParallel", "maxModelCalls", "timeoutSeconds", "quoteMaxAgeSeconds", "lineupMaxAgeSeconds"):
+    for key in ("batchSize", "leadBatchSize", "deepBatchSize", "reviewBatchSize", "maxParallel", "maxModelCalls", "timeoutSeconds", "quoteMaxAgeSeconds", "lineupMaxAgeSeconds"):
         if type(settings[key]) is not int or settings[key] <= 0:
             raise PipelineError(f"{key} must be a positive integer")
     routing = {
@@ -904,6 +917,16 @@ def run_pipeline(spec, bundle, output_dir, execute=False, executor=None):
             if (fingerprint(spec), fingerprint(bundle)) != (manifest["specHash"], manifest["evidenceHash"]):
                 raise PipelineError("request or evidence changed; choose a separate output directory")
             if manifest["status"] in {"completed", "planned"}:
+                # The saved decision is immutable; a replay after kickoff is historical.
+                if manifest["status"] == "completed" and any(
+                    _time(row["kickoffUtc"]) <= reference_time for row in manifest.get("fixtures", [])
+                ):
+                    archived = deepcopy(manifest)
+                    archived["status"] = "archived"
+                    archived["archivedFinalSelections"] = archived["finalSelections"]
+                    archived["finalSelections"] = []
+                    archived["archiveReason"] = "At least one fixture has reached kickoff; start a fresh run for current decisions."
+                    return archived
                 return manifest
             # Keep original scope on a resume. Any attempted stage rechecks current kickoff.
             reference_time = _time(manifest["startedAt"])

@@ -9,6 +9,8 @@ Produce a source-linked shortlist with strong reasons both for and against each 
 
 Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
 
+For efficient shared collection and bounded model execution, read [pipeline-workflow.md](references/pipeline-workflow.md) when the active project provides the scoped pipeline. Keep tactical judgment with the selected lead.
+
 ## Route work intelligently
 
 Read [model-routing.md](references/model-routing.md) when selecting a lead or delegating. Prefer a capable reasoning lead for comparative judgment and a cheaper model for bounded retrieval and extraction. Delegate independent competition or team ledgers when useful; the lead must reconcile them and review decisive evidence. A worker's confident wording is not verification.

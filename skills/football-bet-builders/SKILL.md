@@ -11,6 +11,8 @@ Read [model-routing.md](references/model-routing.md) before assigning retrieval 
 
 Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
 
+For efficient shared collection and bounded model execution, read [pipeline-workflow.md](references/pipeline-workflow.md) when the active project provides the scoped pipeline. Keep tactical judgment with the selected lead.
+
 ## Frame the fixture and contract
 
 Verify date/timezone, kickoff, competition, actual venue and fixture status. State whether the analysis is pre-match or in-play. Check current squad withdrawals, suspensions, registration and matchday news. A listed player or predicted XI is not a confirmed starter.
