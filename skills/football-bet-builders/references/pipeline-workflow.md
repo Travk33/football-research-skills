@@ -6,7 +6,7 @@ Translate the requested dates, timezone, competitions/teams/fixtures and categor
 
 Keep the lead's full methodology and judgment. The runner supplies bounded extraction, screening, dossiers and an independent challenge, but only from supplied evidence. Broaden detailed match ledgers for plausible cases and resolve material team-news, role, price and contract gaps using verified sources. Save enrichment as a new artifact. Never mistake automated drafts or structural validation for completed football research.
 
-Routes are explicit in the request: Luna retrieval, Sol challenge and Astra lead by default. Respect the user's selected lead/overrides; report requested and actually reported identities separately. An unavailable route fails visibly; do not silently upgrade workers or retry usage-limit failures indefinitely.
+Use the [default model routes](model-routing.md) for pipeline requests. Set `gpt-6.2-astra` at `high` for the lead, `gpt-6.2-sol` at `high` for independent review and `gpt-6-luna` at `medium` for bounded retrieval where available. Record requested and reported model identities and disclose unavailable routes. Preserve explicit user overrides and record any alternative route and its reason; never silently substitute a more expensive worker or change the requested effort.
 
 Execute within the research task's authorization and budget, then read its coverage, errors and outputs. The CLI archives execute runs through the journal; plans alone are not forecasts. Refresh changed evidence in a new run directory. Use the supplied usage/evaluation tools without inventing savings, probabilities or proof of an edge.
 

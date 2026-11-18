@@ -1,36 +1,26 @@
 # Model routing for football research
 
-Checked 12 November 2026. Refresh model availability and official guidance when these names or capabilities change. These are task-specific recommendations, not an OpenAI-endorsed football forecasting system.
+Model guidance and pricing links checked 18 November 2026.
 
-## Recommended division of work
+## Default routes
 
-| Role | Preferred model | Starting effort | Responsibility |
+| Role | Preferred model | Effort | Responsibility |
 |---|---|---|---|
-| Highest-quality lead for a demanding slate | `gpt-6-astra` | high; xhigh for difficult conflicts | Design the analysis, reconcile evidence, reason about tactics/dependence, make final price and pass decisions |
-| Balanced lead for routine well-covered slates | `gpt-6.1-sol` | medium or high | Carry out the same workflow at lower model cost; escalate genuinely difficult judgments |
-| Bounded data-retrieval worker | `gpt-6-luna` | low for extraction; medium for multi-source retrieval | Gather fixtures, official availability, player match rows, dates and exact quotes into a specified schema |
-| Independent evidence reviewer | `gpt-6.1-sol` | high; xhigh when needed | Challenge the strongest assumptions, check decisive rows and find contradictory evidence before final selection |
-| Defined screen/document or small coding task | `gpt-6.1-terra` if available | low or medium | Handle a bounded visual/computer workflow or repair a data-processing helper, then verify the result |
+| Research lead | `gpt-6.2-astra` | High | Reconcile evidence, assess tactics and dependence, and make final selection and pass decisions |
+| Independent evidence reviewer | `gpt-6.2-sol` | High | Challenge decisive assumptions and evidence and surface counterevidence before final selection |
+| Bounded retrieval worker, where available | `gpt-6-luna` | Medium | Gather fixtures, official availability, match rows, dates and exact quotes into a specified schema |
 
-The roles reflect the [official model selection guide](https://developers.openai.com/api/docs/guides/model-selection): Luna suits scoped work, Sol balances complexity with cost, Astra is intended for the hardest analysis, and Terra suits screen-oriented work. The football-specific division and effort settings above are recommendations to test, not established comparative forecasting results.
+Keep these effort settings unless the user explicitly overrides them. Delegate bounded retrieval and independent review when the task warrants them and the environment permits. A simple refresh may only need the lead. [GPT-6.2 Astra and Sol](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol)
 
-**Best default for an intensive slate:** Astra lead, one or two Luna retrieval workers, and a short Sol review only when the complexity warrants it. **Lower-cost default:** Sol lead and Luna retrieval, with Astra reserved for unresolved, decision-changing conflicts. A simple one-match question may need only the lead; delegation has overhead.
+## Selecting routes in Codex
 
-## Using Astra Ultra in Codex
+The app's model control selects the active chat lead and its effort. This skill records the preferred route. Respect the actual selected lead and applicable overrides. When delegating, explicitly select both the worker model and its effort to control inherited usage. If an override requires a fresh agent, provide a short standalone task and the necessary evidence paths. [Codex model controls](https://learn.chatgpt.com/docs/models) · [Subagent configuration and inheritance](https://learn.chatgpt.com/docs/agent-configuration/subagents)
 
-For a large slate with independent matches to investigate, Astra **Ultra** is an optional quality-first setup if offered by the current client/account. It enables proactive parallel delegation and maximum reasoning. Astra **Extra High** with an explicit delegation request is a more economical default for demanding research; Ultra is unnecessary for a short lineup/price refresh. This recommendation is about workflow and usage, not demonstrated prediction accuracy. See the current [Codex model controls](https://learn.chatgpt.com/docs/models).
-
-Choose the lead model and effort in the app's model control before sending the request. A skill or a sentence saying “be Astra” does not switch the active lead. Ultra also does not guarantee cheaper workers. Unconfigured subagents can inherit the parent's model and reasoning effort, so explicitly select both the worker model and its effort when delegating: Luna low/medium for bounded extraction/retrieval; Sol high for a focused review. Honor current tool capabilities and any custom-agent configuration. [Subagent configuration and inheritance](https://learn.chatgpt.com/docs/agent-configuration/subagents).
-
-At non-Ultra levels, the user can explicitly request parallel agents. A routing instruction guides the lead's orchestration; it is not a hardcoded router or a guarantee of particular models being available. State which models were actually used when it materially helps the user check costs or execution. Do not change global settings to implement this preference unless separately requested.
+Use the model IDs and efforts exposed by the active tool. API listings and the Codex subagent menu have separate availability. If a requested route is unavailable, report it and continue work that can use verified sources or deterministic tools. When Luna is missing, use deterministic retrieval or the selected lead where practical; identify and record any alternative worker explicitly, including its cost implications. Never silently substitute a more expensive worker. Report the requested and actual model and effort when they differ. Surface usage-limit failures instead of retrying the same failure indefinitely.
 
 ## Cost and availability boundaries
 
-Official standard API text-token prices observed on the date above, per million input/output tokens: [Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) $0.10/$0.50; [Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) $2/$10; [Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) $10/$50. These are API reference prices, **not a calculation of a Codex subscription charge or the cost of this workflow**. Caching, service mode, long contexts, tool charges and token usage change costs. Recheck the linked pages before quoting them as current.
-
-Use only model IDs and effort levels exposed by the active environment. Public API support does not establish account access or subagent availability. A skill does not automatically switch the current lead model, install models, change subscription settings or grant delegation permissions. If an alias is unavailable, use an available comparable tier or continue with the current lead and disclose a material limitation; do not repeatedly retry the same usage-limit failure.
-
-In environments where model overrides require a fresh agent, provide a short standalone task and necessary evidence paths rather than the entire conversation. Follow the current tool's actual schema. Never guess unsupported model names or settings. `gpt-6-sol` is a different, older alias; do not silently substitute it for `gpt-6.1-sol`.
+Use the pricing that applies to the execution surface. Codex usage uses plan-specific limits or credits. API dollar rates apply to API usage. Recheck prices before quoting costs, and use observed token usage when estimating a run. [Codex pricing](https://learn.chatgpt.com/docs/pricing) · [API pricing](https://developers.openai.com/api/docs/pricing)
 
 ## Keep cheap tasks genuinely bounded
 
@@ -42,11 +32,11 @@ Use deterministic calculations for averages, thresholds, odds conversion and pri
 
 Avoid duplicate broad searches by several agents. Share verified ledgers and let workers handle independent matches or source types. Use the smallest context that preserves the task and evidence. Stop retrieval when the decision-changing questions are answered; more sources do not necessarily mean independent evidence.
 
-## Escalate the uncertainty, not the whole workload
+## Resolve decision-changing uncertainty
 
 Move a problem from Luna to the lead/Sol when fixture identity conflicts, source dates disagree, exact statistic definitions differ, critical fields are missing, a live price does not match its label, or access constraints prevent verification. A worker should return the unresolved issue and its evidence, not invent a repair.
 
-Use Astra or a focused stronger review for genuinely ambiguous tactical roles, competing opponent adjustments, correlation/settlement complexity, sparse-data probability modeling or a conclusion that depends on disputed evidence. Do not upgrade every routine source read to maximum reasoning. If the underlying data cannot support a conclusion, the correct escalation outcome may still be **insufficient evidence**.
+Focus the lead or Sol review on genuinely ambiguous tactical roles, competing opponent adjustments, correlation and settlement complexity, sparse-data probability modeling or a conclusion that depends on disputed evidence. Use **insufficient evidence** when the available data cannot support a conclusion.
 
 ## Require intelligent decisions from every lead
 
@@ -65,7 +55,7 @@ Report concise evidence, calculations, assumptions and decision reasons. Thoroug
 
 ## Validate the routing
 
-Compare models on the same bounded inputs using predefined criteria: fixture/date accuracy, missing-data handling, source support, threshold arithmetic, identification of counterevidence and appropriate passes. Keep the cheapest tier that meets the observed quality bar for that task. Audit decisive rows and a small sample of ordinary rows in live use; repeated errors justify changing the route.
+Compare models on the same bounded inputs using predefined criteria: fixture/date accuracy, missing-data handling, source support, threshold arithmetic, identification of counterevidence and appropriate passes. Audit decisive rows and a small sample of ordinary rows in live use. Use observed cost and quality to evaluate proposed route overrides.
 
 For independent review, supply the skill, original task and underlying evidence without telling the reviewer the preferred selection. Ask it to produce its own decision before comparing outputs. A single successful exercise is a sanity check, not proof of equal intelligence or profitable predictions.
 

@@ -9,7 +9,7 @@ The scope comes from the user's request: dates, competitions, teams, explicit fi
 | Collection | FotMob fixture discovery, both-team history, requested recent match-detail statistics, venue/gender checks when available, source times and explicit gaps |
 | Shared cache | Resource-specific freshness, reuse across market categories, bounded requests; new retrievals do not change original source observation times |
 | Screening | Separate winner/BTTS directions and compact other-market families; survivors and close exclusions receive deeper analysis |
-| Routing | Explicit Luna/medium extraction, Astra/high lead and Sol/high independent review by default; configurable routes, no silent model fallback |
+| Routing | Explicit GPT-6 Luna/medium extraction where available, GPT-6.2 Astra/high lead and GPT-6.2 Sol/high independent review by default; configurable routes, no silent model fallback |
 | Limits | Request, call, concurrency and timeout limits; configurable batching; incomplete work remains visibly incomplete |
 | Final decisions | Exact quoted contract and required source/role checks; missing material inputs prevent final promotion |
 | Journal | Execute runs archive original evidence, decisions, passes, failed-stage screens and zero-final slates through the existing writer |
@@ -54,6 +54,8 @@ python3 scripts/pipeline.py evaluate --out outputs/evaluation.json
 Replace the dates/scope with the actual request. Repeat `--date`, `--competition-id`, `--fixture-id` or `--team-id` for multiple values. Different filter families intersect; IDs within a family are OR. An unrestricted request requires `--all-competitions`. Builder requests use `--category bet-builders --builder-fixture-id ID`; the default maximum is five and is explicitly configurable in `limits.maxBuilderFixtures`.
 
 An existing artifact with different contents is never overwritten. Use a fresh filename/run directory for a refresh. Identical completed runs are reused without charging model calls; after kickoff they are returned as historical, not current final selections. A failed run may resume successful tasks only with the same request and evidence. The call budget includes failed attempts. CLI failures return exit code 2 and retain their artifacts. Do not repeatedly retry a usage-limit error; disclose it or use a user-approved explicit route change in a new request.
+
+The 6.2 defaults apply to newly generated requests or omitted routing fields. Existing requests that explicitly pin older models retain those routes; create a new request/run when migrating them. Check Luna availability in the execution surface: the CLI and chat subagent menu can differ. An unavailable Luna route remains a visible failure until an explicit alternative is chosen and recorded; there is no automatic costlier fallback.
 
 ## News, prices, rules and player data
 

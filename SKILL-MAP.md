@@ -22,9 +22,9 @@ flowchart TD
 
 ## Models and responsibility
 
-- **Astra High/Extra High:** recommended lead for demanding research; owns interpretation and final decisions **when selected**.
-- **Luna Medium:** bounded source retrieval/extraction with dates, counts, missing fields and links.
-- **Sol High:** focused independent challenge; the lead resolves disagreements.
+- **GPT-6.2 Astra / High:** default lead; owns interpretation and final decisions **when selected**.
+- **GPT-6 Luna / Medium, where available:** bounded source retrieval/extraction with dates, counts, missing fields and links.
+- **GPT-6.2 Sol / High:** focused independent challenge; the lead resolves disagreements.
 - **Code:** arithmetic, duplicate checks and journal validation.
 
 The skill does not switch the lead model. A Sol-led chat remains Sol-led unless explicitly changed. Worker routes must be selected explicitly and unavailable routes disclosed. These assignments are workflow recommendations, not measured football forecasting superiority. See [routing details](skills/football-wins-btts/references/model-routing.md).

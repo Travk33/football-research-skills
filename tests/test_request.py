@@ -14,7 +14,7 @@ class RequestTests(unittest.TestCase):
             parsed = validate_request(spec)
             self.assertEqual(len(parsed['scope']['fixtureIds']), count)
             self.assertEqual(parsed['routing']['retrieval']['model'], 'gpt-6-luna')
-            self.assertEqual(parsed['routing']['lead']['model'], 'gpt-6-astra')
+            self.assertEqual(parsed['routing']['lead']['model'], 'gpt-6.2-astra')
 
     def test_scope_typos_and_implicit_global_search_fail(self):
         for scope in ({}, {'competitionID': ['47']}, {'fixtureIds': ['1;exit']}):

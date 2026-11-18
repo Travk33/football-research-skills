@@ -13,7 +13,7 @@ For efficient shared collection and bounded model execution, read [pipeline-work
 
 ## Route work intelligently
 
-Read [model-routing.md](references/model-routing.md) when selecting a lead or delegating. Prefer a capable reasoning lead for comparative judgment and a cheaper model for bounded retrieval and extraction. Delegate independent competition or team ledgers when useful; the lead must reconcile them and review decisive evidence. A worker's confident wording is not verification.
+Follow [model routing](references/model-routing.md) for the lead, independent review and bounded retrieval. Delegate independent competition or team ledgers when useful and permitted. The lead reconciles evidence and verifies decisive rows.
 
 For competition-specific context, read [competition-context.md](references/competition-context.md). For a post-match audit or method change, read [review-and-improvement.md](references/review-and-improvement.md). These references supplement the workflow; do not load unrelated sections merely to increase apparent thoroughness.
 

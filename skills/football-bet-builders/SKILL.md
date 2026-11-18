@@ -7,7 +7,7 @@ description: Research two or three compatible football selections per fixture, e
 
 Construct a small, defensible same-match combination when the evidence and offered terms support one. The user's requested two or three picks per game is a target to investigate, not a reason to fabricate a second leg. Some competitions do not offer fouls or tackles. Verify availability for the exact fixture and bookmaker.
 
-Read [model-routing.md](references/model-routing.md) before assigning retrieval work. Use cheaper workers for bounded ledgers and rule extraction; retain a stronger reasoning lead for tactical interactions, threshold decisions, source conflicts and the final pair. Read [player-markets.md](references/player-markets.md) for market-specific checks and [evidence-contract.md](references/evidence-contract.md) for extraction, handoff and report formats.
+Follow [model routing](references/model-routing.md) for the lead, independent review and bounded retrieval. The lead resolves source conflicts and owns the final combination. Read [player-markets.md](references/player-markets.md) for market-specific checks and [evidence-contract.md](references/evidence-contract.md) for extraction, handoff and report formats.
 
 Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
 

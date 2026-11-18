@@ -2,11 +2,11 @@
 
 ## Choose the lead in Codex
 
-For demanding routine research, use **GPT-6 Astra / Extra High** with the explicit delegation instructions below. For a large Saturday slate where usage is less important, **Astra / Ultra** is a reasonable option if available. Ultra enables proactive delegation and maximum reasoning; it is not required to use subagents. For a lower-cost lead, use **GPT-6.1 Sol / High** and keep the same prompts. These are workflow recommendations, not validated differences in football prediction performance. [Official model guidance](https://learn.chatgpt.com/docs/models).
+Use **GPT-6.2 Astra / High** for lead analysis and **GPT-6.2 Sol / High** for independent review. Keep **GPT-6 Luna / Medium** for bounded retrieval where available. These are the project defaults, not validated differences in football prediction performance. [Official 6.2 guidance](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol).
 
-Select the model and effort under the composer before sending the prompt. If a supported Ultra option is hidden, official guidance points to Settings > Configuration > Ultra in model picker slider; availability depends on the account/client. No settings are changed by these documents.
+Select **GPT-6.2 Astra** and **High** under the composer before sending the prompt; prefer Standard speed for the cost-conscious workflow. A skill cannot switch the active lead or app settings. Higher effort or a different lead is an explicit override, not an automatic escalation.
 
-Explicitly name cheaper workers. Without model/effort overrides or configured defaults, subagents can inherit the lead's model and effort. The prompts request Luna for retrieval and Sol for review, with the selected lead responsible for judgments. A skill does not switch the lead or enforce a guaranteed router. [Official subagent guidance](https://learn.chatgpt.com/docs/agent-configuration/subagents).
+Explicitly select worker models and effort. Unconfigured subagents can inherit the lead's settings. If Luna or another requested route is unavailable, disclose that limitation and record any explicitly chosen alternative; never silently substitute a more expensive worker. Availability can differ between the chat subagent menu and the pipeline's CLI. [Subagent configuration](https://learn.chatgpt.com/docs/agent-configuration/subagents).
 
 ## Start a request
 
@@ -19,7 +19,7 @@ Start with the market family you actually want. Run other markets or player buil
 Project-specific exclusions belong in `AGENTS.md`; check them before each research run. Historical excluded markets remain in the audit record. General skill instructions do not turn a user's preference into a universal claim about a market.
 
 1. Open a new Codex chat, preferably in the football research project so earlier reports are available when you ask for comparisons.
-2. Choose the lead model and reasoning effort.
+2. Choose GPT-6.2 Astra with High reasoning effort, unless explicitly overriding the default.
 3. Replace `[DATE]` with a calendar date and any bracketed fixture field with your intended scope. Keep Europe/London if you want UK kickoffs. This avoids ambiguous “next Saturday” dates during international breaks.
 4. Paste one prompt below. The installed skill is invoked with `$skill-name`. If it is not found, ask the agent to check its installed skill folder rather than claim it used it. [Skill invocation](https://learn.chatgpt.com/docs/changelog).
 5. Review the shortlist, then request a fresh XI/price check when lineups are published. An early report remains conditional until its stated gates are satisfied.
@@ -33,7 +33,7 @@ Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Consider 
 
 Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Verify that the matches actually take place on this date. Research that day only.
 
-Keep the selected lead model responsible for methodology, tactical interpretation, conflicting evidence and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for independent fixture/statistics/team-news retrieval and gpt-6.1-sol at high effort for a focused challenge of the final shortlist. Give workers bounded tasks, audit decisive evidence and report the models actually used. If those routes are unavailable, continue with available tools and state the limitation.
+Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for methodology, tactical interpretation, conflicting evidence and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for independent fixture/statistics/team-news retrieval and gpt-6.2-sol at high effort for a focused challenge of the final shortlist. Give workers bounded tasks, audit decisive evidence and report the models actually used. Disclose unavailable routes and any explicit alternative; do not silently substitute models.
 
 Compare both teams using a season baseline and recent 5–10 comparable games where available, home/away context, opponent quality, xG, shots/SOT, availability, rest, tactics and distortions from red cards or penalties. Establish a scoring route for each side in BTTS cases. Check current UK bet365 prices where accessible, otherwise clearly identify another source.
 
@@ -51,7 +51,7 @@ Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Use scrip
 
 Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Consider match/team goals, handicaps, corners and cards. Choose the market that best matches the evidence for each fixture; do not add markets simply to increase the odds.
 
-Keep the selected lead model responsible for analysis and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for bounded data, team-news, market and rule retrieval, and gpt-6.1-sol at high effort to challenge the finalists. Audit decisive evidence and report the models actually used; disclose unavailable routes.
+Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for analysis and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for bounded data, team-news, market and rule retrieval, and gpt-6.2-sol at high effort to challenge the finalists. Audit decisive evidence and report the models actually used; disclose unavailable routes.
 
 Apply the full skill methodology: broader baseline plus recent comparable match counts, opponent and venue context, tactical mechanisms, lineup changes, outliers and the exact offered threshold. Verify UK bet365 prices where accessible and the actual settlement terms, including Asian versus three-way lines, pushes and time periods. Explain the best relevant alternative market or line for each finalist.
 
@@ -67,7 +67,7 @@ Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Respect t
 
 Check which UK bet365 markets are actually offered. Consider player total shots, shots on target, fouls committed, to be fouled and tackles, plus a team market only when it improves the evidence-based case. Investigate reasonable prices without raising thresholds merely to inflate the payout.
 
-Keep the selected lead model responsible for role/tactical analysis, dependence and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for bounded player ledgers, current availability and price/rule retrieval, and gpt-6.1-sol at high effort for a focused independent challenge. Audit decisive rows, wait for relevant findings and report the models actually used. Disclose unavailable routes.
+Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for role/tactical analysis, dependence and final decisions. Where supported, explicitly use gpt-6-luna at medium effort for bounded player ledgers, current availability and price/rule retrieval, and gpt-6.2-sol at high effort for a focused independent challenge. Audit decisive rows, wait for relevant findings and report the models actually used. Disclose unavailable routes.
 
 Apply the full skill methodology: recent game-by-game counts with minutes and verified starts/subs, a broader comparable baseline, expected role and substitutions, opponent exposure, relevant referee context, and exact market definitions. Keep club and national samples separate. Compare the proposed threshold with the next relevant line and retain failed observations.
 
@@ -83,7 +83,7 @@ Recheck the existing shortlist using confirmed lineups, fresh availability, curr
 Keep unresolved candidates outside the final selection table. For alternative markets on the same game, compare the winner/BTTS case directly with the proposed alternative, including prices, extra failure modes and why one is preferred. If none completes the material checks, return no final selection for that game.
 ```
 
-Use a new refresh request when the relevant lineups are actually available; one early check cannot verify later team sheets automatically. The refresh is narrower than a new full-slate investigation and normally does not need Ultra.
+Use a new refresh request when the relevant lineups are actually available; one early check cannot verify later team sheets automatically. The refresh is narrower than a new full-slate investigation; keep the chosen routes and focus only on changed evidence.
 
 ## What the skills preserve
 

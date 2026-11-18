@@ -9,8 +9,8 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 CATEGORIES = {'wins-btts', 'other-markets', 'bet-builders'}
 DEFAULT_ROUTING = {
     'retrieval': {'model': 'gpt-6-luna', 'effort': 'medium'},
-    'review': {'model': 'gpt-6.1-sol', 'effort': 'high'},
-    'lead': {'model': 'gpt-6-astra', 'effort': 'high'},
+    'review': {'model': 'gpt-6.2-sol', 'effort': 'high'},
+    'lead': {'model': 'gpt-6.2-astra', 'effort': 'high'},
 }
 DEFAULT_LIMITS = {
     'maxRequests': 300, 'batchSize': 6, 'leadBatchSize': 12,

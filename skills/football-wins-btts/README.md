@@ -11,6 +11,6 @@
 
 **Output:** source-linked justification, observed odds/time, clear status, material remaining checks and important passes. Final selections stay separate from research candidates; no fixed number is required.
 
-**Roles:** cheaper workers retrieve; the selected lead interprets and decides. Astra is the recommended demanding-task lead when selected; Sol challenges the shortlist. See [model routing](references/model-routing.md).
+GPT-6.2 Astra at High leads the analysis, GPT-6.2 Sol at High independently reviews the evidence, and GPT-6 Luna at Medium handles bounded retrieval where available. [Model routing](references/model-routing.md)
 
 **Read fully:** [SKILL.md](SKILL.md), [decision quality](references/decision-quality.md), [journal workflow](references/journal-workflow.md).

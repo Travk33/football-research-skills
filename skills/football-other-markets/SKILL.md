@@ -7,7 +7,7 @@ description: Research football goal totals, team totals, handicaps, corners and 
 
 Choose a market because the evidence supports its event mechanism, not because a short winner price needs padding. Preserve the requested slate and exclusions. Return fewer selections when coverage or prices are inadequate.
 
-Read [model-routing.md](references/model-routing.md) for efficient lead/subagent choices. Cheaper workers can retrieve source-linked ledgers and terms; the reasoning lead compares market families, reconciles conflicts and decides. Read [market-mechanics.md](references/market-mechanics.md) only for the market families under consideration.
+Follow [model routing](references/model-routing.md) for the lead, independent review and bounded retrieval. The lead compares markets, reconciles conflicts and decides. Read [market-mechanics.md](references/market-mechanics.md) only for the market families under consideration.
 
 Read [journal-workflow.md](references/journal-workflow.md) at the start of every run and save decisions/reviews to the active project journal. Read [decision-quality.md](references/decision-quality.md) when assessing finalists, missing chance-quality evidence or whether a pending check can actually resolve the case. Publish completed selections before research-only candidates.
 

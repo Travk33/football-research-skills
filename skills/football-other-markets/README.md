@@ -13,6 +13,6 @@ Retain match-by-match hits, misses and unknowns. Compare a preferred alternative
 
 **Output:** exact selection/line, sourced counts, tactical explanation, strongest counterargument, current odds/time, settlement terms and status. Keep unresolved cases outside the final table.
 
-**Roles:** cheaper workers gather facts and rules; the selected lead compares markets and decides. See [model routing](references/model-routing.md).
+GPT-6.2 Astra at High leads the analysis, GPT-6.2 Sol at High independently reviews the evidence, and GPT-6 Luna at Medium handles bounded retrieval where available. [Model routing](references/model-routing.md)
 
 **Read fully:** [SKILL.md](SKILL.md), [market mechanics](references/market-mechanics.md), [journal workflow](references/journal-workflow.md).

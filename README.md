@@ -29,6 +29,8 @@ Example requests:
 
 See the bundled [model routing guide](skills/football-bet-builders/references/model-routing.md). Use a cheaper model for bounded extraction; retain a stronger lead for source conflicts, tactical reasoning, pricing judgments and final selection. A skill is a procedure, not a model upgrade, and it does not automatically change the active model or guarantee equal reasoning quality.
 
+Default routes: **GPT-6.2 Astra / High** for lead analysis, **GPT-6.2 Sol / High** for independent review, and **GPT-6 Luna / Medium** for bounded retrieval where available. Disclose unavailable routes and any explicit override; never silently substitute a more expensive worker.
+
 The same routing guide is included in each skill so each installation remains independent. Keep those copies synchronized when updating it. Availability and pricing must be checked in the current environment rather than assumed from this repository.
 
 ## What gets checked
