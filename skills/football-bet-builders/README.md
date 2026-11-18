@@ -11,6 +11,6 @@
 
 **Output:** detailed evidence for each leg, joint failure scenarios, individual prices and the **actual combined quote**, verified rules and status. Unresolved material role/contract/quote checks prevent final promotion. Follow project exclusions, including BTTS No in AI-Bets.
 
-GPT-6.2 Astra at High leads the analysis, GPT-6.2 Sol at High independently reviews the evidence, and GPT-6 Luna at Medium handles bounded retrieval where available. [Model routing](references/model-routing.md)
+GPT-6.2 Astra at High leads the analysis, GPT-6.2 Sol at High independently reviews the evidence, and GPT-6 Luna at Extra High handles bounded retrieval where available. [Model routing](references/model-routing.md)
 
 **Read fully:** [SKILL.md](SKILL.md), [player markets](references/player-markets.md), [evidence contract](references/evidence-contract.md), [journal workflow](references/journal-workflow.md).

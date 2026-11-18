@@ -23,7 +23,7 @@ flowchart TD
 ## Models and responsibility
 
 - **GPT-6.2 Astra / High:** default lead; owns interpretation and final decisions **when selected**.
-- **GPT-6 Luna / Medium, where available:** bounded source retrieval/extraction with dates, counts, missing fields and links.
+- **GPT-6 Luna / Extra High, where available:** bounded source retrieval/extraction with dates, counts, missing fields and links.
 - **GPT-6.2 Sol / High:** focused independent challenge; the lead resolves disagreements.
 - **Code:** arithmetic, duplicate checks and journal validation.
 

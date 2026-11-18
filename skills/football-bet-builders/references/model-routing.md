@@ -8,7 +8,7 @@ Model guidance and pricing links checked 18 November 2026.
 |---|---|---|---|
 | Research lead | `gpt-6.2-astra` | High | Reconcile evidence, assess tactics and dependence, and make final selection and pass decisions |
 | Independent evidence reviewer | `gpt-6.2-sol` | High | Challenge decisive assumptions and evidence and surface counterevidence before final selection |
-| Bounded retrieval worker, where available | `gpt-6-luna` | Medium | Gather fixtures, official availability, match rows, dates and exact quotes into a specified schema |
+| Bounded retrieval worker, where available | `gpt-6-luna` | Extra High (`xhigh`) | Gather fixtures, official availability, match rows, dates and exact quotes into a specified schema |
 
 Keep these effort settings unless the user explicitly overrides them. Delegate bounded retrieval and independent review when the task warrants them and the environment permits. A simple refresh may only need the lead. [GPT-6.2 Astra and Sol](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol)
 

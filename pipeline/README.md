@@ -9,7 +9,7 @@ The scope comes from the user's request: dates, competitions, teams, explicit fi
 | Collection | FotMob fixture discovery, both-team history, requested recent match-detail statistics, venue/gender checks when available, source times and explicit gaps |
 | Shared cache | Resource-specific freshness, reuse across market categories, bounded requests; new retrievals do not change original source observation times |
 | Screening | Separate winner/BTTS directions and compact other-market families; survivors and close exclusions receive deeper analysis |
-| Routing | Explicit GPT-6 Luna/medium extraction where available, GPT-6.2 Astra/high lead and GPT-6.2 Sol/high independent review by default; configurable routes, no silent model fallback |
+| Routing | Explicit GPT-6 Luna/xhigh extraction where available, GPT-6.2 Astra/high lead and GPT-6.2 Sol/high independent review by default; configurable routes, no silent model fallback |
 | Limits | Request, call, concurrency and timeout limits; configurable batching; incomplete work remains visibly incomplete |
 | Final decisions | Exact quoted contract and required source/role checks; missing material inputs prevent final promotion |
 | Journal | Execute runs archive original evidence, decisions, passes, failed-stage screens and zero-final slates through the existing writer |
