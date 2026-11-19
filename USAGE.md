@@ -31,13 +31,17 @@ Use $football-wins-btts and its relevant references for matches on [DATE], Europ
 
 Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Consider wins and BTTS Yes only. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
 
-Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Verify that the matches actually take place on this date. Research that day only.
+Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Verify fixtures, actual venues, kickoffs and status. Research that day only and exclude matches already started.
 
 Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for methodology, tactical interpretation, conflicting evidence and final decisions. Where supported, explicitly use gpt-6-luna at extra-high (`xhigh`) effort for independent fixture/statistics/team-news retrieval and gpt-6.2-sol at high effort for a focused challenge of the final shortlist. Give workers bounded tasks, audit decisive evidence and report the models actually used. Disclose unavailable routes and any explicit alternative; do not silently substitute models.
 
-Compare both teams using a season baseline and recent 5–10 comparable games where available, home/away context, opponent quality, xG, shots/SOT, availability, rest, tactics and distortions from red cards or penalties. Establish a scoring route for each side in BTTS cases. Check current UK bet365 prices where accessible, otherwise clearly identify another source.
+Apply the full skill methodology. Compare both teams using a season or comparable competitive baseline and recent 5–10 relevant games where available, home/away context, opponent quality, xG/npxG where available, shots/SOT, availability, rest and tactics. Retain actual sample sizes, missing data and distortions from penalties, dismissals, own goals, rotation and extreme results. For winners, explain the opponent's scoring routes and draw risk; for BTTS Yes, establish a scoring route for each team separately.
 
-Return up to six strongest supported win/BTTS candidates, fewer if warranted. For each give source-linked evidence, the strongest counterargument, exact odds/time, lineup conditions and a clear decision status. Distinguish break-even hurdles from genuine forecasts. Include important rejected games, explain the shortlist order, and save a detailed report plus timestamped decision ledger. Do not force an accumulator or place bets.
+Check current UK bet365 prices where accessible, otherwise identify the alternative source. Record exact odds/time and verify relevant settlement terms, including early-payout eligibility where applicable. Distinguish break-even hurdles from genuine forecasts; do not invent probabilities, fair prices or an established edge.
+
+For each shortlisted candidate, give strong source-linked justification: decisive match-level evidence and sample sizes, the tactical mechanism connecting both teams to the selection, the strongest counterargument and how it affected inclusion, and relevant availability/lineup conditions.
+
+Return up to six supported candidates, fewer or none when warranted, and explain what the ordering measures. Give each candidate a clear decision status. Put final selections first and research candidates in a separate table; unresolved material lineup, availability, price or settlement checks prevent final promotion. Include important rejected fixtures and specific reasons. Save the detailed report, coverage inventory (screened, deeply researched and unresolved) and timestamped decision ledger, preserving original statuses and the evidence behind changes. State remaining pre-kickoff checks. Do not force an accumulator or place bets.
 ```
 
 For Europa or Conference League, replace the domestic-league scope with the relevant competition and date; the same skill includes European competition context.
@@ -49,29 +53,41 @@ Use $football-other-markets and its relevant references for [DATE], Europe/Londo
 
 Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
 
-Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Consider match/team goals, handicaps, corners and cards. Choose the market that best matches the evidence for each fixture; do not add markets simply to increase the odds.
+Screen the men's top divisions in England, Spain, Germany, Italy, France, Netherlands, Portugal, Belgium, Scotland and Türkiye. Verify fixtures, actual venues, kickoffs and status; research that day only and exclude matches already started. Consider match/team goals, handicaps, corners and cards. Exclude BTTS No and keep player combinations in the separate builder workflow. Choose markets for their evidence, not simply to increase the odds.
 
 Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for analysis and final decisions. Where supported, explicitly use gpt-6-luna at extra-high (`xhigh`) effort for bounded data, team-news, market and rule retrieval, and gpt-6.2-sol at high effort to challenge the finalists. Audit decisive evidence and report the models actually used; disclose unavailable routes.
 
-Apply the full skill methodology: broader baseline plus recent comparable match counts, opponent and venue context, tactical mechanisms, lineup changes, outliers and the exact offered threshold. Verify UK bet365 prices where accessible and the actual settlement terms, including Asian versus three-way lines, pushes and time periods. Explain the best relevant alternative market or line for each finalist.
+Apply the full skill methodology: a broader comparable baseline and recent 5–10 relevant games where available, actual sample sizes, opponent/venue context, lineup changes and outliers. Show match-by-match counts, failures and distance from the exact offered threshold; preserve missing data.
 
-Return up to five supported candidates, fewer if warranted, with source-linked evidence, exact odds/time, strongest counterargument, lineup/price conditions and clear status. Keep same-game alternatives separate and explain dependence. Do not invent probabilities, fair prices or missing data. Include passes and save a detailed report plus timestamped decision ledger. Do not place bets.
+Use market-specific evidence: both teams' chance creation/prevention for goals; winning margins and opposing scoring routes for handicaps; corner production/concessions, width, blocked deliveries and game state for corners; contact exposure and comparable referee evidence for cards. Explicitly test whether an early comfortable lead could suppress corners.
+
+Compare each finalist with its most relevant alternative at contemporaneous prices, including a winner or BTTS Yes case when already researched and relevant. Explain which game states support one and defeat the other; a higher price or attractive hit rate alone does not establish superiority. Verify UK bet365 prices where accessible, otherwise identify the alternative source. Record exact odds/time and verify time periods, Asian versus three-way settlement, pushes, quarter-lines and relevant counting rules.
+
+For each candidate, give strong source-linked justification: decisive counts and sample sizes, tactical mechanism, strongest counterargument and its effect on inclusion, lineup conditions and why this particular market is preferred. Return up to five supported candidates, fewer or none when warranted, and explain the ordering. Give each candidate a clear decision status. Put final selections first and research candidates in a separate table; unresolved material lineup, price or contract checks prevent final promotion. Keep same-game alternatives separate and explain dependence.
+
+Include important rejected markets and fixtures with reasons. Save the detailed report, coverage inventory (screened, deeply researched and unresolved) and timestamped decision ledger; preserve original statuses and record evidence behind changes. State remaining pre-kickoff checks. Do not invent probabilities, fair prices or an established edge, force an accumulator or place bets.
 ```
 
 ## Prompt 3 — bet builders
 
 ```text
-Use $football-bet-builders and its relevant references for [MATCHES OR COMPETITION] on [DATE], Europe/London. Research two selections per match, with a third only when separately justified.
+Use $football-bet-builders and its relevant references for [MATCHES OR COMPETITION] on [DATE], Europe/London. Verify each fixture's date, kickoff, actual venue, competition and status; exclude matches already started. Investigate two selections per match, with a third only when separately justified. This is a research target, not a quota: one player watch or no suitable builder is a valid outcome.
 
 Read AGENTS.md, journal/README.md and journal/active-lessons.md first. Respect the project's BTTS Yes-only preference inside builders. Use scripts/journal.py to preserve candidates, important passes, final decisions and later changes; validate after saving.
 
-Check which UK bet365 markets are actually offered. Consider player total shots, shots on target, fouls committed, to be fouled and tackles, plus a team market only when it improves the evidence-based case. Investigate reasonable prices without raising thresholds merely to inflate the payout.
+Check which UK bet365 markets and exact thresholds are actually offered before deepening candidates. Consider player total shots, shots on target, fouls committed, to be fouled and tackles, plus a team market only when its evidence warrants it. Verify the bookmaker's event definitions and that the evidence feed measures the same statistic, especially tackles versus tackles won. Investigate reasonable prices without raising thresholds merely to inflate the payout.
 
 Use gpt-6.2-astra at high effort as the selected lead (choose it in the model picker; the skill cannot switch it). Keep the lead responsible for role/tactical analysis, dependence and final decisions. Where supported, explicitly use gpt-6-luna at extra-high (`xhigh`) effort for bounded player ledgers, current availability and price/rule retrieval, and gpt-6.2-sol at high effort for a focused independent challenge. Audit decisive rows, wait for relevant findings and report the models actually used. Disclose unavailable routes.
 
-Apply the full skill methodology: recent game-by-game counts with minutes and verified starts/subs, a broader comparable baseline, expected role and substitutions, opponent exposure, relevant referee context, and exact market definitions. Keep club and national samples separate. Compare the proposed threshold with the next relevant line and retain failed observations.
+Apply the full skill methodology: recent match-level counts with minutes, verified starts/subs, opponents and roles; a broader comparable baseline; current availability, set-piece duties, substitution risk and relevant referee context. Keep actual sample sizes, zeros, missing counts and non-appearances distinct. Separate club and national samples and exclude extra-time events from ordinary 90-minute comparisons. Compare every proposed threshold with the relevant adjacent line, showing hits, misses, missing observations and threshold distance.
 
-For each supported pair, provide exact selections, source-linked counts, tactical rationale, strongest counterargument, lineup conditions, individual prices and the actual joint quote. Mark unavailable quotes as pending; never present multiplied singles as a verified builder price. Rank pairs by explained evidence strength and retain weaker games as passes. Do not automatically combine all matches. Save the report and decision ledger; do not place bets.
+Establish a specific role-and-opponent opportunity mechanism for each leg. For tackles, show how controlled opposition possession reaches the player's defensive zone and creates legal ground challenges; historical counts, winger reputation or broad possession expectations alone are insufficient. Exclude a leg when its opportunity case is unsupported.
+
+For each leg, present the decisive ledger evidence with source links, the strongest counterargument and its effect on inclusion, and starting-role conditions. Then explain the pair's dependence, competition for opportunities and shared failure scenarios, including early leads, tactical changes and substitutions. A strong first leg cannot compensate for a weak second leg.
+
+Give exact selections and timestamped individual prices alongside the actual combined bookmaker quote. Mark missing combined quotes pending; never substitute multiplied singles. Verify non-starter, substitution/replacement, extra-time and void rules. An eligible early-payout result leg does not settle other builder conditions.
+
+Give each pair a clear decision status. Put final builders first and exploratory pairs in a separate table; unresolved material starting-role, market, contract or actual combined-price checks prevent final promotion. State when none qualifies. Explain the ranking and important rejected players, thresholds and combinations. Save the detailed report, fixture coverage inventory and timestamped decision ledger, preserving original statuses and the evidence behind changes. State remaining pre-kickoff checks. Do not invent probabilities, fair prices or an established edge, automatically combine every match into an accumulator, or place bets.
 ```
 
 ## Matchday refresh
