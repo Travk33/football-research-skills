@@ -1,0 +1,44 @@
+{
+  "id": "import-2026-11-13-mcginn-2-fouled",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-13",
+  "category": "bet-builders",
+  "fixture": {
+    "home": "Scotland",
+    "away": "North Macedonia"
+  },
+  "market": {
+    "rawLabel": "John McGinn to be fouled 2+",
+    "resolved": false,
+    "period": "regulation time"
+  },
+  "status": "watch",
+  "source": {
+    "identity": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md#import-2026-11-13-mcginn-2-fouled",
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md",
+    "sha256": "8de0098fc88b7a040b2b156f42a80a94726712f6c0887edbb0a83ee2105f172b"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-13T19:45:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.143,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Separate player watch; no Scotland builder promoted",
+  "quoteNote": "Individual reference only where present; no observed combined quote.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.506224Z",
+  "appendedAt": "2026-11-15T09:58:03.517937Z"
+}

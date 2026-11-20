@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "method-2026-11-16-scoped-pipeline",
+  "type": "method_change",
+  "recordedAt": "2026-11-16T11:13:45.077771+00:00",
+  "decisionIds": [],
+  "note": "Implemented variable request scopes, shared cached collection, explicit bounded model routing, batch stages, journal bridge, usage reports and prospective comparison tools. Core football judgment remains with lead; no fixed prediction weights or guaranteed edge. Missing live news/price/player evidence requires sourced enrichment and may leave zero final selections.",
+  "source": "pipeline/README.md",
+  "validation": "pipeline/VALIDATION.md",
+  "scope": "Research execution and record integrity; no new match selections.",
+  "evaluation": "Whole-workflow financial savings and predictive superiority remain unestablished; use instrumented comparable runs and a prospectively registered forecast protocol.",
+  "appendedAt": "2026-11-16T11:13:45.115424Z"
+}

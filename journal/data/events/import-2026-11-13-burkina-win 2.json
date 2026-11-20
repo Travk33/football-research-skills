@@ -1,0 +1,44 @@
+{
+  "id": "import-2026-11-13-burkina-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-13",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Burkina Faso",
+    "away": "Mauritania"
+  },
+  "market": {
+    "rawLabel": "Burkina Faso win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "pass",
+  "source": {
+    "identity": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md#import-2026-11-13-burkina-win",
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md",
+    "sha256": "8de0098fc88b7a040b2b156f42a80a94726712f6c0887edbb0a83ee2105f172b"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-13T16:00:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.533,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Pass; insufficient underlying attacking separation",
+  "outcomeSourceScope": "Important additional archived direction; not exhaustive outside-UEFA reconstruction.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.458542Z",
+  "appendedAt": "2026-11-15T09:58:03.468853Z"
+}

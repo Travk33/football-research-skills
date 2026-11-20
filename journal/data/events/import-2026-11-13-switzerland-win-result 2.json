@@ -1,0 +1,18 @@
+{
+  "id": "import-2026-11-13-switzerland-win-result",
+  "type": "outcome",
+  "decisionId": "import-2026-11-13-switzerland-win",
+  "evidenceLevel": "verified",
+  "onPitchOutcome": "lost",
+  "ruleBasedOutcome": "unknown",
+  "bookmakerSettlement": "unknown",
+  "sources": [
+    "https://www.fotmob.com/api/data/matches?date=20261113",
+    "research/2026-11-13/audit-evidence/day-results-check.json"
+  ],
+  "fullTimeScore": "0 - 0",
+  "observedAt": "2026-11-15T09:55:33.108555+00:00",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.302063Z",
+  "appendedAt": "2026-11-15T09:58:03.311719Z"
+}

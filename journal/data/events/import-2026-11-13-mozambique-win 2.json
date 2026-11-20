@@ -1,0 +1,44 @@
+{
+  "id": "import-2026-11-13-mozambique-win",
+  "type": "decision",
+  "cohort": "historical-import",
+  "matchDate": "2026-11-13",
+  "category": "wins-btts",
+  "fixture": {
+    "home": "Mozambique",
+    "away": "Ethiopia"
+  },
+  "market": {
+    "rawLabel": "Mozambique win",
+    "resolved": true,
+    "period": "regulation time"
+  },
+  "status": "reserve",
+  "source": {
+    "identity": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md#import-2026-11-13-mozambique-win",
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md",
+    "sha256": "8de0098fc88b7a040b2b156f42a80a94726712f6c0887edbb0a83ee2105f172b"
+  },
+  "originalTime": {
+    "value": null,
+    "precision": "unknown",
+    "preKickoffEvidence": "claimed"
+  },
+  "kickoff": "2026-11-13T13:00:00.000Z",
+  "evidence": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "countercase": {
+    "report": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md"
+  },
+  "conditions": "Not independently closed before kickoff in this import.",
+  "odds": 1.5,
+  "probability": null,
+  "importNote": "Retrospective import after the outcome. Not a prospective forecast.",
+  "actualPlacementVerified": false,
+  "originalStatus": "Reserve only; 4–1 prior score concealed 5–4 SOT",
+  "outcomeSourceScope": "Important additional archived direction; not exhaustive outside-UEFA reconstruction.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.410487Z",
+  "appendedAt": "2026-11-15T09:58:03.420387Z"
+}

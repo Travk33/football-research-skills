@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Football journal event, version 1",
+  "type": "object",
+  "$defs": {
+    "nonblankText": {
+      "type": "string",
+      "pattern": "\\S"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "type",
+    "recordedAt",
+    "appendedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+    },
+    "type": {
+      "enum": [
+        "decision",
+        "status_revision",
+        "outcome",
+        "review",
+        "method_change"
+      ]
+    },
+    "recordedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decisionId": {
+      "type": "string"
+    },
+    "decisionIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "conditional",
+        "watch",
+        "reserve",
+        "pass",
+        "selected"
+      ]
+    },
+    "cohort": {
+      "enum": [
+        "prospective",
+        "historical-import",
+        "demo"
+      ]
+    },
+    "matchDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "category": {
+      "enum": [
+        "wins-btts",
+        "other-markets",
+        "bet-builders"
+      ]
+    },
+    "fixture": {
+      "type": "object",
+      "required": [
+        "home",
+        "away"
+      ]
+    },
+    "market": {
+      "type": "object",
+      "required": [
+        "rawLabel",
+        "resolved"
+      ],
+      "properties": {
+        "resolved": {
+          "type": "boolean"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "identity",
+        "report"
+      ]
+    },
+    "originalTime": {
+      "type": "object",
+      "required": [
+        "value",
+        "precision",
+        "preKickoffEvidence"
+      ]
+    },
+    "kickoff": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "odds": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 1
+    },
+    "probability": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "appendedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Assigned by the journal when a new event is appended; omit from new input."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          { "$ref": "#/$defs/nonblankText" },
+          {
+            "type": "object",
+            "anyOf": [
+              { "required": ["url"], "properties": { "url": { "$ref": "#/$defs/nonblankText" } } },
+              { "required": ["path"], "properties": { "path": { "$ref": "#/$defs/nonblankText" } } },
+              { "required": ["reference"], "properties": { "reference": { "$ref": "#/$defs/nonblankText" } } }
+            ]
+          }
+        ]
+      }
+    },
+    "receiptEvidence": {
+      "anyOf": [
+        { "$ref": "#/$defs/nonblankText" },
+        { "type": "null" }
+      ]
+    },
+    "supersedesId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "decision"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "cohort",
+          "matchDate",
+          "category",
+          "fixture",
+          "market",
+          "status",
+          "source",
+          "originalTime",
+          "kickoff",
+          "evidence",
+          "countercase",
+          "conditions",
+          "odds",
+          "probability"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "status_revision"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "decisionId",
+          "status",
+          "effectiveAt",
+          "reason"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "outcome"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "decisionId",
+          "evidenceLevel",
+          "onPitchOutcome",
+          "ruleBasedOutcome",
+          "bookmakerSettlement",
+          "sources"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "review",
+              "method_change"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "decisionIds",
+          "note"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "import-2026-11-13-supplement-review",
+  "type": "review",
+  "decisionIds": [
+    "import-2026-11-13-andorra-under25",
+    "import-2026-11-13-switzerland-win",
+    "import-2026-11-13-slovakia-win",
+    "import-2026-11-13-slovakia-corners",
+    "import-2026-11-13-moldova-btts",
+    "import-2026-11-13-mali-win",
+    "import-2026-11-13-mozambique-win",
+    "import-2026-11-13-saintlucia-win",
+    "import-2026-11-13-burkina-win",
+    "import-2026-11-13-germany-player-pair",
+    "import-2026-11-13-mcginn-2-fouled",
+    "import-2026-11-13-mcginn-3-fouled"
+  ],
+  "matchDate": "2026-11-13",
+  "source": "research/2026-11-13/archive/friday-13-november-2026-expanded-review.md",
+  "retrospective": true,
+  "previousReviewId": "import-2026-11-13-review",
+  "note": "Additional important reserves/passes and exploratory player directions imported. Switzerland and Mozambique reserves lost; other winning reserves/passes remain unpromoted. Wirtz had 5 shots and Kimmich drew 1 foul, but the Germany pair was exploratory and Serbia had two dismissals. McGinn drew 1 foul and missed both separate watch lines. This supplements, rather than rewrites, the earlier import; the full outside-UEFA screen remains in the source report.",
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-15T09:58:03.558584Z",
+  "appendedAt": "2026-11-15T09:58:03.569304Z"
+}

@@ -1,0 +1,11 @@
+# Implementation validation — 16 November 2026
+
+- **55 automated tests passed:** scope validation, fixture/timezone/status filtering, history identity and extra-time gaps, cache expiry, staged routing/batching, budget and source gates, rejected BTTS No, stale/invalid lineup and quote checks, resumed/archived runs, journal bridge, append integrity, comparable cost reports and prospective forecast evaluation.
+- **Live provider smoke:** one scoped future fixture yielded both-team history and advanced statistics. First collection: 10 network requests. Repeat: 2 network requests and 8 cache hits; current fixture resources refreshed while historical resources were reused. This is a small cache check, not a whole-workflow financial saving estimate.
+- **Live Codex smoke:** one bounded extraction call requested `gpt-6-luna` at medium effort, returned schema-valid JSON and reported 12,024 input tokens, 0 cached input tokens and 49 output tokens. Reported backend model identity was unavailable and remains null. No football prediction or betting transaction was made by this test.
+- **Full orchestration:** injected-executor integration tests exercised extraction → screening → deep analysis → independent review → final gates → journal capture. Live Astra/Sol forecasting performance was not established by those tests. Earlier implementation workers hit account usage limits; runtime routing fails visibly when a requested model cannot execute.
+- **Existing journal evaluation:** all 69 historical directions remained excluded from prospective forecasting scores. Zero prospective forecasts were scored; superiority is unestablished.
+
+Review found and fixed two cost-report issues: timestamps cannot substitute for explicit distinct run IDs, and workload comparisons must preserve fixture/direction association and multiplicity. Local artifacts and clocks remain trusted operational records, not cryptographic proof.
+
+Core research entrypoints gained a short optional pipeline link; substantial runtime instructions stay in this guide and code. Tactical judgment is not replaced with fitted feature weights or selection quotas. Additional explicit batching settings reduce unnecessary repeated runtime context; actual savings require comparable instrumented runs.

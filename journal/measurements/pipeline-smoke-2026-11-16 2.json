@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pipeline-smoke-2026-11-16",
+  "recordedAt": "2026-11-16T11:13:45.075452Z",
+  "report": {
+    "kind": "implementation-smoke",
+    "observedDate": "2026-11-16",
+    "fixtureCount": 1,
+    "firstCollection": {
+      "requests": 10,
+      "cacheHits": 0,
+      "maxRequests": 300
+    },
+    "repeatCollection": {
+      "requests": 2,
+      "cacheHits": 8,
+      "maxRequests": 300
+    },
+    "modelProbe": {
+      "requestedModel": "gpt-6-luna",
+      "requestedEffort": "medium",
+      "reportedModel": null,
+      "usage": {
+        "input_tokens": 12024,
+        "cached_input_tokens": 0,
+        "output_tokens": 49
+      },
+      "error": null
+    },
+    "limits": "Single cache/runtime probe; not a comparative whole-workflow cost benchmark or forecasting evaluation."
+  }
+}
